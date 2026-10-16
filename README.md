@@ -2,10 +2,14 @@
 
 一个绘本风格的经典黄金矿工浏览器游戏。瞄准摆动的钩爪，在时间耗尽前带回黄金和钻石，途经补给铺，完成三段矿山旅程。
 
+![黄金矿工实际运行画面](docs/screenshots/desktop-playing.png)
+
 - **在线游玩**：[icecream863.github.io/gold-miner-storybook](https://icecream863.github.io/gold-miner-storybook/)
 - **完整 AI 协作记录**：[在线阅读与下载](https://icecream863.github.io/gold-miner-storybook/session/)，源码中的导出位于 `public/session/`。
 - **素材来源**：[完整清单](docs/ASSETS.md)
 - **验证记录**：[测试与验收](docs/VERIFICATION.md)
+- **操作演示**：[正常速度录像](https://icecream863.github.io/gold-miner-storybook/demo.webm)
+- **提交材料汇总**：[SUBMISSION.md](docs/SUBMISSION.md)
 
 ## 操作
 

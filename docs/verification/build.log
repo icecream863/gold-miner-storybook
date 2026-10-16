@@ -1,0 +1,48 @@
+
+> gold-miner-storybook@1.0.0 build
+> npm run typecheck && npm run test && vite build
+
+
+> gold-miner-storybook@1.0.0 typecheck
+> tsc --noEmit
+
+
+> gold-miner-storybook@1.0.0 test
+> node --experimental-strip-types --test tests/*.test.ts
+
+PLAYABLE_ROUTE [{"level":1,"money":2580},{"level":2,"money":5475},{"level":3,"money":8920}]
+PLAYABLE_ROUTE [{"level":1,"money":2580},{"level":2,"money":5625},{"level":3,"money":9220}]
+✔ 连续发射只接受一次；菜单和暂停不接受玩法输入 (3.9019ms)
+✔ 扫掠能抓住两端都在圆外的高速穿越，并处理切线、零位移与初始重叠 (6.1467ms)
+✔ 最近碰撞不依赖物品数组顺序，也不会抓到绳索两旁的物品 (2.6774ms)
+✔ 只有回到绞盘才入账，继续更新不会重复计分 (1.9841ms)
+✔ 空钩碰到边界后回收，不会越界或卡住 (1.0626ms)
+✔ 重量决定回收速度；力量只提升载物回收，空钩速度不变 (0.9387ms)
+✔ 炸药只在载物时消耗；销毁物品且不计钱；无法重复炸同一物品 (0.8534ms)
+✔ 暂停同时冻结金钱、位置与时间；恢复后接着运动 (2.12ms)
+✔ 到期只结算一次，挂在绳上的矿物不补发金钱 (3.3889ms)
+✔ 只有达到门槛才能进入商店，余额不足不会扣款 (1.2083ms)
+✔ 购买每件限一次、跨关扣款；力量药水到下个商店失效 (0.8326ms)
+✔ 失败重试恢复本关入口快照，包括花过的道具和力量 (4.134ms)
+✔ 30/60/144Hz 下摆动与倒计时一致，无效时间输入不污染状态 (4.2156ms)
+✔ 重新开始整局清空升级、购买和上局金钱 (1.2445ms)
+✔ 固定三关真实路线可通关（购买药水） (36.3546ms)
+✔ 固定三关真实路线可通关（不购买任何商品） (21.1033ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 651.0457
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 8 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.72 kB │ gzip:   0.48 kB
+dist/assets/index-BYoEs-32.css     12.55 kB │ gzip:   3.75 kB
+dist/assets/index-DlcmxTan.js   1,223.25 kB │ gzip: 330.27 kB
+
+✓ built in 2.28s

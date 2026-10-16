@@ -1,12 +1,12 @@
 {
   "title": "黄金矿工 · 完整 AI 协作记录",
-  "exportedAt": "2026-10-16T08:51:57.903Z",
+  "exportedAt": "2026-10-16T09:26:52.515Z",
   "sourceFile": "rollout-2026-10-16T15-02-16-01a14384-c34e-7bb0-8749-d1917b3e5b2a.jsonl",
-  "sourceSha256": "1c71fb808757e2cc790569994db07d0fcd962cee95fe83825491eb661a0ed26c",
-  "records": 159,
+  "sourceSha256": "fa7c3bbe553a06d0f278b617c308f3790e614959f370f0928ccf10e01a169f20",
+  "records": 213,
   "userMessages": 8,
-  "assistantMessages": 22,
-  "toolRecords": 129,
+  "assistantMessages": 26,
+  "toolRecords": 179,
   "policy": "按原顺序保留可导出的用户输入、助手消息、工具调用和工具结果。仅对凭据、本机用户目录及 Git 配置邮箱脱敏。平台内部控制元数据与未公开推理不属于人机对话导出。原始文件保留在本机，不覆盖。",
   "limitations": "工具返回内容若原本截断，导出保留截断标记，不补写缺失内容。关键构建日志与实际截图另见 docs/verification 与 docs/screenshots。导出为当前时点快照；后续对话需要重新导出。"
 }
