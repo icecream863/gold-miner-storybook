@@ -1,12 +1,79 @@
 {
   "title": "黄金矿工 · 完整 AI 协作记录",
-  "exportedAt": "2026-10-16T09:26:52.515Z",
+  "exportedAt": "2026-10-16T09:35:51.140Z",
   "sourceFile": "rollout-2026-10-16T15-02-16-01a14384-c34e-7bb0-8749-d1917b3e5b2a.jsonl",
-  "sourceSha256": "fa7c3bbe553a06d0f278b617c308f3790e614959f370f0928ccf10e01a169f20",
-  "records": 213,
+  "sourceSha256": "747c1e6d5a3a76526a6476b9f9b8ed6833a46a46a543bd246a01fcd083413657",
+  "records": 232,
   "userMessages": 8,
-  "assistantMessages": 26,
-  "toolRecords": 179,
+  "assistantMessages": 27,
+  "toolRecords": 197,
   "policy": "按原顺序保留可导出的用户输入、助手消息、工具调用和工具结果。仅对凭据、本机用户目录及 Git 配置邮箱脱敏。平台内部控制元数据与未公开推理不属于人机对话导出。原始文件保留在本机，不覆盖。",
-  "limitations": "工具返回内容若原本截断，导出保留截断标记，不补写缺失内容。关键构建日志与实际截图另见 docs/verification 与 docs/screenshots。导出为当前时点快照；后续对话需要重新导出。"
+  "limitations": "工具返回内容若原本截断，导出保留截断标记，不补写缺失内容。关键构建日志与实际截图另见 docs/verification 与 docs/screenshots。导出为当前时点快照；后续对话需要重新导出。",
+  "attachments": [
+    {
+      "file": "attachments/game-page-2026-10-16T08-44-43-966Z.png",
+      "originalFile": "page-2026-10-16T08-44-43-966Z.png",
+      "category": "game"
+    },
+    {
+      "file": "attachments/game-page-2026-10-16T09-04-20-864Z.png",
+      "originalFile": "page-2026-10-16T09-04-20-864Z.png",
+      "category": "game"
+    },
+    {
+      "file": "attachments/qa-complete.png",
+      "originalFile": "complete.png",
+      "category": "qa"
+    },
+    {
+      "file": "attachments/qa-desktop-menu.png",
+      "originalFile": "desktop-menu.png",
+      "category": "qa"
+    },
+    {
+      "file": "attachments/qa-desktop-playing.png",
+      "originalFile": "desktop-playing.png",
+      "category": "qa"
+    },
+    {
+      "file": "attachments/qa-mobile-landscape.png",
+      "originalFile": "mobile-landscape.png",
+      "category": "qa"
+    },
+    {
+      "file": "attachments/qa-mobile-menu.png",
+      "originalFile": "mobile-menu.png",
+      "category": "qa"
+    },
+    {
+      "file": "attachments/qa-online-mobile.png",
+      "originalFile": "online-mobile.png",
+      "category": "qa"
+    },
+    {
+      "file": "attachments/qa-online-paused.png",
+      "originalFile": "online-paused.png",
+      "category": "qa"
+    },
+    {
+      "file": "attachments/qa-online-playing.png",
+      "originalFile": "online-playing.png",
+      "category": "qa"
+    },
+    {
+      "file": "attachments/qa-shop.png",
+      "originalFile": "shop.png",
+      "category": "qa"
+    },
+    {
+      "file": "attachments/setup-page-2026-10-16T07-40-07-717Z.png",
+      "originalFile": "page-2026-10-16T07-40-07-717Z.png",
+      "category": "setup"
+    },
+    {
+      "file": "attachments/setup-page-2026-10-16T07-42-15-847Z.png",
+      "originalFile": "page-2026-10-16T07-42-15-847Z.png",
+      "category": "setup"
+    }
+  ]
 }

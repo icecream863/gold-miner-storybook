@@ -34,9 +34,29 @@ const metadata = {
   limitations: '工具返回内容若原本截断，导出保留截断标记，不补写缺失内容。关键构建日志与实际截图另见 docs/verification 与 docs/screenshots。导出为当前时点快照；后续对话需要重新导出。',
 };
 await fs.mkdir(output, { recursive: true });
+const attachmentDir = path.join(output, 'attachments');
+await fs.mkdir(attachmentDir, { recursive: true });
+const attachments = [];
+const folders = [
+  ['game', path.join(root, '.playwright-cli')],
+  ['qa', path.join(root, 'output/playwright')],
+  ['setup', path.join(process.env.TEMP ?? '', 'gold-miner-feasibility-3cef7d506d9e48e99ff495787598687e/.playwright-cli')],
+];
+for (const [category, directory] of folders) {
+  for (const entry of await fs.readdir(directory, { withFileTypes: true }).catch(() => [])) {
+    if (!entry.isFile() || !entry.name.endsWith('.png')) continue;
+    const file = `${category}-${entry.name}`;
+    await fs.copyFile(path.join(directory, entry.name), path.join(attachmentDir, file));
+    attachments.push({ file: `attachments/${file}`, originalFile: entry.name, category });
+  }
+}
+metadata.attachments = attachments;
+await fs.writeFile(path.join(output, 'attachments.html'), `<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 协作过程截图</title><style>body{max-width:1050px;margin:30px auto;padding:20px;background:#f5f4eb;color:#304b39;font:14px/1.8 sans-serif}figure{margin:25px 0;padding:15px;background:white;border:1px solid #d8ddcc;border-radius:12px}img{display:block;max-width:100%;max-height:750px;margin:auto}figcaption{margin-top:12px;overflow-wrap:anywhere}a{color:#3a6b48}</style><a href="./">← 返回完整记录</a><h1>开发、调试与验收过程截图</h1><p>共 ${attachments.length} 张，包含早期模板、调试失败和最终画面。文件名可与工具记录中的截图名称对应。最终作品见游戏主页与 README。</p>${attachments.map(a => `<figure><a href="${escape(a.file)}" target="_blank"><img loading="lazy" src="${escape(a.file)}" alt="${escape(a.originalFile)}"></a><figcaption>${escape(a.category)} · ${escape(a.originalFile)}</figcaption></figure>`).join('')}</html>`);
 await fs.writeFile(path.join(output, 'session.jsonl'), records.map(r => JSON.stringify(r)).join('\n') + '\n');
 await fs.writeFile(path.join(output, 'manifest.json'), JSON.stringify(metadata, null, 2) + '\n');
 await fs.writeFile(path.join(output, 'transcript.md'), `# ${metadata.title}\n\n导出时间：${metadata.exportedAt}\n\n${metadata.policy}\n\n${metadata.limitations}\n\n` + records.map(r => `## ${r.index}. ${label(r)} · ${r.timestamp}\n\n\`\`\`text\n${textOf(r)}\n\`\`\`\n`).join('\n'));
 const sections = records.map(r => `<section class="entry"><details ${r.type === 'message' ? 'open' : ''}><summary><b>${r.index}. ${escape(label(r))}</b><time>${escape(r.timestamp)}</time></summary><pre>${escape(textOf(r) ?? '')}</pre></details></section>`).join('\n');
 await fs.writeFile(path.join(output, 'index.html'), `<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${metadata.title}</title><style>body{max-width:1080px;margin:0 auto;padding:32px 22px;background:#f7f7f1;color:#293e32;font:14px/1.8 "Microsoft YaHei",sans-serif}header{margin-bottom:24px}h1{font-size:26px}p{color:#63715e}.links{display:flex;gap:18px;flex-wrap:wrap}a{color:#3c7050}input{box-sizing:border-box;width:100%;padding:13px;border:1px solid #bdc9b7;border-radius:9px;margin:20px 0;background:#fff}.entry{border:1px solid #d6ddce;border-radius:10px;margin-bottom:12px;background:#fff}summary{cursor:pointer;padding:12px 16px;display:flex;justify-content:space-between;gap:12px}time{font-size:11px;color:#8b9385}pre{font:12px/1.8 Consolas,"Microsoft YaHei",monospace;white-space:pre-wrap;overflow-wrap:anywhere;padding:16px;margin:0;border-top:1px solid #e5e9de;color:#39443b}small{color:#8b9385}.note{background:#eaf0df;padding:15px;border-radius:10px}.hidden{display:none}@media(max-width:650px){summary{display:block}time{display:block}}</style><header><a href="../">← 返回游戏</a><h1>${metadata.title}</h1><p>${metadata.records} 条记录 · ${metadata.userMessages} 条用户消息 · ${metadata.assistantMessages} 条助手消息 · ${metadata.toolRecords} 条工具记录</p><p class="note">${escape(metadata.policy)}<br>${escape(metadata.limitations)}</p><div class="links"><a href="session.jsonl" download>下载结构化记录 JSONL</a><a href="transcript.md" download>下载可读记录 Markdown</a><a href="manifest.json" download>下载导出说明</a></div><small>导出时间 ${metadata.exportedAt} · 来源 ${escape(metadata.sourceFile)}</small><input id="search" placeholder="搜索全部记录，例如：碰撞、素材、测试、发布" aria-label="搜索记录"></header>${sections}<script>document.getElementById('search').addEventListener('input',e=>{const q=e.target.value.toLowerCase();document.querySelectorAll('.entry').forEach(n=>{n.classList.toggle('hidden',!n.textContent.toLowerCase().includes(q));if(q&&!n.classList.contains('hidden'))n.querySelector('details').open=true})})</script></html>`);
+const indexPath = path.join(output, 'index.html');
+await fs.writeFile(indexPath, (await fs.readFile(indexPath, 'utf8')).replace('<div class="links">', '<div class="links"><a href="attachments.html">查看过程截图附件</a>'));
 console.log(JSON.stringify({ output, ...metadata }, null, 2));

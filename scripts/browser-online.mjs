@@ -13,8 +13,10 @@ async (page) => {
   await page.getByRole('button', { name: '开始寻金', exact: true }).click();
   check('线上关卡目标与初始金钱', await page.locator('#goal').textContent() === '$650' && await page.locator('#money').textContent() === '$0');
   await page.keyboard.press('Space');
-  await page.waitForTimeout(1200);
+  await page.waitForTimeout(150);
   check('线上发射与回收状态有效', !(await page.locator('#status').textContent()).includes('看准方向'));
+  await page.waitForTimeout(1500);
+  check('线上回收后实际入账', await page.locator('#money').textContent() !== '$0');
   await page.keyboard.press('P');
   check('线上暂停界面', await page.getByRole('heading', { name: '矿灯还亮着' }).isVisible());
   const paused = await page.locator('#seconds').textContent();
