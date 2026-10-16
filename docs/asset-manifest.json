@@ -1,0 +1,65 @@
+[
+  {
+    "file": "assets/art/cave-wall.png",
+    "source": "https://raw.githubusercontent.com/ThirdPartyNinjas/GlitchAssets/master/Locations/ilmenskie/cave_bckg_wall_1.png",
+    "author": "Tiny Speck / Glitch; PNG conversion by ThirdPartyNinjas",
+    "license": "Public Domain / CC0",
+    "sha256": "1af455493c7f7070f046727c9b4303088c7575c91029047ca46c8f0a95c85589"
+  },
+  {
+    "file": "assets/art/cave-hill.png",
+    "source": "https://raw.githubusercontent.com/ThirdPartyNinjas/GlitchAssets/master/Locations/ilmenskie/cave_background_hill_1.png",
+    "author": "Tiny Speck / Glitch; PNG conversion by ThirdPartyNinjas",
+    "license": "Public Domain / CC0",
+    "sha256": "28d1d2f0ebe58b6b8d7a496412978e6bdd98e48026986744e29fa7fa5300e055"
+  },
+  {
+    "file": "assets/art/ground.png",
+    "source": "https://raw.githubusercontent.com/ThirdPartyNinjas/GlitchAssets/master/Locations/ilmenskie/ground_1.png",
+    "author": "Tiny Speck / Glitch; PNG conversion by ThirdPartyNinjas",
+    "license": "Public Domain / CC0",
+    "sha256": "19c647a19b02ff27cadbb34ecb1660b316c16fbbba48cf32453cb6f95080a762"
+  },
+  {
+    "file": "assets/art/mountains.png",
+    "source": "https://raw.githubusercontent.com/ThirdPartyNinjas/GlitchAssets/master/Locations/groddle/mountain_blue_trees_1.png",
+    "author": "Tiny Speck / Glitch; PNG conversion by ThirdPartyNinjas",
+    "license": "Public Domain / CC0",
+    "sha256": "d923777365bba674b425af2cf5b4c7ef14d26880ba4319c710b047903bbb4620"
+  },
+  {
+    "file": "assets/art/ore.png",
+    "source": "https://raw.githubusercontent.com/ThirdPartyNinjas/GlitchAssets/master/Items/harvestable_resources/rock_sparkly/rock_sparkly_1/rock_sparkly_1.png",
+    "author": "Tiny Speck / Glitch; PNG conversion by ThirdPartyNinjas",
+    "license": "Public Domain / CC0",
+    "sha256": "b33e09e50cc1e59307e68f7357f5a0b8500ac096081b956b7b3aa89fea89f801"
+  },
+  {
+    "file": "assets/art/rock.png",
+    "source": "https://raw.githubusercontent.com/ThirdPartyNinjas/GlitchAssets/master/Items/misc/petrified_rock_base/petrified_rock_large/petrified_rock_large.png",
+    "author": "Tiny Speck / Glitch; PNG conversion by ThirdPartyNinjas",
+    "license": "Public Domain / CC0",
+    "sha256": "afb850b1ee006f74b8c3758b2da2e850d87525c8f19021586dbbc373d5dcc5c5"
+  },
+  {
+    "file": "assets/art/diamond.png",
+    "source": "https://raw.githubusercontent.com/ThirdPartyNinjas/GlitchAssets/master/Items/misc/gem_diamond/gem_diamond.png",
+    "author": "Tiny Speck / Glitch; PNG conversion by ThirdPartyNinjas",
+    "license": "Public Domain / CC0",
+    "sha256": "a9ec363e0e8c8d3fd1a98df39f710aef77d50e9e77d617e154ab380a0cc696c1"
+  },
+  {
+    "file": "assets/art/ruby.png",
+    "source": "https://raw.githubusercontent.com/ThirdPartyNinjas/GlitchAssets/master/Items/misc/gem_ruby/gem_ruby.png",
+    "author": "Tiny Speck / Glitch; PNG conversion by ThirdPartyNinjas",
+    "license": "Public Domain / CC0",
+    "sha256": "ac6112c9b0443828355f7358e805f7217ea70154cb4a7fd1aaf95bc4e6e500a9"
+  },
+  {
+    "file": "assets/art/amber.png",
+    "source": "https://raw.githubusercontent.com/ThirdPartyNinjas/GlitchAssets/master/Items/misc/gem_amber/gem_amber.png",
+    "author": "Tiny Speck / Glitch; PNG conversion by ThirdPartyNinjas",
+    "license": "Public Domain / CC0",
+    "sha256": "3f3a2c9b1321e0811d16885dd15c17b3bf8f0f296da6c3adfa530671077d954a"
+  }
+]

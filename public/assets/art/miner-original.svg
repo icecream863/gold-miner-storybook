@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 210">
+<defs><linearGradient id="shirt" x2=".8" y2="1"><stop stop-color="#638574"/><stop offset="1" stop-color="#294b41"/></linearGradient><linearGradient id="hat" x2=".6" y2="1"><stop stop-color="#f5d27d"/><stop offset="1" stop-color="#c88b3c"/></linearGradient><linearGradient id="beard" x2=".3" y2="1"><stop stop-color="#fff6dc"/><stop offset="1" stop-color="#d2b783"/></linearGradient></defs>
+<ellipse cx="85" cy="201" rx="62" ry="7" fill="#162e28" opacity=".22"/>
+<path d="m47 160-3 31 27 5 10-40M102 157l6 35 25-4-10-40" fill="#344342" stroke="#263b32" stroke-width="3"/>
+<path d="m43 188-9 9q-3 9 34 6l5-12M107 188l-1 13q27 4 36-2l-8-12" fill="#513c2e" stroke="#3a3226" stroke-width="3"/>
+<path d="M44 105q-22 26-25 52l16 6 20-30M120 109q21 6 29 33l-12 9-23-22" fill="url(#shirt)" stroke="#294b3b" stroke-width="3"/>
+<path d="M48 110q35-18 70 1l10 55q-35 21-87 1Z" fill="url(#shirt)" stroke="#294b3b" stroke-width="3"/>
+<path d="m54 111-3 59M111 111l10 59" stroke="#c9ad68" stroke-width="7"/>
+<path d="m41 162 87-1-1 12q-48 17-86 0Z" fill="#654d32"/><rect x="77" y="161" width="18" height="13" rx="2" fill="#dcbb68"/>
+<ellipse cx="38" cy="157" rx="12" ry="9" fill="#d7a270"/><ellipse cx="141" cy="145" rx="12" ry="10" fill="#dfae7b"/>
+<ellipse cx="83" cy="77" rx="41" ry="43" fill="#e4b27e" stroke="#936c43" stroke-width="2"/>
+<ellipse cx="40" cy="79" rx="9" ry="13" fill="#e4b27e"/><ellipse cx="126" cy="79" rx="9" ry="13" fill="#e4b27e"/>
+<path d="M44 80q2 39 39 60 40-20 41-61-8 15-25 12-15-12-31 0-14 3-24-11Z" fill="url(#beard)" stroke="#ceb380" stroke-width="2"/>
+<path d="m61 105 12 18m22-18-8 23m24-29-8 19" stroke="#c3aa7c" stroke-width="2" fill="none"/>
+<path d="M57 69q7-8 15-3m22 0q8-5 16 2" fill="none" stroke="#715138" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="66" cy="76" rx="3" ry="4" fill="#3c3b2c"/><ellipse cx="101" cy="76" rx="3" ry="4" fill="#3c3b2c"/>
+<ellipse cx="84" cy="87" rx="13" ry="10" fill="#d19465"/><path d="M74 101q10 5 19-1" stroke="#8c6247" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M41 55q-1-39 42-43 44 2 43 43Z" fill="url(#hat)" stroke="#b38743" stroke-width="3"/>
+<path d="m77 14-3 37M95 15l5 36" stroke="#ffe2a0" stroke-width="5"/>
+<path d="M30 52q53-10 108 1l-3 12q-54-7-102 0Z" fill="#e2b45b" stroke="#a98342" stroke-width="3"/>
+<rect x="70" y="38" width="29" height="24" rx="8" fill="#586357" stroke="#a68039" stroke-width="3"/><ellipse cx="85" cy="49" rx="10" ry="8" fill="#fff7ca"/><ellipse cx="83" cy="47" rx="5" ry="4" fill="white"/>
+</svg>
