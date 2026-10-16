@@ -2,7 +2,7 @@ node_modules/
 dist/
 .cache/
 .playwright-cli/
-output/playwright/raw/
+output/
 *.local
 .env*
 !*.example

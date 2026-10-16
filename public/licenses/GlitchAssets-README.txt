@@ -4,18 +4,18 @@ This is a straight-forward conversion of the flash assets files from the game Gl
 
 See http://www.glitchthegame.com/public-domain-game-art/ for more information.
 
-The repository contains:  
- * Avatars - Vanity  
- * Avatars - Wardrobes  
- * Items  
- * Locations  
- * Overlays  
- * Player Houses  
+The repository contains:
+ * Avatars - Vanity
+ * Avatars - Wardrobes
+ * Items
+ * Locations
+ * Overlays
+ * Player Houses
 
-It does not contain:  
+It does not contain:
  * Inhabitants - Check here: https://github.com/ThirdPartyNinjas/GlitchAssets-Inhabitants
 
-Conversion process:  
+Conversion process:
 I wrote three scripts that run inside of Flash (I used Adobe Flash Professional CC).
 
 RecursiveExportFile - Recursively searches through folders looking for *.fla files, and calls exportPNG on them. This works well for basic files, but if there's any animation, it will be lost.
