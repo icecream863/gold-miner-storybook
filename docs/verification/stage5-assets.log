@@ -1,0 +1,88 @@
+{
+  "assetCount": 9,
+  "totalBytes": 465650,
+  "images": [
+    {
+      "file": "assets/art/cave-wall.png",
+      "bytes": 103342,
+      "width": 488,
+      "height": 1752,
+      "sha256Match": true
+    },
+    {
+      "file": "assets/art/cave-hill.png",
+      "bytes": 177642,
+      "width": 548,
+      "height": 1230,
+      "sha256Match": true
+    },
+    {
+      "file": "assets/art/ground.png",
+      "bytes": 27748,
+      "width": 634,
+      "height": 252,
+      "sha256Match": true
+    },
+    {
+      "file": "assets/art/mountains.png",
+      "bytes": 95002,
+      "width": 2020,
+      "height": 856,
+      "sha256Match": true
+    },
+    {
+      "file": "assets/art/ore.png",
+      "bytes": 41658,
+      "width": 308,
+      "height": 258,
+      "sha256Match": true
+    },
+    {
+      "file": "assets/art/rock.png",
+      "bytes": 9197,
+      "width": 100,
+      "height": 100,
+      "sha256Match": true
+    },
+    {
+      "file": "assets/art/diamond.png",
+      "bytes": 2946,
+      "width": 80,
+      "height": 66,
+      "sha256Match": true
+    },
+    {
+      "file": "assets/art/ruby.png",
+      "bytes": 3647,
+      "width": 80,
+      "height": 68,
+      "sha256Match": true
+    },
+    {
+      "file": "assets/art/amber.png",
+      "bytes": 4468,
+      "width": 72,
+      "height": 76,
+      "sha256Match": true
+    }
+  ],
+  "rules": [
+    {
+      "file": "core/model.ts",
+      "unchanged": true
+    },
+    {
+      "file": "core/shop.ts",
+      "unchanged": false
+    },
+    {
+      "file": "src/audio.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/presentation.ts",
+      "unchanged": true
+    }
+  ],
+  "note": "shop.ts differs only because stage 3 price review changed amplifier from 180 to 80; model/audio/presentation remain unchanged since visual baseline."
+}

@@ -1,0 +1,26 @@
+
+Running 14 tests using 1 worker
+
+(node:23108) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 tests\browser\classic.spec.mjs:6:1 › smoke 经典六关、五次商店、真实采集结算和整局重开 (1.2m)
+  ok  2 tests\browser\classic.spec.mjs:10:1 › 问号袋揭晓、经典五商品实际效果、手掌握柄、移动动物和TNT (1.4m)
+  ok  3 tests\browser\classic.spec.mjs:38:1 › 提前失败、超时货物不补发、没有关内重试，整局重开清理 (36.8s)
+  ok  4 tests\browser\classic.spec.mjs:45:1 › 真实活动时钟不丢长帧，工具栏后空格正常，暂停和恢复不消耗停留时间 (5.0s)
+  ok  5 tests\browser\classic.spec.mjs:51:1 › 关键素材加载失败保留重试，解除阻断后正常开始 (3.4s)
+  ok  6 tests\browser\classic.spec.mjs:56:1 › 桌面与手机尺寸：HUD 不遮矿物，按钮与六关菜单可访问 (2.7s)
+  ok  7 tests\browser\classic.spec.mjs:67:1 › 低动态与音频禁用时仍可抓取，握柄和静音降级不干扰游戏 (3.5s)
+  ok  8 tests\browser\classic.spec.mjs:72:1 › 手机商店原生触摸可滚动到第五商品并购买 (14.1s)
+  ok  9 tests\browser\integrated-animation.spec.mjs:4:35 › 原六关接入已确认动画：普通动态仍有可见出钩动作与连续回收 (9.1s)
+  ok 10 tests\browser\integrated-animation.spec.mjs:4:35 › 原六关接入已确认动画：减少动态仍有可见出钩动作与连续回收 (10.0s)
+  ok 11 tests\browser\polish.spec.mjs:8:1 › 音乐实际加载、暂停续播、独立音量偏好、设置不消耗时间 (8.6s)
+  ok 12 tests\browser\polish.spec.mjs:20:1 › 音乐慢加载不阻塞发射，暂停后加载完成不偷播，恢复不重复循环 (6.2s)
+  ok 13 tests\browser\polish.spec.mjs:27:1 › OGG解码失败自动使用MP3，音乐失败可重试且不影响玩法 (4.5s)
+  ok 14 tests\browser\polish.spec.mjs:36:1 › 商店图标统一、购买提示不遮挡，下一关不残留购买文案，六关主题均可用 (1.2m)
+
+  14 passed (5.7m)
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

@@ -1,0 +1,386 @@
+{
+  "passed": true,
+  "baseline": "本次动画整合前的六关1.3工作区；非远端旧提交",
+  "scope": "保留原规则/商店/声音/样式/表现工具及全部现有资源；已确认动画源文件也保持原样，只修改场景接入",
+  "assetCount": 56,
+  "files": [
+    {
+      "file": "src/core/model.ts",
+      "before": "bc11fb65a0473b58ccdbb712df02815ed61fb8f6826c2e1ae4dc9bb83ebeb098",
+      "after": "bc11fb65a0473b58ccdbb712df02815ed61fb8f6826c2e1ae4dc9bb83ebeb098",
+      "unchanged": true
+    },
+    {
+      "file": "src/core/shop.ts",
+      "before": "55cac590cebbfa329b2d8cdef4de7b68da7803ec9a1675c3589461d4646f74bb",
+      "after": "55cac590cebbfa329b2d8cdef4de7b68da7803ec9a1675c3589461d4646f74bb",
+      "unchanged": true
+    },
+    {
+      "file": "src/audio.ts",
+      "before": "343451298ed75db44fa713198470082215ebd408ac05edc390b204abab920004",
+      "after": "343451298ed75db44fa713198470082215ebd408ac05edc390b204abab920004",
+      "unchanged": true
+    },
+    {
+      "file": "src/style.css",
+      "before": "71061f2b3117c2f610ab937e2007ac1c11d3fe6df7a3d1220843a58bf738bd75",
+      "after": "71061f2b3117c2f610ab937e2007ac1c11d3fe6df7a3d1220843a58bf738bd75",
+      "unchanged": true
+    },
+    {
+      "file": "src/presentation.ts",
+      "before": "45a24083f3eba276de31fdbb1c80f2ed6f5e0d7146c7da893186546eeb4f6abf",
+      "after": "45a24083f3eba276de31fdbb1c80f2ed6f5e0d7146c7da893186546eeb4f6abf",
+      "unchanged": true
+    },
+    {
+      "file": "src/sample/motion.ts",
+      "before": "a014d0da6c3371e6d2c62902dcdb81b3c6dc5186a8a895aa747b3460b938882c",
+      "after": "a014d0da6c3371e6d2c62902dcdb81b3c6dc5186a8a895aa747b3460b938882c",
+      "unchanged": true
+    },
+    {
+      "file": "src/sample/art.ts",
+      "before": "00330d801148309c8b629d57ad5e5d8e4e748998bbf2cf47e2ec85d81ba98599",
+      "after": "00330d801148309c8b629d57ad5e5d8e4e748998bbf2cf47e2ec85d81ba98599",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/favicon.svg",
+      "before": "e0636a3cc1c1e73b9890a4a3d4d5e0d9630f5b13f3f54409c9813f0b575225e4",
+      "after": "e0636a3cc1c1e73b9890a4a3d4d5e0d9630f5b13f3f54409c9813f0b575225e4",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/art/amber.png",
+      "before": "3f3a2c9b1321e0811d16885dd15c17b3bf8f0f296da6c3adfa530671077d954a",
+      "after": "3f3a2c9b1321e0811d16885dd15c17b3bf8f0f296da6c3adfa530671077d954a",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/art/cave-hill.png",
+      "before": "28d1d2f0ebe58b6b8d7a496412978e6bdd98e48026986744e29fa7fa5300e055",
+      "after": "28d1d2f0ebe58b6b8d7a496412978e6bdd98e48026986744e29fa7fa5300e055",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/art/cave-wall.png",
+      "before": "1af455493c7f7070f046727c9b4303088c7575c91029047ca46c8f0a95c85589",
+      "after": "1af455493c7f7070f046727c9b4303088c7575c91029047ca46c8f0a95c85589",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/art/diamond.png",
+      "before": "a9ec363e0e8c8d3fd1a98df39f710aef77d50e9e77d617e154ab380a0cc696c1",
+      "after": "a9ec363e0e8c8d3fd1a98df39f710aef77d50e9e77d617e154ab380a0cc696c1",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/art/ground.png",
+      "before": "19c647a19b02ff27cadbb34ecb1660b316c16fbbba48cf32453cb6f95080a762",
+      "after": "19c647a19b02ff27cadbb34ecb1660b316c16fbbba48cf32453cb6f95080a762",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/art/miner-original.svg",
+      "before": "623bcbeff93c360297e5d371eb01a4f60b223e2a650ccbc8738c6ac82e7a2103",
+      "after": "623bcbeff93c360297e5d371eb01a4f60b223e2a650ccbc8738c6ac82e7a2103",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/art/mountains.png",
+      "before": "d923777365bba674b425af2cf5b4c7ef14d26880ba4319c710b047903bbb4620",
+      "after": "d923777365bba674b425af2cf5b4c7ef14d26880ba4319c710b047903bbb4620",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/art/ore.png",
+      "before": "b33e09e50cc1e59307e68f7357f5a0b8500ac096081b956b7b3aa89fea89f801",
+      "after": "b33e09e50cc1e59307e68f7357f5a0b8500ac096081b956b7b3aa89fea89f801",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/art/rock.png",
+      "before": "afb850b1ee006f74b8c3758b2da2e850d87525c8f19021586dbbc373d5dcc5c5",
+      "after": "afb850b1ee006f74b8c3758b2da2e850d87525c8f19021586dbbc373d5dcc5c5",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/art/ruby.png",
+      "before": "ac6112c9b0443828355f7358e805f7217ea70154cb4a7fd1aaf95bc4e6e500a9",
+      "after": "ac6112c9b0443828355f7358e805f7217ea70154cb4a7fd1aaf95bc4e6e500a9",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/audio/bank.ogg",
+      "before": "94b8bb5f2d43ab65e4bcc32b28562416e9bc2c51d9fd4be1e333660ee52f977f",
+      "after": "94b8bb5f2d43ab65e4bcc32b28562416e9bc2c51d9fd4be1e333660ee52f977f",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/audio/bomb.ogg",
+      "before": "83554049f81f4db9209379e103c30bfa63f65c42189a03f300b045c2c82e23ae",
+      "after": "83554049f81f4db9209379e103c30bfa63f65c42189a03f300b045c2c82e23ae",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/audio/buy.ogg",
+      "before": "33b17a9a9a2397c62b285c52c33a907fdffb476909c99e42dde603f6a7a8b12c",
+      "after": "33b17a9a9a2397c62b285c52c33a907fdffb476909c99e42dde603f6a7a8b12c",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/audio/grab.ogg",
+      "before": "25a96f90a9a1f88a531e824e126f0519504625e5635e65a72e4f31611428db29",
+      "after": "25a96f90a9a1f88a531e824e126f0519504625e5635e65a72e4f31611428db29",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/audio/heavy.ogg",
+      "before": "36b4ea107222d073c67ca64dde26944975609202d5090b2f2021213c1a7e35cd",
+      "after": "36b4ea107222d073c67ca64dde26944975609202d5090b2f2021213c1a7e35cd",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/audio/launch.ogg",
+      "before": "eb45e35b4bed784d3f120de4afec4b0d6ac09d9e143cce8cfcb7d739e1b1f3c3",
+      "after": "eb45e35b4bed784d3f120de4afec4b0d6ac09d9e143cce8cfcb7d739e1b1f3c3",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/audio/ready.ogg",
+      "before": "4ac4d1cef7e936965cbf795852ca2020300b9e2ba7daa59f2bf4f1f7bf416218",
+      "after": "4ac4d1cef7e936965cbf795852ca2020300b9e2ba7daa59f2bf4f1f7bf416218",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/audio/reel.ogg",
+      "before": "adcd1f4adc35f1b41bc1b5bbefeff7aa44f2f3f0d96d3199b544140c7c1e761c",
+      "after": "adcd1f4adc35f1b41bc1b5bbefeff7aa44f2f3f0d96d3199b544140c7c1e761c",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/audio/western.mp3",
+      "before": "0b1c9a7e1237acd6ae6f2dfec8aa4f03fabf8a756687c394b7401b26934f38e5",
+      "after": "0b1c9a7e1237acd6ae6f2dfec8aa4f03fabf8a756687c394b7401b26934f38e5",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/audio/western.ogg",
+      "before": "78c285eacddf5753e368fa3fdf217172b9511ea6650bf6a11207a11d99e5033a",
+      "after": "78c285eacddf5753e368fa3fdf217172b9511ea6650bf6a11207a11d99e5033a",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/bag.svg",
+      "before": "0a88732fd8f7e0cef1f6e824ff031cd1a2a2c0f6d4f19f88268bd679b063a8f2",
+      "after": "0a88732fd8f7e0cef1f6e824ff031cd1a2a2c0f6d4f19f88268bd679b063a8f2",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/bone.svg",
+      "before": "4e946ac58004c36c43410997d46eb1836ca80d5339cec4d7c51eff048f86f976",
+      "after": "4e946ac58004c36c43410997d46eb1836ca80d5339cec4d7c51eff048f86f976",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/diamond.svg",
+      "before": "bd411761efe34e002b6a6d1e192fcea1a946f9c831d9d7bb6ea78cee2ba2ddf7",
+      "after": "bd411761efe34e002b6a6d1e192fcea1a946f9c831d9d7bb6ea78cee2ba2ddf7",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/diamondMole.svg",
+      "before": "cd1b3dfc792fd9514e61869affc5e6fb563fc62d751de2f59efa7be06a7f78e2",
+      "after": "cd1b3dfc792fd9514e61869affc5e6fb563fc62d751de2f59efa7be06a7f78e2",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/gold.svg",
+      "before": "1f0df74b0579b7f4b9be05bdfe6ded831ec56412f3a29d60f25c3f4a62baa6e6",
+      "after": "1f0df74b0579b7f4b9be05bdfe6ded831ec56412f3a29d60f25c3f4a62baa6e6",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/icon-music.svg",
+      "before": "dc84a8eedef375ffbe61c074db3cec4ac73619069b7b0ec167ac3ef32a901e0f",
+      "after": "dc84a8eedef375ffbe61c074db3cec4ac73619069b7b0ec167ac3ef32a901e0f",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/icon-mute.svg",
+      "before": "06348eb78c8d9420c2f1bc99002a53cc2889807192e4fda0792eb0e759b8b8ac",
+      "after": "06348eb78c8d9420c2f1bc99002a53cc2889807192e4fda0792eb0e759b8b8ac",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/icon-pause.svg",
+      "before": "7a522334b9eef90f58b198cdc056f3125a7b4ada62b8331520a9b312250ae145",
+      "after": "7a522334b9eef90f58b198cdc056f3125a7b4ada62b8331520a9b312250ae145",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/icon-settings.svg",
+      "before": "dbae519be363246df44ee44e5470864987892ae5e3bee5bd6f8fd73bec3b4be4",
+      "after": "dbae519be363246df44ee44e5470864987892ae5e3bee5bd6f8fd73bec3b4be4",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/icon-volume.svg",
+      "before": "7aedb6bbf3b9a245548b07074e09407ffbbb0318f0efba086e69fda9782d7f2d",
+      "after": "7aedb6bbf3b9a245548b07074e09407ffbbb0318f0efba086e69fda9782d7f2d",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/miner-body.svg",
+      "before": "323ae75d6493e4644db082571e895db7f1f3903ee72ca0b611e21b080716b1cf",
+      "after": "323ae75d6493e4644db082571e895db7f1f3903ee72ca0b611e21b080716b1cf",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/miner-head-effort.svg",
+      "before": "d0b1a4f30a898dc5bbe9d67efee13ca24a89a6be21db1394ce480503c96440a7",
+      "after": "d0b1a4f30a898dc5bbe9d67efee13ca24a89a6be21db1394ce480503c96440a7",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/miner-head-happy.svg",
+      "before": "088b9fd794d7d2fff1aa1a55998468bf42f4e9a6ebd47ff1d53ef5eda9d0515f",
+      "after": "088b9fd794d7d2fff1aa1a55998468bf42f4e9a6ebd47ff1d53ef5eda9d0515f",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/miner-head-neutral.svg",
+      "before": "08855feaeda812cacf09f73e744caad6c831e10422cbfcd970fde63cbb5382ac",
+      "after": "08855feaeda812cacf09f73e744caad6c831e10422cbfcd970fde63cbb5382ac",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/miner-head-sad.svg",
+      "before": "dd39926be29f3a1c47841f6fc21bae111a03505ba4732d432474cca086812b15",
+      "after": "dd39926be29f3a1c47841f6fc21bae111a03505ba4732d432474cca086812b15",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/mole.svg",
+      "before": "db507a9140c249e18ee94e68bf4f8b66869bf30a9c895f93728b6c5ca9d8ce39",
+      "after": "db507a9140c249e18ee94e68bf4f8b66869bf30a9c895f93728b6c5ca9d8ce39",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/rock.svg",
+      "before": "314b5cf84bfb52bc42c2fa16fcea36f41f683fe550c4e345e92a092883eb9040",
+      "after": "314b5cf84bfb52bc42c2fa16fcea36f41f683fe550c4e345e92a092883eb9040",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/shop-bomb.svg",
+      "before": "2705b5ad3dbc936ebb2e0a18f683001338a86fedfa0c8384b198d491cdab8e43",
+      "after": "2705b5ad3dbc936ebb2e0a18f683001338a86fedfa0c8384b198d491cdab8e43",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/shop-diamondPolish.svg",
+      "before": "85e16ce2b45446dd6d82ed90ebd84b268aea77338a5b9009dc772a5a6d0ae603",
+      "after": "85e16ce2b45446dd6d82ed90ebd84b268aea77338a5b9009dc772a5a6d0ae603",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/shop-lucky.svg",
+      "before": "81fd96faa8afcef04c7ff57ea7e3fac00a70ce59bd4fffa147a77f947f8dff5c",
+      "after": "81fd96faa8afcef04c7ff57ea7e3fac00a70ce59bd4fffa147a77f947f8dff5c",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/shop-rockBook.svg",
+      "before": "e0ef71638059f89e2a0c6a4edd1f51e7b914ed900e9a14f38a54114d7b94a636",
+      "after": "e0ef71638059f89e2a0c6a4edd1f51e7b914ed900e9a14f38a54114d7b94a636",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/shop-strength.svg",
+      "before": "99f2d7d77e4f6d3ea16fb82602f3e026e51db6e2bd7d5eb831f9a71e2c70c466",
+      "after": "99f2d7d77e4f6d3ea16fb82602f3e026e51db6e2bd7d5eb831f9a71e2c70c466",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/skull.svg",
+      "before": "e5b5b8c5f7fc255799227baa80e530bb1f60aa0016c57ee872f02e9cbd3b1fa7",
+      "after": "e5b5b8c5f7fc255799227baa80e530bb1f60aa0016c57ee872f02e9cbd3b1fa7",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/tnt.svg",
+      "before": "2705b5ad3dbc936ebb2e0a18f683001338a86fedfa0c8384b198d491cdab8e43",
+      "after": "2705b5ad3dbc936ebb2e0a18f683001338a86fedfa0c8384b198d491cdab8e43",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/sample/miner-heavy.png",
+      "before": "b742801a8ade3ed37d360b69a295ed6a03de2134273e624cb622c43d52e37514",
+      "after": "b742801a8ade3ed37d360b69a295ed6a03de2134273e624cb622c43d52e37514",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/sample/miner-light.png",
+      "before": "0dc902c6d9331dc07a138309de91fe56022838efa7cff6ca747bb88542489b0d",
+      "after": "0dc902c6d9331dc07a138309de91fe56022838efa7cff6ca747bb88542489b0d",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/sample/miner-poses.png",
+      "before": "057b96c1d3f6dbaae4a5cce8bba9f1d1b3b82186438fbb029f8eaa3e594dcfff",
+      "after": "057b96c1d3f6dbaae4a5cce8bba9f1d1b3b82186438fbb029f8eaa3e594dcfff",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/ui/button_brown.svg",
+      "before": "822b39af4d2e34ad4434b74e87680978acdb4ec9f35bc3963e4f654244f067e0",
+      "after": "822b39af4d2e34ad4434b74e87680978acdb4ec9f35bc3963e4f654244f067e0",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/ui/panel_brown_corners_a.svg",
+      "before": "13b4010208df6d74b6d371606364290e8b5b8e4842a5ed863e0f74722ae9f8c2",
+      "after": "13b4010208df6d74b6d371606364290e8b5b8e4842a5ed863e0f74722ae9f8c2",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/ui/panel_brown_dark.svg",
+      "before": "37ac9f8800348da62e51d1e756bd6ae225fe99efc9ddd1f0e5366e8355135add",
+      "after": "37ac9f8800348da62e51d1e756bd6ae225fe99efc9ddd1f0e5366e8355135add",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/ui/panel_grey_bolts.svg",
+      "before": "1b55654de72e3f8b216daed3913326e6effc8b3e7bb65712888d158e78adf649",
+      "after": "1b55654de72e3f8b216daed3913326e6effc8b3e7bb65712888d158e78adf649",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/sample/audio/bank.ogg",
+      "before": "7d58b6cff90f664c38efbf1f155c8d267bcdfc799548aa974fb121e926bbaa3a",
+      "after": "7d58b6cff90f664c38efbf1f155c8d267bcdfc799548aa974fb121e926bbaa3a",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/sample/audio/grab.ogg",
+      "before": "b233bf5ad4dfd0478628f98bea5f821bc7a7533caf11a0e809317fc67718828a",
+      "after": "b233bf5ad4dfd0478628f98bea5f821bc7a7533caf11a0e809317fc67718828a",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/sample/audio/launch.ogg",
+      "before": "211e1b2e1396b4a85ce2ae07d3e903fc5053a66190860f14f6d31f010da2b0cd",
+      "after": "211e1b2e1396b4a85ce2ae07d3e903fc5053a66190860f14f6d31f010da2b0cd",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/sample/audio/winch.ogg",
+      "before": "d75fda09adb5898a49764771ab3b4438f7d39eb9dc768ace22fedf832a0bf4a4",
+      "after": "d75fda09adb5898a49764771ab3b4438f7d39eb9dc768ace22fedf832a0bf4a4",
+      "unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+
+Running 1 test using 1 worker
+
+(node:26524) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\classic.spec.mjs:6:1 › smoke 经典六关、五次商店、真实采集结算和整局重开 (47.3s)
+
+  1 passed (50.9s)
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

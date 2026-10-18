@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "duration": 76.04,
+    "width": 1280,
+    "height": 800
+  },
+  "frames": [
+    {
+      "seconds": 2,
+      "file": "output/delivery/demo-2.png"
+    },
+    {
+      "seconds": 12,
+      "file": "output/delivery/demo-12.png"
+    },
+    {
+      "seconds": 64,
+      "file": "output/delivery/demo-64.png"
+    },
+    {
+      "seconds": 71.04,
+      "file": "output/delivery/demo-71.png"
+    }
+  ]
+}

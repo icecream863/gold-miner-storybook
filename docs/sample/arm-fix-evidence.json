@@ -1,0 +1,24 @@
+{
+  "candidate": "vector-correction+08271a0eb63f",
+  "unitTests": 56,
+  "browserTests": 13,
+  "preservedModulesMatch": true,
+  "normalRecordingSeconds": 27,
+  "recordingMode": "减少动态开启、正常时钟、只读状态辅助瞄准、真实按键；未剪辑加速，非人类试玩",
+  "money": 765,
+  "files": {
+    "sample-demo.webm": {
+      "bytes": 3505999,
+      "sha256": "8de14ae93556c4a97af89c32d6376b26ed1af9be6bf573370b5567ca48ad0f2a"
+    },
+    "sample-arm-demo.webm": {
+      "bytes": 208119,
+      "sha256": "0941cdca88f9eec1f3cb867a53ba0dc09d9bdaac27632d4ac611a53811d27aea"
+    },
+    "sample-motion-loop.webm": {
+      "bytes": 192373,
+      "sha256": "1ee1bc5fc2047e98db26d584e9265c1666e2d820693689a429f4809ed2d2b7fc"
+    }
+  },
+  "published": false
+}

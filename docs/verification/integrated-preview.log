@@ -1,0 +1,69 @@
+Input #0, matroska,webm, from 'public/demo.webm':
+  Metadata:
+    ENCODER         : Lavf61.7.100
+  Duration: 00:01:34.52, start: -0.007000, bitrate: 1546 kb/s
+  Stream #0:0(eng): Video: vp9 (Profile 0), yuv420p(tv, progressive), 1280x900, SAR 1:1 DAR 64:45, 25 fps, 25 tbr, 1k tbn (default)
+      Metadata:
+        ENCODER         : Lavc61.3.100 libvpx-vp9
+        DURATION        : 00:01:34.480000000
+  Stream #0:1: Audio: opus, 48000 Hz, stereo, fltp
+      Metadata:
+        ENCODER         : Lavc61.19.100 libopus
+        DURATION        : 00:01:34.521000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (vp9 (native) -> vp9 (libvpx-vp9))
+  Stream #0:1 -> #0:1 (opus (native) -> opus (libopus))
+Press [q] to stop, [?] for help
+[libvpx-vp9 @ 00000107474dc440] v1.14.1-371-g32de9c2be
+Output #0, webm, to 'public/integrated-preview.webm':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0(eng): Video: vp9, yuv420p(tv, progressive), 1280x900 [SAR 1:1 DAR 64:45], q=2-31, 25 fps, 1k tbn (default)
+      Metadata:
+        DURATION        : 00:01:34.480000000
+        encoder         : Lavc61.19.100 libvpx-vp9
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: opus, 48000 Hz, stereo, flt, 96 kb/s
+      Metadata:
+        DURATION        : 00:01:34.521000000
+        encoder         : Lavc61.19.100 libopus
+frame=    0 fps=0.0 q=0.0 size=       1KiB time=N/A bitrate=N/A speed=N/A    
+frame=   15 fps= 14 q=33.0 size=       1KiB time=00:00:00.60 bitrate=   8.9kbits/s speed=0.579x    
+frame=   35 fps= 22 q=33.0 size=       1KiB time=00:00:01.40 bitrate=   3.8kbits/s speed=0.897x    
+frame=   56 fps= 27 q=35.0 size=       1KiB time=00:00:02.24 bitrate=   2.4kbits/s speed=1.07x    
+frame=   74 fps= 29 q=35.0 size=       1KiB time=00:00:02.96 bitrate=   1.8kbits/s speed=1.14x    
+frame=   92 fps= 30 q=35.0 size=       1KiB time=00:00:03.68 bitrate=   1.5kbits/s speed=1.18x    
+frame=  110 fps= 30 q=35.0 size=       1KiB time=00:00:04.40 bitrate=   1.2kbits/s speed=1.21x    
+frame=  127 fps= 31 q=33.0 size=     179KiB time=00:00:05.08 bitrate= 288.1kbits/s speed=1.22x    
+frame=  138 fps= 30 q=35.0 size=     179KiB time=00:00:05.52 bitrate= 265.1kbits/s speed=1.18x    
+frame=  156 fps= 30 q=35.0 size=     179KiB time=00:00:06.24 bitrate= 234.5kbits/s speed=1.21x    
+frame=  172 fps= 30 q=35.0 size=     179KiB time=00:00:06.88 bitrate= 212.7kbits/s speed=1.21x    
+frame=  185 fps= 30 q=25.0 size=     179KiB time=00:00:07.40 bitrate= 197.8kbits/s speed=1.19x    
+frame=  197 fps= 29 q=30.0 size=     179KiB time=00:00:07.88 bitrate= 185.7kbits/s speed=1.17x    
+frame=  215 fps= 30 q=33.0 size=     179KiB time=00:00:08.60 bitrate= 170.2kbits/s speed=1.18x    
+frame=  234 fps= 30 q=35.0 size=     179KiB time=00:00:09.36 bitrate= 156.3kbits/s speed= 1.2x    
+frame=  253 fps= 31 q=30.0 size=     256KiB time=00:00:10.12 bitrate= 207.2kbits/s speed=1.22x    
+frame=  266 fps= 30 q=35.0 size=     256KiB time=00:00:10.64 bitrate= 197.1kbits/s speed=1.21x    
+frame=  277 fps= 30 q=25.0 size=     256KiB time=00:00:11.08 bitrate= 189.3kbits/s speed=1.19x    
+frame=  288 fps= 29 q=35.0 size=     256KiB time=00:00:11.52 bitrate= 182.0kbits/s speed=1.17x    
+frame=  297 fps= 29 q=25.0 size=     256KiB time=00:00:11.88 bitrate= 176.5kbits/s speed=1.15x    
+frame=  316 fps= 29 q=35.0 size=     256KiB time=00:00:12.64 bitrate= 165.9kbits/s speed=1.16x    
+frame=  340 fps= 30 q=35.0 size=     256KiB time=00:00:13.60 bitrate= 154.2kbits/s speed=1.19x    
+frame=  364 fps= 31 q=35.0 size=     256KiB time=00:00:14.56 bitrate= 144.0kbits/s speed=1.22x    
+frame=  384 fps= 31 q=35.0 size=    1024KiB time=00:00:15.36 bitrate= 546.1kbits/s speed=1.24x    
+frame=  404 fps= 31 q=35.0 size=    1024KiB time=00:00:16.16 bitrate= 519.1kbits/s speed=1.25x    
+frame=  426 fps= 32 q=35.0 size=    1024KiB time=00:00:17.04 bitrate= 492.3kbits/s speed=1.27x    
+frame=  449 fps= 32 q=25.0 size=    1024KiB time=00:00:17.96 bitrate= 467.1kbits/s speed=1.29x    
+frame=  474 fps= 33 q=35.0 size=    1024KiB time=00:00:18.96 bitrate= 442.4kbits/s speed=1.31x    
+frame=  504 fps= 34 q=35.0 size=    1024KiB time=00:00:20.16 bitrate= 416.1kbits/s speed=1.34x    
+frame=  533 fps= 34 q=25.0 size=    1024KiB time=00:00:21.32 bitrate= 393.5kbits/s speed=1.37x    
+frame=  567 fps= 35 q=33.0 size=    1024KiB time=00:00:22.68 bitrate= 369.9kbits/s speed=1.41x    
+frame=  602 fps= 36 q=35.0 size=    1024KiB time=00:00:24.08 bitrate= 348.4kbits/s speed=1.46x    
+frame=  635 fps= 37 q=33.0 size=    1024KiB time=00:00:25.40 bitrate= 330.3kbits/s speed=1.49x    
+frame=  659 fps= 37 q=33.0 size=    1280KiB time=00:00:26.36 bitrate= 397.8kbits/s speed= 1.5x    
+frame=  675 fps= 37 q=33.0 size=    1280KiB time=00:00:27.00 bitrate= 388.4kbits/s speed=1.49x    
+frame=  706 fps= 38 q=35.0 size=    1280KiB time=00:00:28.24 bitrate= 371.3kbits/s speed=1.52x    
+frame=  726 fps= 38 q=35.0 size=    1280KiB time=N/A bitrate=N/A speed=N/A    
+[out#0/webm @ 00000107474ddb40] video:1651KiB audio:352KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.807021%
+frame=  750 fps= 39 q=35.0 Lsize=    2019KiB time=00:00:30.00 bitrate= 551.4kbits/s speed=1.56x    

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "files": 781,
+  "totalBytes": 213169341,
+  "forbidden": [],
+  "oversize": [],
+  "suspectedCredentials": [],
+  "publicSession": {
+    "records": 2542,
+    "through": "2026-10-18T08:20:16.391Z",
+    "hashMatches": true
+  },
+  "scope": "敏感凭据格式、私有/依赖目录排除、GitHub单文件大小及Session摘要；不是对所有隐私形式的证明"
+}

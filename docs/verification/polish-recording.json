@@ -1,0 +1,23 @@
+{
+  "mode": "normal-clock-readonly-QA-assisted-full-six-rounds",
+  "audio": true,
+  "complete": true,
+  "candidate": "1.3.0+71cf23c3acf9",
+  "coverage": "六关、五次商店、重石回收、TNT、暂停、最终结算；只读状态辅助瞄准，非人类试玩",
+  "videoDuration": 87.32,
+  "audioDuration": 83.69,
+  "audioOffsetSeconds": 3.6299999999999955,
+  "syncMethod": "原始文件已完成，修复MediaRecorder时长N/A导出后恢复合成；按媒体结束对齐估算偏移，非逐帧同步校准",
+  "bytes": 16686287,
+  "moneyByRound": [
+    750,
+    2375,
+    3865,
+    5940,
+    8015,
+    11485
+  ],
+  "errors": [],
+  "rawVideo": "output/recording/page@f88e362b31c36db938b5b2ad5130c7a7.webm",
+  "rawAudio": "output/recording/polish-audio.webm"
+}

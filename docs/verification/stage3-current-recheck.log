@@ -1,0 +1,131 @@
+
+> gold-miner-storybook@1.1.0 test:browser
+> npm run build && playwright test tests/browser/game.spec.mjs --reporter=list
+
+
+> gold-miner-storybook@1.1.0 build
+> npm run typecheck && npm run test && vite build
+
+
+> gold-miner-storybook@1.1.0 typecheck
+> tsc --noEmit
+
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice
+
+> gold-miner-storybook@1.1.0 test
+> node --experimental-strip-types --test tests/*.test.ts
+
+✔ 黄金调色保留透明轮廓和明暗，避免高光变成纯白 (2.3287ms)
+✔ 音频需先解锁；所有关键提示可播放，静音、结束与暂停清理声部 (7.4943ms)
+✔ 音频构造被禁用或恢复被拒绝时，游戏调用不抛异常 (1.0715ms)
+PLAYABLE_ROUTE 力量药水，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":5835,"earned":3285,"misses":2},{"level":3,"money":9520,"earned":3835,"misses":2}]
+PLAYABLE_ROUTE 不购买商品，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":5985,"earned":3285,"misses":2},{"level":3,"money":9320,"earned":3335,"misses":2}]
+PLAYABLE_ROUTE 共振增幅器，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":5805,"earned":3285,"misses":2},{"level":3,"money":8960,"earned":3335,"misses":2}]
+PLAYABLE_ROUTE 普通采集，不抓水晶 [{"level":1,"money":2230,"earned":2230,"misses":0},{"level":2,"money":4660,"earned":2430,"misses":0},{"level":3,"money":7105,"earned":2445,"misses":0}]
+PLAYABLE_ROUTE 时间沙漏，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":5785,"earned":3285,"misses":2},{"level":3,"money":9420,"earned":3835,"misses":2}]
+PLAYABLE_ROUTE 抛光剂，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":6010,"earned":3330,"misses":2},{"level":3,"money":9370,"earned":3380,"misses":2}]
+PLAYABLE_ROUTE 购买全部五种商品，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":5380,"earned":3330,"misses":2},{"level":3,"money":8610,"earned":3880,"misses":2}]
+✔ 活动时钟保留长帧，排除暂停和商店停留，不受倒退采样污染 (1.8557ms)
+✔ 共振边界包含110，排除圈外、已取矿物和水晶，同距按ID选择最近两件 (2.1443ms)
+✔ 共振四项配置独立生效，零连带合法，非法配置拒绝创建 (1.2513ms)
+✔ 重复ID先去重再限额，整包只占用和结算一次 (1.6602ms)
+✔ 同深度连带石头收益略增但真实回收更慢，截止前可能整包损失 (0.7272ms)
+✔ 抓取快照不受后续矿物数据变化影响，重叠水晶不能重复带走已占用矿物 (0.5521ms)
+✔ 截止时到达不结算，截止前到达整包结算一次 (0.6055ms)
+✔ 普通矿物邻近水晶仍只抓一件，回收中重置清空旧采集与事件 (1.8143ms)
+✔ 整包原子抓取、求和值和重量、只在回收时发钱，不继续触发附近水晶 (0.9236ms)
+✔ 炸药销毁整包、暂停不改变包、到期不补发，重试恢复水晶 (0.9036ms)
+✔ 富裕入口也必须完成每关采集额，金额或采集任一不足都失败 (2.2655ms)
+✔ 30/60/144Hz 和一次长帧下，扫掠抓取与整包回收结果一致 (1.0333ms)
+✔ 所有水晶入口允许正负0.02弧度瞄准偏差，不会先碰到前景矿石 (0.7156ms)
+✔ 连续发射只接受一次；菜单和暂停不接受玩法输入 (0.155ms)
+✔ 扫掠能抓住两端都在圆外的高速穿越，并处理切线、零位移与初始重叠 (0.1743ms)
+✔ 最近碰撞不依赖物品数组顺序，也不会抓到绳索两旁的物品 (0.2503ms)
+✔ 只有回到绞盘才入账，继续更新不会重复计分 (0.2595ms)
+✔ 空钩碰到边界后回收，不会越界或卡住 (0.5229ms)
+✔ 重量决定回收速度；力量只提升载物回收，空钩速度不变 (0.3499ms)
+✔ 炸药只在载物时消耗；销毁物品且不计钱；无法重复炸同一物品 (0.2158ms)
+✔ 暂停同时冻结金钱、位置与时间；恢复后接着运动 (0.2827ms)
+✔ 到期只结算一次，挂在绳上的矿物不补发金钱 (0.197ms)
+✔ 只有达到门槛才能进入商店，余额不足不会扣款 (0.275ms)
+✔ 购买每件限一次、跨关扣款；力量药水到下个商店失效 (0.2121ms)
+✔ 失败重试恢复本关入口快照，包括花过的道具和力量 (0.2404ms)
+✔ 30/60/144Hz 下摆动与倒计时一致，无效时间输入不污染状态 (0.7155ms)
+✔ 重新开始整局清空升级、购买和上局金钱 (0.3191ms)
+✔ 固定三关路线可通关（力量药水，每关预留两次空钩） (19.633ms)
+✔ 固定三关路线可通关（不购买商品，每关预留两次空钩） (13.6545ms)
+✔ 固定三关路线可通关（共振增幅器，每关预留两次空钩） (14.4092ms)
+✔ 固定三关路线可通关（普通采集，不抓水晶） (66.3926ms)
+✔ 固定三关路线可通关（时间沙漏，每关预留两次空钩） (12.0099ms)
+✔ 固定三关路线可通关（抛光剂，每关预留两次空钩） (9.4699ms)
+✔ 固定三关路线可通关（购买全部五种商品，每关预留两次空钩） (10.7218ms)
+✔ 视觉后坐力不会因旧时间戳或未来起点超过范围，重置后不偏移 (1.7293ms)
+✔ 吸附、货物摆动和震动按活动时间取样，不随更新次数改变 (2.3126ms)
+✔ 连锁逐件吸附有短暂先后，低动态立即定位且不震动 (0.4762ms)
+✔ 一枚炸药：余额不足、刚好足够、重复购买与非商店输入 (4.0567ms)
+✔ 力量药水：余额不足、刚好足够、重复购买与非商店输入 (0.3061ms)
+✔ 时间沙漏：余额不足、刚好足够、重复购买与非商店输入 (0.2221ms)
+✔ 矿石抛光剂：余额不足、刚好足够、重复购买与非商店输入 (0.2344ms)
+✔ 共振增幅器：余额不足、刚好足够、重复购买与非商店输入 (0.289ms)
+✔ 五商品配置具有独立图标和正价格，未知商品及原型名不能扣费 (0.3721ms)
+✔ 组合购买只扣各自价格，不改已通过的结果与采集额；每店每种限一次 (1.2849ms)
+✔ 沙漏失败重试恢复70秒且不重复加时，暂停不消耗；成功后清理强化 (2.7529ms)
+✔ 全部强化与炸药随失败入口恢复，关末清理强化，跨关保留剩余炸药 (0.7803ms)
+✔ 抛光只改变石头价值，重量与其他矿物不变；普通抓取实际只结算两倍 (1.1843ms)
+✔ 抛光和增幅联动整包快照：四件、真实总重量、单次结算、炸毁无收入 (1.8184ms)
+✔ 两次购物后的实际地图都有第三个候选，增幅不扩范围、不忽略重量 (0.7079ms)
+✔ 消费增加下一关所需收益，不回退已过关结果，也不绕过最低采集额 (0.2139ms)
+✔ 第三关通关不再开商店，不会出售无法生效的第四关强化 (0.1851ms)
+✔ 第二次商店重新开放五商品限购，上一关强化不会自动续期 (0.5042ms)
+✔ 带全部道具通关后重新开始，钱包、库存、强化、限购及入口快照全部重置 (0.459ms)
+ℹ tests 56
+ℹ suites 0
+ℹ pass 56
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 434.4043
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 12 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.76 kB │ gzip:   0.52 kB
+dist/assets/index-DTNgQfu9.css     15.22 kB │ gzip:   4.56 kB
+dist/assets/index-Z7PVwpjD.js   1,239.89 kB │ gzip: 336.30 kB
+
+✓ built in 775ms
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice
+
+Running 10 tests using 1 worker
+
+(node:7076) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 tests\browser\game.spec.mjs:50:1 › smoke: 基础流程与桌面手机布局 (37.5s)
+  ok  2 tests\browser\game.spec.mjs:59:1 › 三关、增幅与力量、炸药、通关重开 (1.4m)
+  ok  3 tests\browser\game.spec.mjs:70:1 › smoke: 工具栏焦点后空格仍出钩，真实长帧不丢时间 (3.9s)
+  ok  4 tests\browser\game.spec.mjs:105:1 › smoke: 关键图片加载失败保留重试，恢复网络后可重新进入 (2.0s)
+  ok  5 tests\browser\game.spec.mjs:126:1 › 共振预览与抓取一致、视觉暂停、单次入账、重试恢复 (36.6s)
+  ok  6 tests\browser\game.spec.mjs:162:1 › 共振整包炸毁，低动态效果不影响规则 (6.0s)
+  ok  7 tests\browser\game.spec.mjs:179:1 › 共振途中返回首页清除旧包，重新开始普通矿物仍单独抓取 (9.6s)
+  ok  8 tests\browser\game.spec.mjs:210:1 › 五种道具购买、组合执行、真实回收、失败重试与清理 (1.3m)
+  ok  9 tests\browser\game.spec.mjs:290:3 › 模拟触屏布局 › 竖屏商店可原生滑动，购买后可到达下一关按钮 (36.4s)
+  ok 10 tests\browser\game.spec.mjs:343:3 › 模拟触屏布局 › smoke: 320/390竖屏与844横屏的HUD、触控可用 (11.4s)
+
+  Slow test file: tests\browser\game.spec.mjs (5.1m)
+  Consider running tests from slow files in parallel. See: https://playwright.dev/docs/test-parallel
+  10 passed (5.2m)
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

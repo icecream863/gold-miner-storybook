@@ -1,0 +1,13 @@
+{
+  "candidate": "1.3.0+71cf23c3acf9",
+  "mode": "normal-clock-CUA-visible-controls-no-QA",
+  "money": 250,
+  "controls": {
+    "musicPercent": 20,
+    "effectsPercent": 70,
+    "settingsPauses": true
+  },
+  "consoleWarningsAndErrors": [],
+  "completeSixRounds": false,
+  "humanPlaytest": false
+}

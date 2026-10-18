@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "candidate": "1.3.0+fbcb125872ee",
+  "scope": "本地最终六关版+已确认动画；不含未授权推送/部署/公开新Session",
+  "checks": [
+    {
+      "requirement": "保留原六关、五商店及最终结算",
+      "pass": true,
+      "evidence": "integrated-delivery.json"
+    },
+    {
+      "requirement": "原模块和全部56资源不变；确认的动画源文件不变",
+      "pass": true,
+      "evidence": "integrated-preservation.json"
+    },
+    {
+      "requirement": "完整14场景含普通/减少动态真实像素变化、轻重回收、暂停重开、特殊物和音频",
+      "pass": true,
+      "evidence": "integrated-browser.log; integrated-animation.spec.mjs"
+    },
+    {
+      "requirement": "类型检查、58规则/单元测试、生产构建",
+      "pass": true,
+      "evidence": "integrated-build.log"
+    },
+    {
+      "requirement": "本机子路径18检查及当前77文件身份一致",
+      "pass": true,
+      "evidence": "integrated-identity.json; integrated-delivery.json"
+    },
+    {
+      "requirement": "正常时钟六关、真实音轨与30秒原速节选",
+      "pass": true,
+      "evidence": "integrated-recording.json; integrated-preview.log; integrated-audio.log"
+    },
+    {
+      "requirement": "当前候选10分钟与反复重开稳定",
+      "pass": true,
+      "evidence": "integrated-soak-final.json"
+    },
+    {
+      "requirement": "完整私有Session保留失败记录，摘要、脱敏与ZIP完整性检查",
+      "pass": true,
+      "evidence": "integrated-session-package.json; integrated-session-audit.json"
+    },
+    {
+      "requirement": "最终本地入口可用 http://127.0.0.1:4173/",
+      "pass": true,
+      "evidence": "http://127.0.0.1:4173/"
+    },
+    {
+      "requirement": "最终本地入口可用 http://127.0.0.1:4173/integrated-preview.webm",
+      "pass": true,
+      "evidence": "http://127.0.0.1:4173/integrated-preview.webm"
+    }
+  ],
+  "boundaries": [
+    "只读辅助瞄准与Agent操作不是提交者本人试玩",
+    "真实手机/Safari及主观听感未代填",
+    "私有Session有明确截止，封存后的工具结果与最终回复需以后追加导出"
+  ]
+}

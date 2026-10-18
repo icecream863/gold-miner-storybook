@@ -1,0 +1,144 @@
+
+> gold-miner-storybook@1.1.0 test:browser
+> npm run build && playwright test --grep 重开清理 --reporter=list
+
+
+> gold-miner-storybook@1.1.0 build
+> npm run typecheck && npm run test && vite build
+
+
+> gold-miner-storybook@1.1.0 typecheck
+> tsc --noEmit
+
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice
+
+> gold-miner-storybook@1.1.0 test
+> node --experimental-strip-types --test tests/*.test.ts
+
+PLAYABLE_ROUTE 力量药水，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":5835,"earned":3285,"misses":2},{"level":3,"money":9520,"earned":3835,"misses":2}]
+PLAYABLE_ROUTE 不购买商品，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":5985,"earned":3285,"misses":2},{"level":3,"money":9320,"earned":3335,"misses":2}]
+PLAYABLE_ROUTE 共振增幅器，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":5805,"earned":3285,"misses":2},{"level":3,"money":8960,"earned":3335,"misses":2}]
+PLAYABLE_ROUTE 普通采集，不抓水晶 [{"level":1,"money":2230,"earned":2230,"misses":0},{"level":2,"money":4660,"earned":2430,"misses":0},{"level":3,"money":7105,"earned":2445,"misses":0}]
+PLAYABLE_ROUTE 时间沙漏，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":5785,"earned":3285,"misses":2},{"level":3,"money":9420,"earned":3835,"misses":2}]
+PLAYABLE_ROUTE 抛光剂，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":6010,"earned":3330,"misses":2},{"level":3,"money":9370,"earned":3380,"misses":2}]
+PLAYABLE_ROUTE 购买全部五种商品，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":5380,"earned":3330,"misses":2},{"level":3,"money":8610,"earned":3880,"misses":2}]
+✔ 活动时钟保留长帧，排除暂停和商店停留，不受倒退采样污染 (3.5749ms)
+✔ 共振边界包含110，排除圈外、已取矿物和水晶，同距按ID选择最近两件 (3.9948ms)
+✔ 共振四项配置独立生效，零连带合法，非法配置拒绝创建 (2.3103ms)
+✔ 重复ID先去重再限额，整包只占用和结算一次 (3.4097ms)
+✔ 同深度连带石头收益略增但真实回收更慢，截止前可能整包损失 (2.1889ms)
+✔ 抓取快照不受后续矿物数据变化影响，重叠水晶不能重复带走已占用矿物 (1.4506ms)
+✔ 截止时到达不结算，截止前到达整包结算一次 (1.6529ms)
+✔ 普通矿物邻近水晶仍只抓一件，回收中重置清空旧采集与事件 (3.6331ms)
+✔ 整包原子抓取、求和值和重量、只在回收时发钱，不继续触发附近水晶 (1.9868ms)
+✔ 炸药销毁整包、暂停不改变包、到期不补发，重试恢复水晶 (1.9925ms)
+✔ 富裕入口也必须完成每关采集额，金额或采集任一不足都失败 (4.3943ms)
+✔ 30/60/144Hz 和一次长帧下，扫掠抓取与整包回收结果一致 (3.0126ms)
+✔ 所有水晶入口允许正负0.02弧度瞄准偏差，不会先碰到前景矿石 (1.2356ms)
+✔ 连续发射只接受一次；菜单和暂停不接受玩法输入 (0.2205ms)
+✔ 扫掠能抓住两端都在圆外的高速穿越，并处理切线、零位移与初始重叠 (0.4272ms)
+✔ 最近碰撞不依赖物品数组顺序，也不会抓到绳索两旁的物品 (0.7064ms)
+✔ 只有回到绞盘才入账，继续更新不会重复计分 (0.8018ms)
+✔ 空钩碰到边界后回收，不会越界或卡住 (0.3649ms)
+✔ 重量决定回收速度；力量只提升载物回收，空钩速度不变 (0.4106ms)
+✔ 炸药只在载物时消耗；销毁物品且不计钱；无法重复炸同一物品 (0.2452ms)
+✔ 暂停同时冻结金钱、位置与时间；恢复后接着运动 (0.4559ms)
+✔ 到期只结算一次，挂在绳上的矿物不补发金钱 (0.2724ms)
+✔ 只有达到门槛才能进入商店，余额不足不会扣款 (0.4546ms)
+✔ 购买每件限一次、跨关扣款；力量药水到下个商店失效 (0.2759ms)
+✔ 失败重试恢复本关入口快照，包括花过的道具和力量 (0.4676ms)
+✔ 30/60/144Hz 下摆动与倒计时一致，无效时间输入不污染状态 (2.5993ms)
+✔ 重新开始整局清空升级、购买和上局金钱 (0.9745ms)
+✔ 固定三关路线可通关（力量药水，每关预留两次空钩） (45.8775ms)
+✔ 固定三关路线可通关（不购买商品，每关预留两次空钩） (22.2712ms)
+✔ 固定三关路线可通关（共振增幅器，每关预留两次空钩） (27.5153ms)
+✔ 固定三关路线可通关（普通采集，不抓水晶） (144.0007ms)
+✔ 固定三关路线可通关（时间沙漏，每关预留两次空钩） (14.4017ms)
+✔ 固定三关路线可通关（抛光剂，每关预留两次空钩） (14.6988ms)
+✔ 固定三关路线可通关（购买全部五种商品，每关预留两次空钩） (21.3246ms)
+✔ 一枚炸药：余额不足、刚好足够、重复购买与非商店输入 (7.1453ms)
+✔ 力量药水：余额不足、刚好足够、重复购买与非商店输入 (0.6498ms)
+✔ 时间沙漏：余额不足、刚好足够、重复购买与非商店输入 (0.3347ms)
+✔ 矿石抛光剂：余额不足、刚好足够、重复购买与非商店输入 (0.6657ms)
+✔ 共振增幅器：余额不足、刚好足够、重复购买与非商店输入 (0.992ms)
+✔ 五商品配置具有独立图标和正价格，未知商品及原型名不能扣费 (1.2335ms)
+✔ 组合购买只扣各自价格，不改已通过的结果与采集额；每店每种限一次 (2.7612ms)
+✔ 沙漏失败重试恢复70秒且不重复加时，暂停不消耗；成功后清理强化 (6.4059ms)
+✔ 全部强化与炸药随失败入口恢复，关末清理强化，跨关保留剩余炸药 (1.1026ms)
+✔ 抛光只改变石头价值，重量与其他矿物不变；普通抓取实际只结算两倍 (2.5735ms)
+✔ 抛光和增幅联动整包快照：四件、真实总重量、单次结算、炸毁无收入 (4.5109ms)
+✔ 两次购物后的实际地图都有第三个候选，增幅不扩范围、不忽略重量 (1.3775ms)
+✔ 消费增加下一关所需收益，不回退已过关结果，也不绕过最低采集额 (0.8404ms)
+✔ 第三关通关不再开商店，不会出售无法生效的第四关强化 (0.6662ms)
+ℹ tests 48
+ℹ suites 0
+ℹ pass 48
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 760.6407
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 10 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.76 kB │ gzip:   0.52 kB
+dist/assets/index-DcEssBx-.css     14.47 kB │ gzip:   4.20 kB
+dist/assets/index-BRIDR7Yn.js   1,235.11 kB │ gzip: 334.64 kB
+
+✓ built in 1.78s
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice
+
+Running 1 test using 1 worker
+
+(node:27152) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 tests\browser\feel.spec.mjs:12:1 › 重开清理上局发射姿态，矿工保持在绞盘旁 (14.8s)
+
+
+  1) tests\browser\feel.spec.mjs:12:1 › 重开清理上局发射姿态，矿工保持在绞盘旁 ────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 506
+    Received:    306.96666666666647
+
+      21 |   const reset = await state(page);
+      22 |   await page.screenshot({ path: "output/playwright/stage4-restart.png" });
+    > 23 |   expect(reset.miner.x).toBeGreaterThanOrEqual(506);
+         |                         ^
+      24 |   expect(reset.miner.x).toBeLessThanOrEqual(512);
+      25 |   expect(reset.money).toBe(0);
+      26 |   expect(reset.bundle).toBeNull();
+        at F:\AgentWorkPlace\面试\gold-miner\tests\browser\feel.spec.mjs:23:25
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    output\browser-results\feel-重开清理上局发射姿态，矿工保持在绞盘旁\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: output\browser-results\feel-重开清理上局发射姿态，矿工保持在绞盘旁\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    output\browser-results\feel-重开清理上局发射姿态，矿工保持在绞盘旁\trace.zip
+    Usage:
+
+        npx playwright show-trace output\browser-results\feel-重开清理上局发射姿态，矿工保持在绞盘旁\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests\browser\feel.spec.mjs:12:1 › 重开清理上局发射姿态，矿工保持在绞盘旁 ─────────────────────────────────────────
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

@@ -1,0 +1,82 @@
+[
+  {
+    "file": "assets/classic/bag.svg",
+    "author": "本项目原创",
+    "source": "本项目程序绘制 SVG",
+    "license": "MIT",
+    "bytes": 431,
+    "sha256": "2b3acc54acd5c3d9bbd49b989b426e82e1e5fc940777471dba23216e30b2607e"
+  },
+  {
+    "file": "assets/classic/bone.svg",
+    "author": "本项目原创",
+    "source": "本项目程序绘制 SVG",
+    "license": "MIT",
+    "bytes": 258,
+    "sha256": "3114f8aa42d7a90086812444015757339c8b5253e4fcd00c928b243fdb850f69"
+  },
+  {
+    "file": "assets/classic/diamond.svg",
+    "author": "本项目原创",
+    "source": "本项目程序绘制 SVG",
+    "license": "MIT",
+    "bytes": 311,
+    "sha256": "26a668a0824c56d8b4d8d9354ae9b9f78468cddb6278323123e98308767251e1"
+  },
+  {
+    "file": "assets/classic/diamondMole.svg",
+    "author": "本项目原创",
+    "source": "本项目程序绘制 SVG",
+    "license": "MIT",
+    "bytes": 663,
+    "sha256": "00afcf3cc16837a6d37ec34d30c6b0e3c0ac3bcb191c48b4e23ed5271b65ff50"
+  },
+  {
+    "file": "assets/classic/gold.svg",
+    "author": "本项目原创",
+    "source": "本项目程序绘制 SVG",
+    "license": "MIT",
+    "bytes": 375,
+    "sha256": "d9096ab7d57d12547d35d66a9ea36e4427cbb73466d3e1d06416fa7f5f781c5a"
+  },
+  {
+    "file": "assets/classic/miner-body.svg",
+    "author": "本项目原创",
+    "source": "基于本项目原创 miner-original.svg 移除固定手臂，其余部位不复制商业素材",
+    "license": "MIT",
+    "bytes": 2407,
+    "sha256": "3f2f30c49520729dcde13784282d8a9abdc190d4b0e840c023e5fb8407afbcd8"
+  },
+  {
+    "file": "assets/classic/mole.svg",
+    "author": "本项目原创",
+    "source": "本项目程序绘制 SVG",
+    "license": "MIT",
+    "bytes": 456,
+    "sha256": "b675ca7ff2f5764fe51070ea90a2974469e2beec88ce29176c31c15bd857b022"
+  },
+  {
+    "file": "assets/classic/rock.svg",
+    "author": "本项目原创",
+    "source": "本项目程序绘制 SVG",
+    "license": "MIT",
+    "bytes": 317,
+    "sha256": "d108a08838c3b43d0c58bcf8cc5d1ebfbe82550702beff5ad74d74b4d4f23aa1"
+  },
+  {
+    "file": "assets/classic/skull.svg",
+    "author": "本项目原创",
+    "source": "本项目程序绘制 SVG",
+    "license": "MIT",
+    "bytes": 415,
+    "sha256": "de8bb5e0faec61976ad9b2077b922844ec5e17b19584c3f80cf01afdf69cdac6"
+  },
+  {
+    "file": "assets/classic/tnt.svg",
+    "author": "本项目原创",
+    "source": "本项目程序绘制 SVG",
+    "license": "MIT",
+    "bytes": 491,
+    "sha256": "eadfd3928e8631764096fb33637838871649a0015097c649fd85c102427d87eb"
+  }
+]

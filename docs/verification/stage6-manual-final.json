@@ -1,0 +1,7 @@
+{
+  "observedAt": "2026-10-16T18:30:41.319Z",
+  "url": "http://127.0.0.1:4173/",
+  "interface": "Browser tab: 4, Title: \"黄金矿工 · 矿山手记\", URL: \"http://127.0.0.1:4173/\".\n1 AXWebArea 黄金矿工 · 矿山手记, URL: 127.0.0.1:4173/\n\t2 container\n\t\t3 image\n\t\t4 heading 黄金矿工 · 矿山手记, Value: 1\n\t\t\t5 text 黄金矿工 · 矿山手记\n\t\t6 text THE MINER’S JOURNAL · 矿山手记\n\t\t7 text 三段旅程，一钩好运\n\t\t8 container 黄金矿工游戏\n\t\t\t9 container Description: 矿洞游戏区域，按空格或方向下出钩, ID: game\n\t\t\t\t10 image\n\t\t11 text Space / ↓ 出钩 ↑ 炸掉所抓物品 P 暂停 也可点击矿洞出钩\n\t\t12 button 玩法手记 ↗\n\t\t13 text 愿每一次出钩，都有满载而归的惊喜。\n\t\t14 button 素材鸣谢\n\t\t15 link Description: AI 协作记录 ↗, Value: 127.0.0.1:4173/session/\n\t\t16 link Description: 工程源码 ↗, Value: github.com/icecream863/gold-miner-storybook\n\t\t17 container\n\t\t\t18 text EVERY JOURNEY HAS ITS TREASURE\n\t\t\t19 heading 满载星光，回家吧, Value: 2\n\t\t\t\t20 text 满载星光，回家吧\n\t\t\t21 text 三段矿山旅程，已全部完成。\n\t\t\t22 text 带回的每一组星光，都是你的判断。 我的金库 / $4,800 $5,190 本关采集 / $2,200 $2,450\n\t\t\t23 button 返回首页\n\t\t\t24 button 再寻一次金 →\n\nThe focused UI element is 1 AXWebArea 黄金矿工 · 矿山手记, URL: 127.0.0.1:4173/",
+  "errors": [],
+  "screenshot": "docs/screenshots/stage6-manual-complete.jpg"
+}

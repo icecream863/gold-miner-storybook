@@ -1,0 +1,296 @@
+{
+  "passed": true,
+  "mode": "normal-clock-10-minute-soak",
+  "durationMs": 603040,
+  "cycles": 52,
+  "baselineObjects": 21,
+  "samples": [
+    {
+      "seconds": 0,
+      "phase": "menu",
+      "objects": 21,
+      "effects": 0,
+      "voices": 0,
+      "music": {
+        "state": "playing",
+        "sources": 1,
+        "offset": 0.05866666666666731,
+        "duration": 123.26,
+        "error": false
+      }
+    },
+    {
+      "seconds": 30.1,
+      "phase": "menu",
+      "objects": 21,
+      "effects": 0,
+      "voices": 0,
+      "music": {
+        "state": "playing",
+        "sources": 1,
+        "offset": 30.13866666666665,
+        "duration": 123.26,
+        "error": false
+      }
+    },
+    {
+      "seconds": 60.2,
+      "phase": "menu",
+      "objects": 21,
+      "effects": 0,
+      "voices": 0,
+      "music": {
+        "state": "playing",
+        "sources": 1,
+        "offset": 60.239999999999995,
+        "duration": 123.26,
+        "error": false
+      }
+    },
+    {
+      "seconds": 90.3,
+      "phase": "menu",
+      "objects": 21,
+      "effects": 0,
+      "voices": 0,
+      "music": {
+        "state": "playing",
+        "sources": 1,
+        "offset": 90.36,
+        "duration": 123.26,
+        "error": false
+      }
+    },
+    {
+      "seconds": 120.5,
+      "phase": "menu",
+      "objects": 21,
+      "effects": 0,
+      "voices": 0,
+      "music": {
+        "state": "playing",
+        "sources": 1,
+        "offset": 120.48799999999999,
+        "duration": 123.26,
+        "error": false
+      }
+    },
+    {
+      "seconds": 156.7,
+      "phase": "menu",
+      "objects": 21,
+      "effects": 0,
+      "voices": 0,
+      "music": {
+        "state": "playing",
+        "sources": 1,
+        "offset": 30.113333333333358,
+        "duration": 123.26,
+        "error": false
+      }
+    },
+    {
+      "seconds": 188.7,
+      "phase": "menu",
+      "objects": 21,
+      "effects": 0,
+      "voices": 0,
+      "music": {
+        "state": "playing",
+        "sources": 1,
+        "offset": 56.92666666666666,
+        "duration": 123.26,
+        "error": false
+      }
+    },
+    {
+      "seconds": 217.9,
+      "phase": "menu",
+      "objects": 21,
+      "effects": 0,
+      "voices": 0,
+      "music": {
+        "state": "playing",
+        "sources": 1,
+        "offset": 81.59866666666663,
+        "duration": 123.26,
+        "error": false
+      }
+    },
+    {
+      "seconds": 246.1,
+      "phase": "menu",
+      "objects": 21,
+      "effects": 0,
+      "voices": 0,
+      "music": {
+        "state": "playing",
+        "sources": 1,
+        "offset": 106.14000000000003,
+        "duration": 123.26,
+        "error": false
+      }
+    },
+    {
+      "seconds": 272.2,
+      "phase": "menu",
+      "objects": 21,
+      "effects": 0,
+      "voices": 0,
+      "music": {
+        "state": "playing",
+        "sources": 1,
+        "offset": 6.050666666666743,
+        "duration": 123.26,
+        "error": false
+      }
+    },
+    {
+      "seconds": 305.9,
+      "phase": "menu",
+      "objects": 21,
+      "effects": 0,
+      "voices": 0,
+      "music": {
+        "state": "playing",
+        "sources": 1,
+        "offset": 36.73333333333339,
+        "duration": 123.26,
+        "error": false
+      }
+    },
+    {
+      "seconds": 331.1,
+      "phase": "menu",
+      "objects": 21,
+      "effects": 0,
+      "voices": 0,
+      "music": {
+        "state": "playing",
+        "sources": 1,
+        "offset": 59.69600000000001,
+        "duration": 123.26,
+        "error": false
+      }
+    },
+    {
+      "seconds": 364.9,
+      "phase": "menu",
+      "objects": 21,
+      "effects": 0,
+      "voices": 0,
+      "music": {
+        "state": "playing",
+        "sources": 1,
+        "offset": 90.2853333333333,
+        "duration": 123.26,
+        "error": false
+      }
+    },
+    {
+      "seconds": 390.5,
+      "phase": "menu",
+      "objects": 21,
+      "effects": 0,
+      "voices": 0,
+      "music": {
+        "state": "playing",
+        "sources": 1,
+        "offset": 113.45866666666659,
+        "duration": 123.26,
+        "error": false
+      }
+    },
+    {
+      "seconds": 424.1,
+      "phase": "menu",
+      "objects": 21,
+      "effects": 0,
+      "voices": 0,
+      "music": {
+        "state": "playing",
+        "sources": 1,
+        "offset": 20.72399999999986,
+        "duration": 123.26,
+        "error": false
+      }
+    },
+    {
+      "seconds": 451.1,
+      "phase": "menu",
+      "objects": 21,
+      "effects": 0,
+      "voices": 0,
+      "music": {
+        "state": "playing",
+        "sources": 1,
+        "offset": 44.66533333333318,
+        "duration": 123.26,
+        "error": false
+      }
+    },
+    {
+      "seconds": 486.1,
+      "phase": "menu",
+      "objects": 21,
+      "effects": 0,
+      "voices": 0,
+      "music": {
+        "state": "playing",
+        "sources": 1,
+        "offset": 75.93466666666647,
+        "duration": 123.26,
+        "error": false
+      }
+    },
+    {
+      "seconds": 512.7,
+      "phase": "menu",
+      "objects": 21,
+      "effects": 0,
+      "voices": 0,
+      "music": {
+        "state": "playing",
+        "sources": 1,
+        "offset": 99.53999999999984,
+        "duration": 123.26,
+        "error": false
+      }
+    },
+    {
+      "seconds": 548.8,
+      "phase": "menu",
+      "objects": 21,
+      "effects": 0,
+      "voices": 0,
+      "music": {
+        "state": "playing",
+        "sources": 1,
+        "offset": 7.882666666666736,
+        "duration": 123.26,
+        "error": false
+      }
+    },
+    {
+      "seconds": 575.5,
+      "phase": "menu",
+      "objects": 21,
+      "effects": 0,
+      "voices": 0,
+      "music": {
+        "state": "playing",
+        "sources": 1,
+        "offset": 31.346666666666565,
+        "duration": 123.26,
+        "error": false
+      }
+    }
+  ],
+  "frames": {
+    "count": 35999,
+    "mean": 7.077604933470373,
+    "p95": 17,
+    "p99": 25.100000000093132
+  },
+  "errors": []
+}

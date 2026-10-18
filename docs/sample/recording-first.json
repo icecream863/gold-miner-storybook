@@ -1,0 +1,92 @@
+{
+  "mode": "正常时钟、只读状态辅助瞄准、真实按键；未剪辑加速，非人类试玩",
+  "videoSeconds": 26.76,
+  "gameplaySeconds": 25.242,
+  "audioSeconds": 25.01,
+  "audioOffsetSeconds": 1.703,
+  "bytes": 3612879,
+  "actions": [
+    {
+      "action": "empty",
+      "seconds": 3.889
+    },
+    {
+      "action": "light-gold",
+      "seconds": 9.318,
+      "money": 250,
+      "frame": {
+        "sheet": "poses",
+        "frame": 6,
+        "action": "deposit"
+      },
+      "audio": {
+        "settings": {
+          "musicEnabled": false,
+          "effectsEnabled": true,
+          "musicVolume": 0.2,
+          "effectsVolume": 0.7,
+          "muted": false
+        },
+        "voices": 1,
+        "loopSources": 0,
+        "ready": true,
+        "error": false,
+        "musicPlaying": false
+      }
+    },
+    {
+      "action": "pause-resume",
+      "seconds": 10.178
+    },
+    {
+      "action": "heavy-rock",
+      "seconds": 18.551,
+      "money": 265,
+      "frame": {
+        "sheet": "poses",
+        "frame": 5,
+        "action": "deposit"
+      },
+      "audio": {
+        "settings": {
+          "musicEnabled": false,
+          "effectsEnabled": true,
+          "musicVolume": 0.2,
+          "effectsVolume": 0.7,
+          "muted": false
+        },
+        "voices": 1,
+        "loopSources": 0,
+        "ready": true,
+        "error": false,
+        "musicPlaying": false
+      }
+    },
+    {
+      "action": "large-gold",
+      "seconds": 24.084,
+      "money": 765,
+      "frame": {
+        "sheet": "poses",
+        "frame": 5,
+        "action": "deposit"
+      },
+      "audio": {
+        "settings": {
+          "musicEnabled": false,
+          "effectsEnabled": true,
+          "musicVolume": 0.2,
+          "effectsVolume": 0.7,
+          "muted": false
+        },
+        "voices": 1,
+        "loopSources": 0,
+        "ready": true,
+        "error": false,
+        "musicPlaying": false
+      }
+    }
+  ],
+  "finalMoney": 765,
+  "errors": []
+}

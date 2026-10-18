@@ -1,0 +1,28 @@
+{
+  "candidate": "vector-correction+abdf09ab6ec2",
+  "builtAt": "2026-10-17T17:05:29.690Z",
+  "sources": {
+    "sample.html": "70c051c36519ce5bda96047544aea22eb21d9ff5eef95c6b662d5506e8ab5fc4",
+    "vite.sample.config.mjs": "650feb159cd0ed8b77b2ae60804c16523468d301f17919a2ed40ddc8565cc9b8",
+    "src/sample/main.ts": "696a86b6afab2209d4ba5cc2e94827c21e4a7cd1aa0a9f2d149c7930fb27c2e3",
+    "src/sample/art.ts": "8f388935ed6af01a03269ee3555029b182afe6bb1e8060aee4f2c6bb181b3cc9",
+    "src/sample/motion.ts": "07993197b9ca3871126e19dc61723826c843865594d80cb201bb69d9b52bdded",
+    "src/sample/audio.ts": "3fc6da5d337aa51e1af7137c06638f2064924678bd76ce4ce5aaca454c41d7d4",
+    "src/sample/model.ts": "325daf1fa5a8f04e2d60eb4f85c82d2a33ef48f5279bd6c91d0846f8271fe6ae",
+    "src/sample/style.css": "96c37b203a8d6f9b2e9ef8b8049d2a8dd80332fcc528fa617d897366a6560d5b",
+    "src/core/model.ts": "bc11fb65a0473b58ccdbb712df02815ed61fb8f6826c2e1ae4dc9bb83ebeb098",
+    "src/core/shop.ts": "55cac590cebbfa329b2d8cdef4de7b68da7803ec9a1675c3589461d4646f74bb",
+    "src/core/clock.ts": "7d07484be60c48529e343d3033aabf42ad344e148c64c3e18e3224046a0be631",
+    "public/assets/audio/launch.ogg": "eb45e35b4bed784d3f120de4afec4b0d6ac09d9e143cce8cfcb7d739e1b1f3c3",
+    "public/assets/audio/grab.ogg": "25a96f90a9a1f88a531e824e126f0519504625e5635e65a72e4f31611428db29",
+    "public/assets/audio/bank.ogg": "94b8bb5f2d43ab65e4bcc32b28562416e9bc2c51d9fd4be1e333660ee52f977f",
+    "public/assets/audio/reel.ogg": "adcd1f4adc35f1b41bc1b5bbefeff7aa44f2f3f0d96d3199b544140c7c1e761c",
+    "public/assets/audio/western.mp3": "0b1c9a7e1237acd6ae6f2dfec8aa4f03fabf8a756687c394b7401b26934f38e5"
+  },
+  "preservedModulesMatch": false,
+  "preservedNonSceneModulesMatch": true,
+  "integratedSceneChanges": [
+    "src/main.ts"
+  ],
+  "scope": "第一关样片保留；六关入口按用户要求接入同一动画，规则/商店/音频/样式未改；未发布"
+}

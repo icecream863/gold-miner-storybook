@@ -1,0 +1,74 @@
+{
+  "checkedTextFiles": 116,
+  "excludedHistoricalPublicSessionFiles": 53,
+  "results": [
+    {
+      "file": "docs/verification/demo-upgrade-first-attempt.log",
+      "credential": 0,
+      "userDirectory": 0,
+      "email": 0,
+      "absoluteWorkspace": 1
+    },
+    {
+      "file": "docs/verification/stage3-browser-first-attempt.log",
+      "credential": 0,
+      "userDirectory": 0,
+      "email": 0,
+      "absoluteWorkspace": 3
+    },
+    {
+      "file": "docs/verification/stage3-browser.log",
+      "credential": 0,
+      "userDirectory": 0,
+      "email": 0,
+      "absoluteWorkspace": 3
+    },
+    {
+      "file": "docs/verification/stage4-baseline.log",
+      "credential": 0,
+      "userDirectory": 0,
+      "email": 0,
+      "absoluteWorkspace": 1
+    },
+    {
+      "file": "docs/verification/stage4-browser-final.log",
+      "credential": 0,
+      "userDirectory": 0,
+      "email": 0,
+      "absoluteWorkspace": 1
+    },
+    {
+      "file": "docs/verification/stage4-browser-first-attempt.log",
+      "credential": 0,
+      "userDirectory": 0,
+      "email": 0,
+      "absoluteWorkspace": 1
+    },
+    {
+      "file": "docs/verification/stage4-build-first-attempt.log",
+      "credential": 0,
+      "userDirectory": 0,
+      "email": 0,
+      "absoluteWorkspace": 1
+    },
+    {
+      "file": "docs/verification/stage4-build.log",
+      "credential": 0,
+      "userDirectory": 0,
+      "email": 0,
+      "absoluteWorkspace": 1
+    },
+    {
+      "file": "tests/session-export.test.ts",
+      "credential": 0,
+      "userDirectory": 1,
+      "email": 0,
+      "absoluteWorkspace": 1
+    }
+  ],
+  "notes": [
+    "不输出匹配值；测试使用保留示例域，历史日志可能保留工程路径。",
+    "忽略的本机原始记录不进入工程交付；public/session历史文件须在获授权后整体换为审阅候选。",
+    "正则扫描不是完整隐私保证。"
+  ]
+}

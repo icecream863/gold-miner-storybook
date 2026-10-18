@@ -1,0 +1,110 @@
+录像：开始
+录像：空钩完成
+录像：light-gold $250
+录像：heavy-rock $265
+录像：large-gold $765
+{
+  "candidate": "first-level-sample+b5ac5d51ebf7",
+  "mode": "正常时钟、只读状态辅助瞄准、真实按键；未剪辑加速，非人类试玩",
+  "videoSeconds": 27.08,
+  "gameplaySeconds": 25.694,
+  "audioSeconds": 25.38,
+  "audioOffsetSeconds": 1.6499999999999992,
+  "syncMethod": "按媒体结束位置估算延迟，非逐帧同步校准",
+  "bytes": 3629386,
+  "actions": [
+    {
+      "action": "empty",
+      "seconds": 3.867,
+      "extendSeconds": 1.209,
+      "returnSeconds": 1.103
+    },
+    {
+      "action": "light-gold",
+      "seconds": 9.18,
+      "extendSeconds": 0.379,
+      "returnSeconds": 1.493,
+      "money": 250,
+      "frame": {
+        "sheet": "poses",
+        "frame": 5,
+        "phase": 0,
+        "action": "deposit"
+      },
+      "audio": {
+        "settings": {
+          "musicEnabled": false,
+          "effectsEnabled": true,
+          "musicVolume": 0.2,
+          "effectsVolume": 0.7,
+          "muted": false
+        },
+        "voices": 1,
+        "loopSources": 0,
+        "ready": true,
+        "error": false,
+        "musicPlaying": false
+      }
+    },
+    {
+      "action": "pause-resume",
+      "seconds": 9.985
+    },
+    {
+      "action": "heavy-rock",
+      "seconds": 18.565,
+      "extendSeconds": 0.748,
+      "returnSeconds": 6.157,
+      "money": 265,
+      "frame": {
+        "sheet": "poses",
+        "frame": 5,
+        "phase": 0,
+        "action": "deposit"
+      },
+      "audio": {
+        "settings": {
+          "musicEnabled": false,
+          "effectsEnabled": true,
+          "musicVolume": 0.2,
+          "effectsVolume": 0.7,
+          "muted": false
+        },
+        "voices": 1,
+        "loopSources": 0,
+        "ready": true,
+        "error": false,
+        "musicPlaying": false
+      }
+    },
+    {
+      "action": "large-gold",
+      "seconds": 24.404,
+      "extendSeconds": 0.673,
+      "returnSeconds": 3.931,
+      "money": 765,
+      "frame": {
+        "sheet": "poses",
+        "frame": 5,
+        "phase": 0,
+        "action": "deposit"
+      },
+      "audio": {
+        "settings": {
+          "musicEnabled": false,
+          "effectsEnabled": true,
+          "musicVolume": 0.2,
+          "effectsVolume": 0.7,
+          "muted": false
+        },
+        "voices": 2,
+        "loopSources": 0,
+        "ready": true,
+        "error": false,
+        "musicPlaying": false
+      }
+    }
+  ],
+  "finalMoney": 765,
+  "errors": []
+}

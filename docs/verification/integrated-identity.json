@@ -1,0 +1,318 @@
+{
+  "passed": true,
+  "candidate": "1.3.0+fbcb125872ee",
+  "sourceAndBundleFiles": 77,
+  "subpathDeliveryChecks": 18,
+  "errors": [],
+  "badResponses": [],
+  "checks": [
+    {
+      "file": "index.html",
+      "unchanged": true
+    },
+    {
+      "file": "package-lock.json",
+      "unchanged": true
+    },
+    {
+      "file": "package.json",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/art/amber.png",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/art/cave-hill.png",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/art/cave-wall.png",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/art/diamond.png",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/art/ground.png",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/art/miner-original.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/art/mountains.png",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/art/ore.png",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/art/rock.png",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/art/ruby.png",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/audio/bank.ogg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/audio/bomb.ogg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/audio/buy.ogg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/audio/grab.ogg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/audio/heavy.ogg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/audio/launch.ogg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/audio/ready.ogg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/audio/reel.ogg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/audio/western.mp3",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/audio/western.ogg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/bag.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/bone.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/diamond.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/diamondMole.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/gold.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/icon-music.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/icon-mute.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/icon-pause.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/icon-settings.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/icon-volume.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/miner-body.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/miner-head-effort.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/miner-head-happy.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/miner-head-neutral.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/miner-head-sad.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/mole.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/rock.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/shop-bomb.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/shop-diamondPolish.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/shop-lucky.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/shop-rockBook.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/shop-strength.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/skull.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/classic/tnt.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/favicon.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/sample/audio/bank.ogg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/sample/audio/grab.ogg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/sample/audio/launch.ogg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/sample/audio/winch.ogg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/sample/miner-heavy.png",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/sample/miner-light.png",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/sample/miner-poses.png",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/ui/button_brown.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/ui/panel_brown_corners_a.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/ui/panel_brown_dark.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/ui/panel_grey_bolts.svg",
+      "unchanged": true
+    },
+    {
+      "file": "src/approved-miner.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/audio.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/core/clock.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/core/model.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/core/shop.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/main.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/presentation.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/sample/art.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/sample/audio.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/sample/main.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/sample/model.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/sample/motion.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/sample/style.css",
+      "unchanged": true
+    },
+    {
+      "file": "src/style.css",
+      "unchanged": true
+    },
+    {
+      "file": "src/vite-env.d.ts",
+      "unchanged": true
+    },
+    {
+      "file": "vite.config.mjs",
+      "unchanged": true
+    },
+    {
+      "file": "dist/assets/index-9MfjaKVR.js",
+      "unchanged": true
+    },
+    {
+      "file": "dist/assets/index-C7FbW9Ga.css",
+      "unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "scope": "2026-10-16/17 本工作区 Session 元数据；未读取其他工程对话正文",
+  "sessions": [
+    {
+      "file": "rollout-2026-10-16T15-01-36-01a14384-25f4-7f80-b60e-4955c209ba82.jsonl",
+      "id": "01a14384-25f4-7f80-b60e-4955c209ba82",
+      "cwd": "%WORKSPACE%",
+      "source": "vscode",
+      "originator": "codex_work_desktop"
+    },
+    {
+      "file": "rollout-2026-10-16T15-02-16-01a14384-c34e-7bb0-8749-d1917b3e5b2a.jsonl",
+      "id": "01a14384-c34e-7bb0-8749-d1917b3e5b2a",
+      "cwd": "%WORKSPACE%",
+      "source": "vscode",
+      "originator": "codex_work_desktop"
+    },
+    {
+      "file": "rollout-2026-10-16T15-37-38-01a143a5-21f5-7701-bd83-dd5d73586317.jsonl",
+      "id": "01a143a5-21f5-7701-bd83-dd5d73586317",
+      "cwd": "%WORKSPACE%",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "originator": "codex_work_desktop"
+    },
+    {
+      "file": "rollout-2026-10-16T19-49-05-01a1448b-58c2-7293-ae99-95d2e23d4e65.jsonl",
+      "id": "01a1448b-58c2-7293-ae99-95d2e23d4e65",
+      "cwd": "%WORKSPACE%",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "originator": "codex_work_desktop"
+    },
+    {
+      "file": "rollout-2026-10-16T23-42-51-01a14561-5daf-75f1-b038-272ff4e97ca1.jsonl",
+      "id": "01a14561-5daf-75f1-b038-272ff4e97ca1",
+      "cwd": "%WORKSPACE%",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "originator": "codex_work_desktop"
+    },
+    {
+      "file": "rollout-2026-10-17T00-08-35-01a14578-ef31-7540-a63d-835458d140d8.jsonl",
+      "id": "01a14578-ef31-7540-a63d-835458d140d8",
+      "cwd": "%WORKSPACE%",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "originator": "codex_work_desktop"
+    },
+    {
+      "file": "rollout-2026-10-17T01-24-37-01a145be-887c-7ec2-adc9-4e9f8f3cfb59.jsonl",
+      "id": "01a145be-887c-7ec2-adc9-4e9f8f3cfb59",
+      "cwd": "%WORKSPACE%",
+      "source": {
+        "subagent": {
+          "other": "guardian"
+        }
+      },
+      "originator": "codex_work_desktop"
+    }
+  ]
+}

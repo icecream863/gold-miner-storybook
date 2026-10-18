@@ -1,0 +1,43 @@
+{
+  "mode": "normal-clock-readonly-qa-assisted-script",
+  "complete": true,
+  "route": [
+    {
+      "level": 1,
+      "money": 750,
+      "remaining": 48.66359999999925,
+      "shots": 2
+    },
+    {
+      "level": 2,
+      "money": 2270,
+      "remaining": 51.80099999999894,
+      "shots": 2
+    },
+    {
+      "level": 3,
+      "money": 3725,
+      "remaining": 49.15229999999964,
+      "shots": 3
+    },
+    {
+      "level": 4,
+      "money": 5770,
+      "remaining": 47.67829999999886,
+      "shots": 3
+    },
+    {
+      "level": 5,
+      "money": 8300,
+      "remaining": 50.39440000000001,
+      "shots": 3
+    },
+    {
+      "level": 6,
+      "money": 11835,
+      "remaining": 49.578299999999736,
+      "shots": 4
+    }
+  ],
+  "errors": []
+}

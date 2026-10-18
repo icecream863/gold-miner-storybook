@@ -1,0 +1,579 @@
+{
+  "base": "f536181897e1115b82c4482c7df714d6468e7f19",
+  "uncommitted": true,
+  "diffCheck": true,
+  "privateSessionIgnored": true,
+  "ready": 142,
+  "deferredHistoricalSession": 40,
+  "files": [
+    {
+      "status": " M",
+      "file": ".github/workflows/deploy.yml"
+    },
+    {
+      "status": " M",
+      "file": "README.md"
+    },
+    {
+      "status": " M",
+      "file": "docs/ASSETS.md"
+    },
+    {
+      "status": " M",
+      "file": "docs/EXPLAINING-THE-PROJECT.md"
+    },
+    {
+      "status": " M",
+      "file": "docs/SUBMISSION.md"
+    },
+    {
+      "status": " M",
+      "file": "docs/VERIFICATION.md"
+    },
+    {
+      "status": " M",
+      "file": "docs/screenshots/complete.png"
+    },
+    {
+      "status": " M",
+      "file": "docs/screenshots/desktop-menu.png"
+    },
+    {
+      "status": " M",
+      "file": "docs/screenshots/desktop-playing.png"
+    },
+    {
+      "status": " M",
+      "file": "docs/screenshots/mobile-landscape.png"
+    },
+    {
+      "status": " M",
+      "file": "docs/screenshots/shop.png"
+    },
+    {
+      "status": " M",
+      "file": "index.html"
+    },
+    {
+      "status": " M",
+      "file": "package-lock.json"
+    },
+    {
+      "status": " M",
+      "file": "package.json"
+    },
+    {
+      "status": " M",
+      "file": "public/assets/art/miner-original.svg"
+    },
+    {
+      "status": " M",
+      "file": "public/demo.webm"
+    },
+    {
+      "status": " M",
+      "file": "scripts/browser-checks.mjs"
+    },
+    {
+      "status": " M",
+      "file": "scripts/browser-online.mjs"
+    },
+    {
+      "status": " M",
+      "file": "scripts/browser-playthrough.mjs"
+    },
+    {
+      "status": " M",
+      "file": "scripts/export-session.mjs"
+    },
+    {
+      "status": " M",
+      "file": "src/audio.ts"
+    },
+    {
+      "status": " M",
+      "file": "src/core/model.ts"
+    },
+    {
+      "status": " M",
+      "file": "src/main.ts"
+    },
+    {
+      "status": " M",
+      "file": "src/style.css"
+    },
+    {
+      "status": " M",
+      "file": "src/tokens.css"
+    },
+    {
+      "status": " M",
+      "file": "tests/model.test.ts"
+    },
+    {
+      "status": "??",
+      "file": "docs/PLAYTEST.md"
+    },
+    {
+      "status": "??",
+      "file": "docs/STAGE2-RESONANCE.md"
+    },
+    {
+      "status": "??",
+      "file": "docs/STAGE3-SHOP.md"
+    },
+    {
+      "status": "??",
+      "file": "docs/STAGE4-FEEL.md"
+    },
+    {
+      "status": "??",
+      "file": "docs/STAGE5-VISUAL.md"
+    },
+    {
+      "status": "??",
+      "file": "docs/STAGE6-QA.md"
+    },
+    {
+      "status": "??",
+      "file": "docs/STAGE7-DELIVERY.md"
+    },
+    {
+      "status": "??",
+      "file": "docs/licenses/Glitch-items-README.md"
+    },
+    {
+      "status": "??",
+      "file": "docs/licenses/Glitch-locations-README.md"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/level-2.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/level-3.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/loading-recovery.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/mobile-320-playing.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/mobile-playing.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/resonance-catch.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/resonance-preview.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/shop-mobile.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage2-carry.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage3-amplified-catch.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage3-final-catch.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage3-final-mobile.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage3-final-shop.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage3-shop-bottom.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage3-shop-mobile.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage3-shop.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage4-bank.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage4-resonance.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage4-restart-after.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage4-restart-before.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage5-catch.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage5-complete.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage5-failed.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage5-landscape.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage5-menu-after.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage5-menu-before.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage5-playing-after.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage5-playing-before.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage5-portrait.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage5-shop-after.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage5-shop-before.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage6-automatic-complete.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage6-heavy.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage6-manual-complete.jpg"
+    },
+    {
+      "status": "??",
+      "file": "docs/screenshots/stage6-shop.png"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/browser-final-layout.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/browser-touch-shop.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/browser-upgrade.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/build-upgrade.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/delivery-upgrade.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/demo-upgrade-first-attempt.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/demo-upgrade-layout-review.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/demo-upgrade.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage2-final.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage3-browser-final.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage3-browser-first-attempt.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage3-browser.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage3-current-recheck.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage3-price-final.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage3-price-unit.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage3-shop-final.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage4-baseline.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage4-browser-final.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage4-browser-first-attempt.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage4-build-first-attempt.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage4-build.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage4-feel.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage4-followup.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage4-frame-sample.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage5-assets.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage5-browser.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage5-layout.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage5-scene-build.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage5-screenshot-final.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage5-ui-build.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage6-balance-final.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage6-balance-first.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage6-browser.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage6-candidate.json"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage6-manual-final.json"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage7-clean-build-final.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage7-clean-build.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage7-clean-install.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage7-demo-metadata.json"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage7-demo.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage7-local-delivery-final.json"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage7-local-delivery-final.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage7-local-delivery-first.json"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage7-local-delivery-first.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage7-local-delivery.json"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage7-local-delivery.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage7-review-package.json"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage7-session-final-tests.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage7-session-offline.json"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage7-session-scope.json"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage7-session-tests.log"
+    },
+    {
+      "status": "??",
+      "file": "docs/verification/stage7-source-audit.json"
+    },
+    {
+      "status": "??",
+      "file": "playwright.config.mjs"
+    },
+    {
+      "status": "??",
+      "file": "scripts/audit-session.mjs"
+    },
+    {
+      "status": "??",
+      "file": "scripts/record-demo.mjs"
+    },
+    {
+      "status": "??",
+      "file": "scripts/session-utils.mjs"
+    },
+    {
+      "status": "??",
+      "file": "scripts/verify-delivery.mjs"
+    },
+    {
+      "status": "??",
+      "file": "scripts/write-build-info.mjs"
+    },
+    {
+      "status": "??",
+      "file": "src/art.ts"
+    },
+    {
+      "status": "??",
+      "file": "src/core/clock.ts"
+    },
+    {
+      "status": "??",
+      "file": "src/core/shop.ts"
+    },
+    {
+      "status": "??",
+      "file": "src/presentation.ts"
+    },
+    {
+      "status": "??",
+      "file": "tests/art.test.ts"
+    },
+    {
+      "status": "??",
+      "file": "tests/audio.test.ts"
+    },
+    {
+      "status": "??",
+      "file": "tests/balance.test.ts"
+    },
+    {
+      "status": "??",
+      "file": "tests/browser/feel.spec.mjs"
+    },
+    {
+      "status": "??",
+      "file": "tests/browser/fixtures.mjs"
+    },
+    {
+      "status": "??",
+      "file": "tests/browser/game.spec.mjs"
+    },
+    {
+      "status": "??",
+      "file": "tests/browser/visual.spec.mjs"
+    },
+    {
+      "status": "??",
+      "file": "tests/presentation.test.ts"
+    },
+    {
+      "status": "??",
+      "file": "tests/session-export.test.ts"
+    },
+    {
+      "status": "??",
+      "file": "tests/shop.test.ts"
+    }
+  ],
+  "sessionPolicy": "public/session历史差异暂不提交；获准后整体换为最终脱敏候选。原始快照不提交。"
+}

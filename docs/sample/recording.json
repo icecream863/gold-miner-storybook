@@ -1,0 +1,210 @@
+{
+  "candidate": "vector-correction+abdf09ab6ec2",
+  "mode": "减少动态开启、正常时钟、只读状态辅助瞄准、真实按键；未剪辑加速，非人类试玩",
+  "videoSeconds": 26.6,
+  "gameplaySeconds": 25.224,
+  "audioSeconds": 24.99,
+  "audioOffsetSeconds": 1.565000000000003,
+  "syncMethod": "按媒体结束位置估算延迟，非逐帧同步校准",
+  "bytes": 3364101,
+  "actions": [
+    {
+      "action": "empty",
+      "seconds": 3.871,
+      "extendSeconds": 1.201,
+      "returnSeconds": 1.099
+    },
+    {
+      "action": "light-gold",
+      "seconds": 9.227,
+      "extendSeconds": 0.364,
+      "returnSeconds": 1.488,
+      "money": 250,
+      "frame": {
+        "action": "deposit",
+        "frame": 4,
+        "phase": 4.167810442737572,
+        "angle": 22.122946588653555,
+        "drum": 8.708311849403572e-16,
+        "grip": 1,
+        "lean": -0.03075180314842112,
+        "shoulder": {
+          "x": 658.5950959889509,
+          "y": 120.63668790445547
+        },
+        "elbow": {
+          "x": 621.1992500957446,
+          "y": 143.8218277559112
+        },
+        "hand": {
+          "x": 567.1994742364163,
+          "y": 143.97741420234982
+        },
+        "knob": {
+          "x": 567.1994742364163,
+          "y": 143.97741420234982
+        },
+        "support": {
+          "x": 699.3448579243943,
+          "y": 144.39498965783628
+        },
+        "backShoulder": {
+          "x": 678.6163869567243,
+          "y": 121.02127597467356
+        },
+        "backElbow": {
+          "x": 702.1943727190704,
+          "y": 116.54036229657149
+        },
+        "blink": false,
+        "lift": 0.4499871131070618,
+        "reduced": true
+      },
+      "audio": {
+        "settings": {
+          "musicEnabled": false,
+          "effectsEnabled": true,
+          "musicVolume": 0.2,
+          "effectsVolume": 0.7,
+          "muted": false
+        },
+        "voices": 4,
+        "loopSources": 0,
+        "reelActive": false,
+        "ready": true,
+        "error": false,
+        "musicPlaying": false
+      }
+    },
+    {
+      "action": "pause-resume",
+      "seconds": 9.984
+    },
+    {
+      "action": "heavy-rock",
+      "seconds": 18.491,
+      "extendSeconds": 0.725,
+      "returnSeconds": 6.14,
+      "money": 265,
+      "frame": {
+        "action": "deposit",
+        "frame": 6,
+        "phase": 6.373027871334443,
+        "angle": 42.70447622850434,
+        "drum": -3.219646771412954e-15,
+        "grip": 1,
+        "lean": -0.07099981673515066,
+        "shoulder": {
+          "x": 656.7871402688788,
+          "y": 121.53469731236167
+        },
+        "elbow": {
+          "x": 637.0148254621266,
+          "y": 160.84189216499246
+        },
+        "hand": {
+          "x": 596.6424487320573,
+          "y": 124.98005733790413
+        },
+        "knob": {
+          "x": 596.6424487320573,
+          "y": 124.98005733790413
+        },
+        "support": {
+          "x": 698.4598676445235,
+          "y": 143.6341043875574
+        },
+        "backShoulder": {
+          "x": 676.8076918821358,
+          "y": 121.11337427606506
+        },
+        "backElbow": {
+          "x": 700.1862840145509,
+          "y": 115.68737852356213
+        },
+        "blink": false,
+        "lift": 0.43590441441204325,
+        "reduced": true
+      },
+      "audio": {
+        "settings": {
+          "musicEnabled": false,
+          "effectsEnabled": true,
+          "musicVolume": 0.2,
+          "effectsVolume": 0.7,
+          "muted": false
+        },
+        "voices": 4,
+        "loopSources": 0,
+        "reelActive": false,
+        "ready": true,
+        "error": false,
+        "musicPlaying": false
+      }
+    },
+    {
+      "action": "large-gold",
+      "seconds": 24.101,
+      "extendSeconds": 0.549,
+      "returnSeconds": 3.844,
+      "money": 765,
+      "frame": {
+        "action": "deposit",
+        "frame": 0,
+        "phase": 0.8632708000083653,
+        "angle": 57.22667906545749,
+        "drum": -9.783840404509192e-15,
+        "grip": 1,
+        "lean": -0.06264038530559578,
+        "shoulder": {
+          "x": 657.1596516422647,
+          "y": 121.34220687385798
+        },
+        "elbow": {
+          "x": 661.7879420774701,
+          "y": 165.0981085060651
+        },
+        "hand": {
+          "x": 607.9128981906825,
+          "y": 161.42664473847762
+        },
+        "knob": {
+          "x": 607.9128981906825,
+          "y": 161.42664473847762
+        },
+        "support": {
+          "x": 698.6461866528426,
+          "y": 143.78919804898183
+        },
+        "backShoulder": {
+          "x": 677.1830257205945,
+          "y": 121.08825703772823
+        },
+        "backElbow": {
+          "x": 700.6061587198194,
+          "y": 115.85788033039451
+        },
+        "blink": false,
+        "lift": 0.5583658006366189,
+        "reduced": true
+      },
+      "audio": {
+        "settings": {
+          "musicEnabled": false,
+          "effectsEnabled": true,
+          "musicVolume": 0.2,
+          "effectsVolume": 0.7,
+          "muted": false
+        },
+        "voices": 4,
+        "loopSources": 0,
+        "reelActive": false,
+        "ready": true,
+        "error": false,
+        "musicPlaying": false
+      }
+    }
+  ],
+  "finalMoney": 765,
+  "errors": []
+}

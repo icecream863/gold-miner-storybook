@@ -1,0 +1,16 @@
+{
+  "candidate": "1.3.0+fbcb125872ee",
+  "file": "session/private/integrated-2026-10-17T17-20-22-594Z.zip",
+  "review": "session/private/integrated-2026-10-17T17-20-22-594Z/review",
+  "bytes": 109814009,
+  "sha256": "64f6b4073b7ad68bea1bed621187241e745280385964b8cb7bfb126a2e10fba9",
+  "entries": 305,
+  "rawIncluded": false,
+  "records": 2497,
+  "attachments": 299,
+  "audioRecords": 1,
+  "through": "2026-10-17T17:20:19.699Z",
+  "throughBeijing": "2026/10/18 01:20:19",
+  "publicUpdated": false,
+  "cutoffNote": "仅本机审阅，原始快照不入 ZIP；截止后的导出、审计、封装及最终回复需后续再导出。图片保持原样，仍需提交者审阅。"
+}

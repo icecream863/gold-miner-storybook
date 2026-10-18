@@ -1,0 +1,15 @@
+{
+  "file": "session/private/gold-miner-session-review-20261017.zip",
+  "bytes": 64777430,
+  "sha256": "0844fa54a7f86207db29a872063bd33dac6e8fbcef8b1effe80b9eee44a4ef19",
+  "records": 1252,
+  "through": "2026-10-17T04:54:58.001Z",
+  "attachments": 153,
+  "jsonlSha256": "559c3aca947f6fd05f61837f4f0d9cf4fe0eea78dd337ebf988ce5f319e1c03b",
+  "gameCandidate": "1.1.0+e2b5857a4954",
+  "gameSourceSha256": "e2b5857a49544737332459355cdb23ef44860121ac565676eec025a87a6f6bc1",
+  "gitBase": "f536181897e1115b82c4482c7df714d6468e7f19",
+  "uncommitted": true,
+  "rawSourceIncluded": false,
+  "zipEntries": 159
+}

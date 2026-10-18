@@ -1,0 +1,59 @@
+{
+  "base": "http://127.0.0.1:4176/sample.html",
+  "checks": [
+    {
+      "name": "参考经典的下落放绳姿态、关节连续 no-preference",
+      "passed": true
+    },
+    {
+      "name": "参考经典的下落放绳姿态、关节连续 reduce",
+      "passed": true
+    },
+    {
+      "name": "真实模型抓取、单次结算、暂停姿态与绞盘短音生命周期",
+      "passed": true
+    },
+    {
+      "name": "保存的音乐偏好沿用、静音后空格发射、设置暂停与音效关闭",
+      "passed": true
+    },
+    {
+      "name": "音频失败不阻塞、暂停时晚到资源不播放、重试能恢复",
+      "passed": true
+    },
+    {
+      "name": "可选音乐损坏后能在暂停中重试，恢复前不播放",
+      "passed": true
+    },
+    {
+      "name": "可见的完整回收圆周、握柄与暂停像素冻结 no-preference",
+      "passed": true
+    },
+    {
+      "name": "可见的完整回收圆周、握柄与暂停像素冻结 reduce",
+      "passed": true
+    },
+    {
+      "name": "弃用的生成帧图和链条音频不再请求，所有画面离线可绘制",
+      "passed": true
+    },
+    {
+      "name": "布局与触屏 1280×900",
+      "passed": true
+    },
+    {
+      "name": "布局与触屏 390×844",
+      "passed": true
+    },
+    {
+      "name": "布局与触屏 844×390",
+      "passed": true
+    },
+    {
+      "name": "独立大金块慢回收对照有实际效果且只入账一次",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "mode": "真实按键/触屏，虚拟时钟规则专项；不等于人类试玩或正常速度录像"
+}

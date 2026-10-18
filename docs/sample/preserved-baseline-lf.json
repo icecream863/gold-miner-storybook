@@ -1,0 +1,8 @@
+{
+  "src/main.ts": "eaa4cc78805d5c8fcbeda61083f96b07f1959286b9d6792955d3bba81d426027",
+  "src/presentation.ts": "45a24083f3eba276de31fdbb1c80f2ed6f5e0d7146c7da893186546eeb4f6abf",
+  "src/audio.ts": "af492e35fd0c083d5a685ae50558c9c546c9497460ae5b26d87399a40c31699d",
+  "src/style.css": "3ea470b5b34bf21df8affe8db3909bf67da49543785e2180a94dd5d89fff4292",
+  "src/core/model.ts": "bc11fb65a0473b58ccdbb712df02815ed61fb8f6826c2e1ae4dc9bb83ebeb098",
+  "src/core/shop.ts": "55cac590cebbfa329b2d8cdef4de7b68da7803ec9a1675c3589461d4646f74bb"
+}

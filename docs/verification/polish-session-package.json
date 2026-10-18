@@ -1,0 +1,14 @@
+{
+  "candidate": "1.3.0+71cf23c3acf9",
+  "file": "session/private/gold-miner-polish-session-review-20261017.zip",
+  "bytes": 75507052,
+  "sha256": "2850efb92ed2614d5c8c93dfdf6fc1737352cbc163a242738d834b0ed791d2c7",
+  "entries": 213,
+  "records": 1778,
+  "attachments": 207,
+  "audioRecords": 1,
+  "through": "2026-10-17T10:16:18.459Z",
+  "rawSourceIncluded": false,
+  "publicUpdated": false,
+  "cutoffNote": "封存后的打包、独立交付验证和最终回复不在本快照内；图片须人工审阅"
+}

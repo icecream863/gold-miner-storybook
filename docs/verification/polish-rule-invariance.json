@@ -1,0 +1,13 @@
+{
+  "unchanged": true,
+  "files": {
+    "src/core/model.ts": {
+      "expected": "bc11fb65a0473b58ccdbb712df02815ed61fb8f6826c2e1ae4dc9bb83ebeb098",
+      "actual": "bc11fb65a0473b58ccdbb712df02815ed61fb8f6826c2e1ae4dc9bb83ebeb098"
+    },
+    "src/core/shop.ts": {
+      "expected": "55cac590cebbfa329b2d8cdef4de7b68da7803ec9a1675c3589461d4646f74bb",
+      "actual": "55cac590cebbfa329b2d8cdef4de7b68da7803ec9a1675c3589461d4646f74bb"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+Input #0, matroska,webm, from 'output/recording/page@f88e362b31c36db938b5b2ad5130c7a7.webm':
+  Metadata:
+    creation_time   : 2026-10-17T10:07:32.392000Z
+    ENCODER         : Lavf61.1.100
+  Duration: 00:01:27.32, start: 0.000000, bitrate: 1430 kb/s
+  Stream #0:0(eng): Video: vp9 (Profile 0), yuv420p(tv, progressive), 1280x900, SAR 1:1 DAR 64:45, 25 fps, 25 tbr, 1k tbn (default)
+      Metadata:
+        ENCODER         : Lavc61.3.100 libvpx-vp9
+        DURATION        : 00:01:27.320000000
+Input #1, matroska,webm, from 'output/recording/polish-audio.webm':
+  Metadata:
+    encoder         : Chrome
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #1:0(eng): Audio: opus, 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #1:0 (opus) -> adelay:default
+  Stream #0:0 -> #0:0 (copy)
+  adelay:default -> Stream #0:1 (libopus)
+Press [q] to stop, [?] for help
+Output #0, webm, to 'public/demo.webm':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0(eng): Video: vp9 (Profile 0), yuv420p(tv, progressive), 1280x900 [SAR 1:1 DAR 64:45], q=2-31, 25 fps, 25 tbr, 1k tbn (default)
+      Metadata:
+        ENCODER         : Lavc61.3.100 libvpx-vp9
+        DURATION        : 00:01:27.320000000
+  Stream #0:1: Audio: opus, 48000 Hz, stereo, flt, 96 kb/s
+      Metadata:
+        encoder         : Lavc61.19.100 libopus
+frame= 1222 fps=0.0 q=-1.0 size=    8192KiB time=00:00:48.91 bitrate=1372.0kbits/s speed=93.4x    [out#0/webm @ 0000021d71fbed80] video:15228KiB audio:1022KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.283344%
+frame= 2183 fps=0.0 q=-1.0 Lsize=   16295KiB time=00:01:27.32 bitrate=1528.7kbits/s speed=89.8x    

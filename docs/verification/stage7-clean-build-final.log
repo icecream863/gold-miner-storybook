@@ -1,0 +1,121 @@
+
+> gold-miner-storybook@1.1.0 build
+> npm run typecheck && npm run test && vite build && node scripts/write-build-info.mjs
+
+
+> gold-miner-storybook@1.1.0 typecheck
+> tsc --noEmit
+
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice
+
+> gold-miner-storybook@1.1.0 test
+> node --experimental-strip-types --test tests/*.test.ts
+
+✔ 黄金调色保留透明轮廓和明暗，避免高光变成纯白 (2.4329ms)
+✔ 音频需先解锁；所有关键提示可播放，静音、结束与暂停清理声部 (4.3098ms)
+✔ 音频构造被禁用或恢复被拒绝时，游戏调用不抛异常 (0.6564ms)
+MINIMUM_ENTRY_ROUTES [{"level":2,"purchases":"none","error":-0.02,"success":true,"earned":2270,"money":2920,"goalTime":25.90833333333186,"remainingAtGoal":34.09166666666814,"shots":6,"misses":2,"resonances":1},{"level":2,"purchases":"none","error":0,"success":true,"earned":2270,"money":2920,"goalTime":25.866666666665196,"remainingAtGoal":34.133333333334804,"shots":6,"misses":2,"resonances":1},{"level":2,"purchases":"none","error":0.02,"success":true,"earned":2270,"money":2920,"goalTime":25.883333333331862,"remainingAtGoal":34.11666666666814,"shots":6,"misses":2,"resonances":1},{"level":2,"purchases":"bomb","error":-0.02,"success":true,"earned":2270,"money":2820,"goalTime":25.90833333333186,"remainingAtGoal":34.09166666666814,"shots":6,"misses":2,"resonances":1},{"level":2,"purchases":"bomb","error":0,"success":true,"earned":2270,"money":2820,"goalTime":25.866666666665196,"remainingAtGoal":34.133333333334804,"shots":6,"misses":2,"resonances":1},{"level":2,"purchases":"bomb","error":0.02,"success":true,"earned":2270,"money":2820,"goalTime":25.883333333331862,"remainingAtGoal":34.11666666666814,"shots":6,"misses":2,"resonances":1},{"level":2,"purchases":"strength","error":-0.02,"success":true,"earned":2270,"money":2770,"goalTime":22.666666666665378,"remainingAtGoal":37.33333333333462,"shots":6,"misses":2,"resonances":1},{"level":2,"purchases":"strength","error":0,"success":true,"earned":2270,"money":2770,"goalTime":22.633333333332047,"remainingAtGoal":37.36666666666795,"shots":6,"misses":2,"resonances":1},{"level":2,"purchases":"strength","error":0.02,"success":true,"earned":2270,"money":2770,"goalTime":22.633333333332047,"remainingAtGoal":37.36666666666795,"shots":6,"misses":2,"resonances":1},{"level":2,"purchases":"hourglass","error":-0.02,"success":true,"earned":2270,"money":2720,"goalTime":25.90833333333697,"remainingAtGoal":44.09166666666303,"shots":6,"misses":2,"resonances":1},{"level":2,"purchases":"hourglass","error":0,"success":true,"earned":2270,"money":2720,"goalTime":25.866666666670305,"remainingAtGoal":44.133333333329695,"shots":6,"misses":2,"resonances":1},{"level":2,"purchases":"hourglass","error":0.02,"success":true,"earned":2270,"money":2720,"goalTime":25.88333333333697,"remainingAtGoal":44.11666666666303,"shots":6,"misses":2,"resonances":1},{"level":2,"purchases":"polish","error":-0.02,"success":true,"earned":2270,"money":2900,"goalTime":25.90833333333186,"remainingAtGoal":34.09166666666814,"shots":6,"misses":2,"resonances":1},{"level":2,"purchases":"polish","error":0,"success":true,"earned":2270,"money":2900,"goalTime":25.866666666665196,"remainingAtGoal":34.133333333334804,"shots":6,"misses":2,"resonances":1},{"level":2,"purchases":"polish","error":0.02,"success":true,"earned":2270,"money":2900,"goalTime":25.883333333331862,"remainingAtGoal":34.11666666666814,"shots":6,"misses":2,"resonances":1},{"level":2,"purchases":"amplifier","error":-0.02,"success":true,"earned":2370,"money":2940,"goalTime":26.241666666665175,"remainingAtGoal":33.758333333334825,"shots":6,"misses":2,"resonances":1},{"level":2,"purchases":"amplifier","error":0,"success":true,"earned":2370,"money":2940,"goalTime":26.19999999999851,"remainingAtGoal":33.80000000000149,"shots":6,"misses":2,"resonances":1},{"level":2,"purchases":"amplifier","error":0.02,"success":true,"earned":2370,"money":2940,"goalTime":26.216666666665176,"remainingAtGoal":33.783333333334824,"shots":6,"misses":2,"resonances":1},{"level":2,"purchases":"bomb+strength+hourglass+polish+amplifier","error":-0.02,"success":true,"earned":3020,"money":3120,"goalTime":29.950000000003406,"remainingAtGoal":40.049999999996594,"shots":7,"misses":2,"resonances":2},{"level":2,"purchases":"bomb+strength+hourglass+polish+amplifier","error":0,"success":true,"earned":3020,"money":3120,"goalTime":29.916666666670075,"remainingAtGoal":40.083333333329925,"shots":7,"misses":2,"resonances":2},{"level":2,"purchases":"bomb+strength+hourglass+polish+amplifier","error":0.02,"success":true,"earned":3020,"money":3120,"goalTime":29.93333333333674,"remainingAtGoal":40.06666666666326,"shots":7,"misses":2,"resonances":2},{"level":3,"purchases":"none","error":-0.02,"success":true,"earned":2955,"money":5555,"goalTime":34.89166666666468,"remainingAtGoal":25.108333333335317,"shots":7,"misses":2,"resonances":2},{"level":3,"purchases":"none","error":0,"success":true,"earned":2955,"money":5555,"goalTime":34.83333333333135,"remainingAtGoal":25.166666666668647,"shots":7,"misses":2,"resonances":2},{"level":3,"purchases":"none","error":0.02,"success":true,"earned":2955,"money":5555,"goalTime":34.899999999998016,"remainingAtGoal":25.100000000001984,"shots":7,"misses":2,"resonances":2},{"level":3,"purchases":"bomb","error":-0.02,"success":true,"earned":2955,"money":5455,"goalTime":34.89166666666468,"remainingAtGoal":25.108333333335317,"shots":7,"misses":2,"resonances":2},{"level":3,"purchases":"bomb","error":0,"success":true,"earned":2955,"money":5455,"goalTime":34.83333333333135,"remainingAtGoal":25.166666666668647,"shots":7,"misses":2,"resonances":2},{"level":3,"purchases":"bomb","error":0.02,"success":true,"earned":2955,"money":5455,"goalTime":34.899999999998016,"remainingAtGoal":25.100000000001984,"shots":7,"misses":2,"resonances":2},{"level":3,"purchases":"strength","error":-0.02,"success":true,"earned":2955,"money":5405,"goalTime":29.63333333333165,"remainingAtGoal":30.36666666666835,"shots":7,"misses":2,"resonances":2},{"level":3,"purchases":"strength","error":0,"success":true,"earned":2955,"money":5405,"goalTime":29.599999999998317,"remainingAtGoal":30.400000000001683,"shots":7,"misses":2,"resonances":2},{"level":3,"purchases":"strength","error":0.02,"success":true,"earned":2955,"money":5405,"goalTime":29.649999999998315,"remainingAtGoal":30.350000000001685,"shots":7,"misses":2,"resonances":2},{"level":3,"purchases":"hourglass","error":-0.02,"success":true,"earned":2955,"money":5355,"goalTime":34.89166666666979,"remainingAtGoal":35.10833333333021,"shots":7,"misses":2,"resonances":2},{"level":3,"purchases":"hourglass","error":0,"success":true,"earned":2955,"money":5355,"goalTime":34.83333333333646,"remainingAtGoal":35.16666666666354,"shots":7,"misses":2,"resonances":2},{"level":3,"purchases":"hourglass","error":0.02,"success":true,"earned":2955,"money":5355,"goalTime":34.900000000003125,"remainingAtGoal":35.099999999996875,"shots":7,"misses":2,"resonances":2},{"level":3,"purchases":"polish","error":-0.02,"success":true,"earned":2970,"money":5550,"goalTime":34.89166666666468,"remainingAtGoal":25.108333333335317,"shots":7,"misses":2,"resonances":2},{"level":3,"purchases":"polish","error":0,"success":true,"earned":2970,"money":5550,"goalTime":34.83333333333135,"remainingAtGoal":25.166666666668647,"shots":7,"misses":2,"resonances":2},{"level":3,"purchases":"polish","error":0.02,"success":true,"earned":2970,"money":5550,"goalTime":34.899999999998016,"remainingAtGoal":25.100000000001984,"shots":7,"misses":2,"resonances":2},{"level":3,"purchases":"amplifier","error":-0.02,"success":true,"earned":2955,"money":5475,"goalTime":32.099999999998175,"remainingAtGoal":27.900000000001825,"shots":6,"misses":2,"resonances":2},{"level":3,"purchases":"amplifier","error":0,"success":true,"earned":2955,"money":5475,"goalTime":31.99999999999818,"remainingAtGoal":28.00000000000182,"shots":6,"misses":2,"resonances":2},{"level":3,"purchases":"amplifier","error":0.02,"success":true,"earned":2955,"money":5475,"goalTime":32.07499999999818,"remainingAtGoal":27.925000000001823,"shots":6,"misses":2,"resonances":2},{"level":3,"purchases":"bomb+strength+hourglass+polish+amplifier","error":-0.02,"success":true,"earned":2970,"money":5020,"goalTime":30.333333333336718,"remainingAtGoal":39.66666666666328,"shots":6,"misses":2,"resonances":2},{"level":3,"purchases":"bomb+strength+hourglass+polish+amplifier","error":0,"success":true,"earned":2970,"money":5020,"goalTime":30.300000000003386,"remainingAtGoal":39.699999999996614,"shots":6,"misses":2,"resonances":2},{"level":3,"purchases":"bomb+strength+hourglass+polish+amplifier","error":0.02,"success":true,"earned":2970,"money":5020,"goalTime":30.391666666670048,"remainingAtGoal":39.60833333332995,"shots":6,"misses":2,"resonances":2}]
+ORDINARY_MINIMUM_ROUTE {"level":2,"success":true,"earned":2150,"money":2800,"goalTime":25.61666666666521,"remainingAtGoal":34.38333333333479,"shots":7,"misses":2,"resonances":0}
+ORDINARY_MINIMUM_ROUTE {"level":3,"success":true,"earned":2430,"money":5030,"goalTime":45.1416666666641,"remainingAtGoal":14.8583333333359,"shots":10,"misses":2,"resonances":0}
+✔ 三关固定布局可重现，矿物显示范围在画布内且没有初始重叠 (4.9571ms)
+✔ 最低过关余额购物后的二三关：不同商品、两次空钩和正负瞄准误差均有通关路线 (118.9701ms)
+✔ 最低过关余额、不买道具、不抓水晶，二三关仍有两次空钩后的普通通关路线 (5.746ms)
+✔ 第三关高余额仍需混合采集：三颗钻石总值不足新门槛，重试不能累加已得收入 (0.3518ms)
+PLAYABLE_ROUTE 力量药水，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":5835,"earned":3285,"misses":2},{"level":3,"money":9520,"earned":3835,"misses":2}]
+PLAYABLE_ROUTE 不购买商品，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":5985,"earned":3285,"misses":2},{"level":3,"money":9320,"earned":3335,"misses":2}]
+PLAYABLE_ROUTE 共振增幅器，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":5905,"earned":3285,"misses":2},{"level":3,"money":9160,"earned":3335,"misses":2}]
+PLAYABLE_ROUTE 普通采集，不抓水晶 [{"level":1,"money":2230,"earned":2230,"misses":0},{"level":2,"money":4660,"earned":2430,"misses":0},{"level":3,"money":7105,"earned":2445,"misses":0}]
+PLAYABLE_ROUTE 时间沙漏，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":5785,"earned":3285,"misses":2},{"level":3,"money":9420,"earned":3835,"misses":2}]
+PLAYABLE_ROUTE 抛光剂，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":6010,"earned":3330,"misses":2},{"level":3,"money":9370,"earned":3380,"misses":2}]
+PLAYABLE_ROUTE 购买全部五种商品，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":5480,"earned":3330,"misses":2},{"level":3,"money":8810,"earned":3880,"misses":2}]
+✔ 活动时钟保留长帧，排除暂停和商店停留，不受倒退采样污染 (2.0074ms)
+✔ 共振边界包含110，排除圈外、已取矿物和水晶，同距按ID选择最近两件 (2.1923ms)
+✔ 共振四项配置独立生效，零连带合法，非法配置拒绝创建 (1.4861ms)
+✔ 重复ID先去重再限额，整包只占用和结算一次 (2.0131ms)
+✔ 同深度连带石头收益略增但真实回收更慢，截止前可能整包损失 (1.0902ms)
+✔ 抓取快照不受后续矿物数据变化影响，重叠水晶不能重复带走已占用矿物 (0.6689ms)
+✔ 截止时到达不结算，截止前到达整包结算一次 (0.8203ms)
+✔ 普通矿物邻近水晶仍只抓一件，回收中重置清空旧采集与事件 (2.9408ms)
+✔ 整包原子抓取、求和值和重量、只在回收时发钱，不继续触发附近水晶 (1.501ms)
+✔ 炸药销毁整包、暂停不改变包、到期不补发，重试恢复水晶 (1.4956ms)
+✔ 富裕入口也必须完成每关采集额，金额或采集任一不足都失败 (2.7903ms)
+✔ 30/60/144Hz 和一次长帧下，扫掠抓取与整包回收结果一致 (1.662ms)
+✔ 所有水晶入口允许正负0.02弧度瞄准偏差，不会先碰到前景矿石 (1.1862ms)
+✔ 连续发射只接受一次；菜单和暂停不接受玩法输入 (0.2448ms)
+✔ 扫掠能抓住两端都在圆外的高速穿越，并处理切线、零位移与初始重叠 (0.4295ms)
+✔ 最近碰撞不依赖物品数组顺序，也不会抓到绳索两旁的物品 (0.5634ms)
+✔ 只有回到绞盘才入账，继续更新不会重复计分 (0.4382ms)
+✔ 空钩碰到边界后回收，不会越界或卡住 (0.6747ms)
+✔ 重量决定回收速度；力量只提升载物回收，空钩速度不变 (0.2766ms)
+✔ 炸药只在载物时消耗；销毁物品且不计钱；无法重复炸同一物品 (0.2151ms)
+✔ 暂停同时冻结金钱、位置与时间；恢复后接着运动 (0.3416ms)
+✔ 到期只结算一次，挂在绳上的矿物不补发金钱 (0.2255ms)
+✔ 只有达到门槛才能进入商店，余额不足不会扣款 (0.3247ms)
+✔ 购买每件限一次、跨关扣款；力量药水到下个商店失效 (0.2352ms)
+✔ 失败重试恢复本关入口快照，包括花过的道具和力量 (0.3074ms)
+✔ 30/60/144Hz 下摆动与倒计时一致，无效时间输入不污染状态 (0.9125ms)
+✔ 重新开始整局清空升级、购买和上局金钱 (0.5559ms)
+✔ 固定三关路线可通关（力量药水，每关预留两次空钩） (26.8056ms)
+✔ 固定三关路线可通关（不购买商品，每关预留两次空钩） (13.3049ms)
+✔ 固定三关路线可通关（共振增幅器，每关预留两次空钩） (12.1692ms)
+✔ 固定三关路线可通关（普通采集，不抓水晶） (75.9952ms)
+✔ 固定三关路线可通关（时间沙漏，每关预留两次空钩） (8.835ms)
+✔ 固定三关路线可通关（抛光剂，每关预留两次空钩） (6.0234ms)
+✔ 固定三关路线可通关（购买全部五种商品，每关预留两次空钩） (11.9542ms)
+✔ 重量提示明确区分轻矿物、普通金块和重石头，深层混合包也提示重载 (1.3619ms)
+✔ 视觉后坐力不会因旧时间戳或未来起点超过范围，重置后不偏移 (0.389ms)
+✔ 吸附、货物摆动和震动按活动时间取样，不随更新次数改变 (1.6869ms)
+✔ 连锁逐件吸附有短暂先后，低动态立即定位且不震动 (0.3088ms)
+✔ Session保留公开消息和工具顺序，区分自动续作，排除平台推理与内部摘要 (1.5733ms)
+✔ Session脱敏不破坏JSON、图片编码和可验证附件 (2.6212ms)
+✔ Session CLI完整导出到本地审阅目录，保留调用结果且不覆盖原始记录 (561.9094ms)
+✔ Session导出拒绝覆盖工程入口 (81.9669ms)
+✔ 一枚炸药：余额不足、刚好足够、重复购买与非商店输入 (3.7999ms)
+✔ 力量药水：余额不足、刚好足够、重复购买与非商店输入 (0.4548ms)
+✔ 时间沙漏：余额不足、刚好足够、重复购买与非商店输入 (0.4291ms)
+✔ 矿石抛光剂：余额不足、刚好足够、重复购买与非商店输入 (0.3955ms)
+✔ 共振增幅器：余额不足、刚好足够、重复购买与非商店输入 (0.3559ms)
+✔ 五商品配置具有独立图标和正价格，未知商品及原型名不能扣费 (0.4274ms)
+✔ 组合购买只扣各自价格，不改已通过的结果与采集额；每店每种限一次 (1.4115ms)
+✔ 沙漏失败重试恢复70秒且不重复加时，暂停不消耗；成功后清理强化 (5.0181ms)
+✔ 全部强化与炸药随失败入口恢复，关末清理强化，跨关保留剩余炸药 (1.0611ms)
+✔ 抛光只改变石头价值，重量与其他矿物不变；普通抓取实际只结算两倍 (1.549ms)
+✔ 抛光和增幅联动整包快照：四件、真实总重量、单次结算、炸毁无收入 (2.7254ms)
+✔ 两次购物后的实际地图都有第三个候选，增幅不扩范围、不忽略重量 (0.9739ms)
+✔ 消费增加下一关所需收益，不回退已过关结果，也不绕过最低采集额 (0.3994ms)
+✔ 第三关通关不再开商店，不会出售无法生效的第四关强化 (0.2965ms)
+✔ 第二次商店重新开放五商品限购，上一关强化不会自动续期 (0.4777ms)
+✔ 带全部道具通关后重新开始，钱包、库存、强化、限购及入口快照全部重置 (0.388ms)
+ℹ tests 65
+ℹ suites 0
+ℹ pass 65
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 896.2471
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 12 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.76 kB │ gzip:   0.52 kB
+dist/assets/index-DTNgQfu9.css     15.22 kB │ gzip:   4.56 kB
+dist/assets/index-B38ILhac.js   1,240.19 kB │ gzip: 336.44 kB
+
+✓ built in 1.05s
+Build identity: 1.1.0+e2b5857a4954; commit f536181897e1115b82c4482c7df714d6468e7f19; dirty true
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

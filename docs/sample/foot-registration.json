@@ -1,0 +1,128 @@
+{
+  "light": [
+    {
+      "frame": 0,
+      "footY": 417,
+      "worldBottom": 198.52762119503947
+    },
+    {
+      "frame": 1,
+      "footY": 417,
+      "worldBottom": 198.52762119503947
+    },
+    {
+      "frame": 2,
+      "footY": 417,
+      "worldBottom": 198.52762119503947
+    },
+    {
+      "frame": 3,
+      "footY": 417,
+      "worldBottom": 198.52762119503947
+    },
+    {
+      "frame": 4,
+      "footY": 418,
+      "worldBottom": 198.96054114994362
+    },
+    {
+      "frame": 5,
+      "footY": 417,
+      "worldBottom": 198.52762119503947
+    },
+    {
+      "frame": 6,
+      "footY": 418,
+      "worldBottom": 198.96054114994362
+    },
+    {
+      "frame": 7,
+      "footY": 417,
+      "worldBottom": 198.52762119503947
+    }
+  ],
+  "heavy": [
+    {
+      "frame": 0,
+      "footY": 418,
+      "worldBottom": 198.96054114994362
+    },
+    {
+      "frame": 1,
+      "footY": 418,
+      "worldBottom": 198.96054114994362
+    },
+    {
+      "frame": 2,
+      "footY": 418,
+      "worldBottom": 198.96054114994362
+    },
+    {
+      "frame": 3,
+      "footY": 417,
+      "worldBottom": 198.52762119503947
+    },
+    {
+      "frame": 4,
+      "footY": 419,
+      "worldBottom": 199.3934611048478
+    },
+    {
+      "frame": 5,
+      "footY": 419,
+      "worldBottom": 199.3934611048478
+    },
+    {
+      "frame": 6,
+      "footY": 419,
+      "worldBottom": 199.3934611048478
+    },
+    {
+      "frame": 7,
+      "footY": 418,
+      "worldBottom": 198.96054114994362
+    }
+  ],
+  "poses": [
+    {
+      "frame": 0,
+      "footY": 419,
+      "worldBottom": 199.3934611048478
+    },
+    {
+      "frame": 1,
+      "footY": 419,
+      "worldBottom": 199.3934611048478
+    },
+    {
+      "frame": 2,
+      "footY": 419,
+      "worldBottom": 199.3934611048478
+    },
+    {
+      "frame": 3,
+      "footY": 420,
+      "worldBottom": 199.82638105975198
+    },
+    {
+      "frame": 4,
+      "footY": 420,
+      "worldBottom": 199.82638105975198
+    },
+    {
+      "frame": 5,
+      "footY": 419,
+      "worldBottom": 199.3934611048478
+    },
+    {
+      "frame": 6,
+      "footY": 420,
+      "worldBottom": 199.82638105975198
+    },
+    {
+      "frame": 7,
+      "footY": 420,
+      "worldBottom": 199.82638105975198
+    }
+  ]
+}

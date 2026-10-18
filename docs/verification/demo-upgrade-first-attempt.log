@@ -1,0 +1,24 @@
+
+> gold-miner-storybook@1.1.0 demo:record
+> node scripts/record-demo.mjs
+
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+browserContext.newPage: Executable doesn't exist at %USERPROFILE%\AppData\Local\ms-playwright\ffmpeg-1013\ffmpeg-win64.exe
+╔═════════════════════════════════════════════════════════════════╗
+║ Video rendering requires ffmpeg binary.                         ║
+║ Downloading it will not affect any of the system-wide settings. ║
+║ Please run the following command:                               ║
+║                                                                 ║
+║     npx playwright install ffmpeg                               ║
+║                                                                 ║
+║ <3 Playwright Team                                              ║
+╚═════════════════════════════════════════════════════════════════╝
+    at F:\AgentWorkPlace\面试\gold-miner\scripts\record-demo.mjs:12:28 {
+  log: [],
+  name: 'Error'
+}
+
+Node.js v24.19.0

@@ -1,0 +1,184 @@
+{
+  "base": "http://127.0.0.1:4174/gold-miner-storybook/",
+  "candidate": "1.1.0+e2b5857a4954",
+  "expectedCommit": null,
+  "checks": [
+    {
+      "name": "构建身份文件可读",
+      "success": true
+    },
+    {
+      "name": "游戏源码摘要与本地候选一致",
+      "success": true
+    },
+    {
+      "name": "版本一致",
+      "success": true
+    },
+    {
+      "name": "构建资源摘要 assets/index-B38ILhac.js",
+      "success": true
+    },
+    {
+      "name": "构建资源摘要 assets/index-DTNgQfu9.css",
+      "success": true
+    },
+    {
+      "name": "新浏览器会话首页200",
+      "success": true
+    },
+    {
+      "name": "首页引用当前构建资源",
+      "success": true
+    },
+    {
+      "name": "实际出钩、购物继承、三关结算与重开",
+      "success": true
+    },
+    {
+      "name": "Session新会话可读",
+      "success": true
+    },
+    {
+      "name": "Session对应候选截止与来源",
+      "success": true
+    },
+    {
+      "name": "JSONL下载及摘要完整",
+      "success": true
+    },
+    {
+      "name": "JSONL条数与页面一致",
+      "success": true
+    },
+    {
+      "name": "下载链接存在",
+      "success": true
+    },
+    {
+      "name": "Session搜索有效",
+      "success": true
+    },
+    {
+      "name": "Markdown可下载",
+      "success": true
+    },
+    {
+      "name": "全部Session附件可读取且摘要一致",
+      "success": true
+    },
+    {
+      "name": "最新演示可访问",
+      "success": true
+    },
+    {
+      "name": "控制台无异常且项目资源无4xx",
+      "success": true
+    }
+  ],
+  "errors": [],
+  "badResponses": [],
+  "gameplay": {
+    "realtime": false,
+    "complete": true,
+    "shots": 31,
+    "bombsUsed": 1,
+    "peakEffects": 11,
+    "peakVoices": 6,
+    "route": [
+      {
+        "level": 1,
+        "money": 2685
+      },
+      {
+        "level": 2,
+        "money": 5890
+      },
+      {
+        "level": 3,
+        "money": 9575
+      }
+    ],
+    "checks": [
+      {
+        "name": "浏览器中使用炸药消耗一枚",
+        "pass": true
+      },
+      {
+        "name": "第 1 关真实出钩通关",
+        "pass": true
+      },
+      {
+        "name": "通过关卡进入商店",
+        "pass": true
+      },
+      {
+        "name": "浏览器中购买实际扣款",
+        "pass": true
+      },
+      {
+        "name": "已购买商品禁用",
+        "pass": true
+      },
+      {
+        "name": "其他强化仍可选购",
+        "pass": true
+      },
+      {
+        "name": "下一关正确继承增益",
+        "pass": true
+      },
+      {
+        "name": "第 2 关真实出钩通关",
+        "pass": true
+      },
+      {
+        "name": "通过关卡进入商店",
+        "pass": true
+      },
+      {
+        "name": "浏览器中购买实际扣款",
+        "pass": true
+      },
+      {
+        "name": "已购买商品禁用",
+        "pass": true
+      },
+      {
+        "name": "其他强化仍可选购",
+        "pass": true
+      },
+      {
+        "name": "下一关正确继承增益",
+        "pass": true
+      },
+      {
+        "name": "三关在真实浏览器中全部完成",
+        "pass": true
+      },
+      {
+        "name": "最后关采集门槛为2200且结算界面一致",
+        "pass": true
+      },
+      {
+        "name": "三关表现对象和声部未超过预算",
+        "pass": true
+      },
+      {
+        "name": "最终通关界面可见",
+        "pass": true
+      },
+      {
+        "name": "通关后重新开始清空上一局",
+        "pass": true
+      }
+    ],
+    "elapsedWallSeconds": 71.105
+  },
+  "session": {
+    "records": 1252,
+    "through": "2026-10-17T04:54:58.001Z",
+    "attachments": 153,
+    "jsonlSha256": "559c3aca947f6fd05f61837f4f0d9cf4fe0eea78dd337ebf988ce5f319e1c03b"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "candidate": "1.3.0+71cf23c3acf9",
+  "gameSourceSha256": "71cf23c3acf9bd4f879d9bcc4d834150618286aff163309257293513394898a3",
+  "cleanSourceMatches": true,
+  "modelAndShopUnchanged": true,
+  "relativeDocumentationLinksValid": true,
+  "assetsManifestCount": 38,
+  "sessionPackageSha256": "2850efb92ed2614d5c8c93dfdf6fc1737352cbc163a242738d834b0ed791d2c7",
+  "sessionRecords": 1778,
+  "sessionAttachments": 207,
+  "deliveryChecks": 18,
+  "allDeliveryPassed": true,
+  "errors": [],
+  "published": false
+}

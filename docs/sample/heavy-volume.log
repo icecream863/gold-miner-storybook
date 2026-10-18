@@ -1,0 +1,37 @@
+Input #0, matroska,webm, from 'public/sample-demo.webm':
+  Metadata:
+    ENCODER         : Lavf61.7.100
+  Duration: 00:00:26.69, start: -0.007000, bitrate: 1069 kb/s
+  Stream #0:0(eng): Video: vp9 (Profile 0), yuv420p(tv, progressive), 1280x900, SAR 1:1 DAR 64:45, 25 fps, 25 tbr, 1k tbn (default)
+      Metadata:
+        ENCODER         : Lavc61.3.100 libvpx-vp9
+        DURATION        : 00:00:26.680000000
+  Stream #0:1: Audio: opus, 48000 Hz, stereo, fltp
+      Metadata:
+        ENCODER         : Lavc61.19.100 libopus
+        DURATION        : 00:00:26.694000000
+[Parsed_volumedetect_0 @ 000001f39b278800] n_samples: 0
+Stream mapping:
+  Stream #0:0 -> #0:0 (vp9 (native) -> wrapped_avframe (native))
+  Stream #0:1 -> #0:1 (opus (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0(eng): Video: wrapped_avframe, yuv420p(tv, progressive), 1280x900 [SAR 1:1 DAR 64:45], q=2-31, 200 kb/s, 25 fps, 25 tbn (default)
+      Metadata:
+        DURATION        : 00:00:26.680000000
+        encoder         : Lavc61.19.100 wrapped_avframe
+  Stream #0:1: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s
+      Metadata:
+        DURATION        : 00:00:26.694000000
+        encoder         : Lavc61.19.100 pcm_s16le
+[Parsed_volumedetect_0 @ 000001f39b73b740] n_samples: 362880
+[Parsed_volumedetect_0 @ 000001f39b73b740] mean_volume: -36.3 dB
+[Parsed_volumedetect_0 @ 000001f39b73b740] max_volume: -11.1 dB
+[Parsed_volumedetect_0 @ 000001f39b73b740] histogram_11db: 34
+[Parsed_volumedetect_0 @ 000001f39b73b740] histogram_12db: 64
+[Parsed_volumedetect_0 @ 000001f39b73b740] histogram_13db: 108
+[Parsed_volumedetect_0 @ 000001f39b73b740] histogram_14db: 174
+[out#0/null @ 000001f39b7a6280] video:43KiB audio:709KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  100 fps=0.0 q=-0.0 Lsize=N/A time=00:00:03.98 bitrate=N/A speed=24.1x    

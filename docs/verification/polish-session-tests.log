@@ -1,0 +1,12 @@
+✔ Session保留公开消息和工具顺序，区分自动续作，排除平台推理与内部摘要 (5.3778ms)
+✔ Session脱敏不破坏JSON、图片编码和可验证附件 (4.3934ms)
+✔ Session CLI完整导出到本地审阅目录，保留调用结果且不覆盖原始记录 (1377.5427ms)
+✔ Session导出拒绝覆盖工程入口 (239.645ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2046.6862

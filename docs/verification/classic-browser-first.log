@@ -1,0 +1,144 @@
+
+Running 8 tests using 1 worker
+
+(node:27520) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\classic.spec.mjs:4:1 › smoke 经典六关、五次商店、真实采集结算和整局重开 (45.4s)
+  ok 2 tests\browser\classic.spec.mjs:8:1 › 问号袋揭晓、经典五商品实际效果、手掌握柄、移动动物和TNT (41.0s)
+  x  3 tests\browser\classic.spec.mjs:36:1 › 提前失败、超时货物不补发、没有关内重试，整局重开清理 (3.2s)
+(node:27956) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 4 tests\browser\classic.spec.mjs:43:1 › 真实活动时钟不丢长帧，工具栏后空格正常，暂停和恢复不消耗停留时间 (5.1s)
+  x  5 tests\browser\classic.spec.mjs:49:1 › 关键素材加载失败保留重试，解除阻断后正常开始 (2.7s)
+(node:26900) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  6 tests\browser\classic.spec.mjs:54:1 › 桌面与手机尺寸：HUD 不遮矿物，按钮与六关菜单可访问 (2.8s)
+(node:30872) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 7 tests\browser\classic.spec.mjs:65:1 › 低动态与音频禁用时仍可抓取，握柄和静音降级不干扰游戏 (3.1s)
+  ok 8 tests\browser\classic.spec.mjs:70:1 › 手机商店原生触摸可滚动到第五商品并购买 (7.9s)
+
+
+  1) tests\browser\classic.spec.mjs:36:1 › 提前失败、超时货物不补发、没有关内重试，整局重开清理 ──────────────────────────────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 500
+
+      37 |  await boot(page);await page.locator('[data-action="finish"]').click();await expect(page.getByRole("heading",{name:"这趟没挖够",exact:true})).toBeVisible();await expect(page.getByRole("button",{name:/再试一次/})).toHaveCount(0);
+      38 |  await page.getByRole("button",{name:"重新开始整局 →",exact:true}).click();await advance(page,180);
+    > 39 |  await fireAt(page,(await state(page)).items.find(i=>i.kind==="large").id);const before=(await state(page)).money;await page.clock.fastForward(65000);const ended=await state(page);expect(ended.phase).toBe("result");expect(ended.money).toBe(before);expect(ended.carried).toBeNull();
+         |                                                                                                                                                                                                                                            ^
+      40 |  await page.getByRole("button",{name:"重新开始整局 →",exact:true}).click();await advance(page,180);const reset=await state(page);expect(reset.money).toBe(0);expect(reset.bombs).toBe(0);expect(reset.rig.grip).toBe(0);expect(reset.camera).toEqual({x:0,y:0});expect(reset.effects).toEqual([]);
+      41 | });
+      42 |
+        at F:\AgentWorkPlace\面试\gold-miner\tests\browser\classic.spec.mjs:39:236
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    output\browser-results\classic-提前失败、超时货物不补发、没有关内重试，整局重开清理\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: output\browser-results\classic-提前失败、超时货物不补发、没有关内重试，整局重开清理\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    output\browser-results\classic-提前失败、超时货物不补发、没有关内重试，整局重开清理\trace.zip
+    Usage:
+
+        npx playwright show-trace output\browser-results\classic-提前失败、超时货物不补发、没有关内重试，整局重开清理\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests\browser\classic.spec.mjs:49:1 › 关键素材加载失败保留重试，解除阻断后正常开始 ──────────────────────────────────
+
+    Error: 未预期的页面或控制台异常
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 17
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "kind": "console",
+    +     "message": "Failed to load resource: net::ERR_FAILED",
+    +     "url": "http://127.0.0.1:4173/assets/classic/miner-body.svg",
+    +   },
+    +   Object {
+    +     "kind": "console",
+    +     "message": "Failed to load resource: net::ERR_FAILED",
+    +     "url": "http://127.0.0.1:4173/assets/classic/miner-body.svg",
+    +   },
+    +   Object {
+    +     "kind": "console",
+    +     "message": "Failed to load resource: net::ERR_FAILED",
+    +     "url": "http://127.0.0.1:4173/assets/classic/miner-body.svg",
+    +   },
+    + ]
+
+       at fixtures.mjs:20
+
+      18 |       body: JSON.stringify({ errors, expected }, null, 2), contentType: "application/json",
+      19 |     });
+    > 20 |     expect(errors, "未预期的页面或控制台异常").toEqual([]);
+         |                                    ^
+      21 |   }, { auto: true }],
+      22 | });
+      23 | export { expect };
+        at Object.base.extend.runtimeAudit.auto (F:\AgentWorkPlace\面试\gold-miner\tests\browser\fixtures.mjs:20:36)
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    output\browser-results\classic-关键素材加载失败保留重试，解除阻断后正常开始\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: output\browser-results\classic-关键素材加载失败保留重试，解除阻断后正常开始\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    output\browser-results\classic-关键素材加载失败保留重试，解除阻断后正常开始\trace.zip
+    Usage:
+
+        npx playwright show-trace output\browser-results\classic-关键素材加载失败保留重试，解除阻断后正常开始\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) tests\browser\classic.spec.mjs:54:1 › 桌面与手机尺寸：HUD 不遮矿物，按钮与六关菜单可访问 ─────────────────────────────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      57 |   await page.setViewportSize(viewport);await advance(page,50);
+      58 |   const geometry=await page.evaluate(()=>{const canvas=document.querySelector("canvas").getBoundingClientRect(),controls=document.querySelector(".play-controls").getBoundingClientRect();return {width:document.documentElement.scrollWidth,viewport:innerWidth,canvas:{top:canvas.top,bottom:canvas.bottom,height:canvas.height},controls:{top:controls.top,bottom:controls.bottom},buttons:[...document.querySelectorAll(".actions button")].map(b=>({width:b.getBoundingClientRect().width,height:b.getBoundingClientRect().height}))};});
+    > 59 |   expect(geometry.width).toBeLessThanOrEqual(viewport.width+1);expect(geometry.controls.top).toBeGreaterThanOrEqual(geometry.canvas.bottom);expect(geometry.buttons.every(b=>b.width>=29&&b.height>=31)).toBe(true);
+         |                                                                                                                                                                                                          ^
+      60 |   if(viewport.width===390||viewport.width===844)await page.screenshot({path:`output/playwright/classic-${viewport.width}.png`,animations:"disabled",fullPage:true});
+      61 |  }
+      62 |  await page.keyboard.press("P");await expect(page.getByRole("button",{name:"继续挖矿 →",exact:true})).toBeVisible();
+        at F:\AgentWorkPlace\面试\gold-miner\tests\browser\classic.spec.mjs:59:202
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    output\browser-results\classic-桌面与手机尺寸：HUD-不遮矿物，按钮与六关菜单可访问\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: output\browser-results\classic-桌面与手机尺寸：HUD-不遮矿物，按钮与六关菜单可访问\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    output\browser-results\classic-桌面与手机尺寸：HUD-不遮矿物，按钮与六关菜单可访问\trace.zip
+    Usage:
+
+        npx playwright show-trace output\browser-results\classic-桌面与手机尺寸：HUD-不遮矿物，按钮与六关菜单可访问\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3 failed
+    tests\browser\classic.spec.mjs:36:1 › 提前失败、超时货物不补发、没有关内重试，整局重开清理 ───────────────────────────────
+    tests\browser\classic.spec.mjs:49:1 › 关键素材加载失败保留重试，解除阻断后正常开始 ───────────────────────────────────
+    tests\browser\classic.spec.mjs:54:1 › 桌面与手机尺寸：HUD 不遮矿物，按钮与六关菜单可访问 ──────────────────────────────
+  5 passed (2.1m)
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

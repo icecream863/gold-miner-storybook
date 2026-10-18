@@ -1,0 +1,8 @@
+{
+  "base": "http://127.0.0.1:4176/sample.html",
+  "checks": [],
+  "errors": [
+    "The expression evaluated to a falsy value:\n\n  assert.ok(late.remaining<5)\n"
+  ],
+  "mode": "真实按键/触屏，虚拟时钟规则专项；不等于人类试玩或正常速度录像"
+}

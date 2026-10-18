@@ -1,0 +1,20 @@
+
+Running 8 tests using 1 worker
+
+(node:33224) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\classic.spec.mjs:4:1 › smoke 经典六关、五次商店、真实采集结算和整局重开 (1.2m)
+  ok 2 tests\browser\classic.spec.mjs:8:1 › 问号袋揭晓、经典五商品实际效果、手掌握柄、移动动物和TNT (1.9m)
+  ok 3 tests\browser\classic.spec.mjs:36:1 › 提前失败、超时货物不补发、没有关内重试，整局重开清理 (26.8s)
+  ok 4 tests\browser\classic.spec.mjs:43:1 › 真实活动时钟不丢长帧，工具栏后空格正常，暂停和恢复不消耗停留时间 (4.9s)
+  ok 5 tests\browser\classic.spec.mjs:49:1 › 关键素材加载失败保留重试，解除阻断后正常开始 (3.0s)
+  ok 6 tests\browser\classic.spec.mjs:54:1 › 桌面与手机尺寸：HUD 不遮矿物，按钮与六关菜单可访问 (2.1s)
+  ok 7 tests\browser\classic.spec.mjs:65:1 › 低动态与音频禁用时仍可抓取，握柄和静音降级不干扰游戏 (2.6s)
+  ok 8 tests\browser\classic.spec.mjs:70:1 › 手机商店原生触摸可滚动到第五商品并购买 (9.1s)
+
+  8 passed (4.0m)
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

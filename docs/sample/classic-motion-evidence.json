@@ -1,0 +1,37 @@
+{
+  "candidate": "vector-correction+abdf09ab6ec2",
+  "unitTests": 56,
+  "browserTests": 13,
+  "normalRecordingSeconds": 26.6,
+  "money": 765,
+  "reference": "https://www.crazygames.com/game/gold-miner",
+  "referenceLiveSamples": {
+    "firstShot": 16,
+    "freshCycle": 120,
+    "excludedCycle": "cycle-* reached timeout; retained as invalid evidence"
+  },
+  "changes": [
+    "single downward crank release",
+    "hold lower position while extending",
+    "idle hand on crank",
+    "return starts at current crank position",
+    "visible rope exit aligned to model pivot"
+  ],
+  "preservedModulesMatch": true,
+  "nativeUiMoney": 250,
+  "files": {
+    "sample-demo.webm": {
+      "bytes": 3364101,
+      "sha256": "486a02ca693a915440a9fae0d07e8d05d79e8af5fa80a28958fdc69687e18a3f"
+    },
+    "sample-arm-demo.webm": {
+      "bytes": 188451,
+      "sha256": "07ee833867744d1c4e87b334508c72cdadf634f5f7ceaa324645e40c23de9dc3"
+    },
+    "sample-motion-loop.webm": {
+      "bytes": 168455,
+      "sha256": "8c6eedb581f4f113e9a01e652659d15a2d324fe6f13e326df5dde5ba57536ea7"
+    }
+  },
+  "published": false
+}

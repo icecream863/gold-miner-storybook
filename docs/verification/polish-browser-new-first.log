@@ -1,0 +1,115 @@
+
+Running 4 tests using 1 worker
+
+(node:8372) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\polish.spec.mjs:6:1 › 音乐实际加载、暂停续播、独立音量偏好、设置不消耗时间 (16.0s)
+  ok 2 tests\browser\polish.spec.mjs:18:1 › 音乐慢加载不阻塞发射，暂停后加载完成不偷播，恢复不重复循环 (7.3s)
+  x  3 tests\browser\polish.spec.mjs:25:1 › OGG解码失败自动使用MP3，音乐失败可重试且不影响玩法 (3.3m)
+(node:28776) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  4 tests\browser\polish.spec.mjs:34:1 › 商店图标统一、购买提示不遮挡，下一关不残留购买文案，六关主题均可用 (3.0m)
+
+
+  1) tests\browser\polish.spec.mjs:25:1 › OGG解码失败自动使用MP3，音乐失败可重试且不影响玩法 ─────────────────────────────
+
+    Test timeout of 180000ms exceeded.
+
+    Error: page.waitForFunction: Test timeout of 180000ms exceeded.
+
+      28 |  await page.getByRole('button',{name:'声音设置',exact:true}).click();await expect(page.locator('#music-state')).toContainText('加载失败');await page.unroute('**/assets/audio/western.*');
+      29 |  await page.route('**/assets/audio/western.ogg',route=>route.fulfill({status:200,contentType:'audio/ogg',body:'invalid-ogg-for-test'}));let mp3=false;page.on('response',r=>{if(r.url().endsWith('/western.mp3')&&r.status()===200)mp3=true;});
+    > 30 |  await page.getByRole('button',{name:'重新加载音乐',exact:true}).click();await page.waitForFunction(()=>window.__goldMiner.audio.music.duration>0);expect(mp3).toBe(true);expect((await state(page)).audio.music.sources).toBe(0);
+         |                                                                               ^
+      31 |  await page.getByRole('button',{name:'返回暂停界面',exact:true}).click();await page.getByRole('button',{name:'继续挖矿 →',exact:true}).click();expect((await state(page)).audio.music.sources).toBe(1);
+      32 | });
+      33 |
+        at F:\AgentWorkPlace\面试\gold-miner\tests\browser\polish.spec.mjs:30:79
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    output\browser-results\polish-OGG解码失败自动使用MP3，音乐失败可重试且不影响玩法\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: output\browser-results\polish-OGG解码失败自动使用MP3，音乐失败可重试且不影响玩法\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    output\browser-results\polish-OGG解码失败自动使用MP3，音乐失败可重试且不影响玩法\trace.zip
+    Usage:
+
+        npx playwright show-trace output\browser-results\polish-OGG解码失败自动使用MP3，音乐失败可重试且不影响玩法\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests\browser\polish.spec.mjs:34:1 › 商店图标统一、购买提示不遮挡，下一关不残留购买文案，六关主题均可用 ────────────────────────
+
+    Test timeout of 180000ms exceeded.
+
+    Error: 未预期的页面或控制台异常
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 12
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "kind": "console",
+    +     "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    +     "url": "http://127.0.0.1:4173/assets/index-DlCjnDHi.js",
+    +   },
+    +   Object {
+    +     "kind": "console",
+    +     "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    +     "url": "http://127.0.0.1:4173/assets/favicon.svg",
+    +   },
+    + ]
+
+       at fixtures.mjs:20
+
+      18 |       body: JSON.stringify({ errors, expected }, null, 2), contentType: "application/json",
+      19 |     });
+    > 20 |     expect(errors, "未预期的页面或控制台异常").toEqual([]);
+         |                                    ^
+      21 |   }, { auto: true }],
+      22 | });
+      23 | export { expect };
+        at Object.base.extend.runtimeAudit.auto (F:\AgentWorkPlace\面试\gold-miner\tests\browser\fixtures.mjs:20:36)
+
+    Error: page.waitForFunction: Test timeout of 180000ms exceeded.
+
+       at ..\..\scripts\classic-automation.mjs:20
+
+      18 | export async function boot(page,{baseURL="http://127.0.0.1:4173/",virtual=true}={}){
+      19 |  if(virtual)await page.clock.install();const url=new URL(baseURL);url.searchParams.set("qa","1");await page.goto(url.href);
+    > 20 |  await page.waitForFunction(()=>!!window.__goldMiner);
+         |             ^
+      21 |  if(virtual){await page.clock.pauseAt(new Date(await page.evaluate(()=>Date.now()+100)));await page.clock.runFor(100);}
+      22 |  await page.getByRole("button",{name:"开始挖矿 →",exact:true}).click();await advance(page,180,virtual);
+      23 | }
+        at boot (F:\AgentWorkPlace\面试\gold-miner\scripts\classic-automation.mjs:20:13)
+        at F:\AgentWorkPlace\面试\gold-miner\tests\browser\polish.spec.mjs:35:2
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    output\browser-results\polish-商店图标统一、购买提示不遮挡，下一关不残留购买文案，六关主题均可用\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: output\browser-results\polish-商店图标统一、购买提示不遮挡，下一关不残留购买文案，六关主题均可用\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    output\browser-results\polish-商店图标统一、购买提示不遮挡，下一关不残留购买文案，六关主题均可用\trace.zip
+    Usage:
+
+        npx playwright show-trace output\browser-results\polish-商店图标统一、购买提示不遮挡，下一关不残留购买文案，六关主题均可用\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    tests\browser\polish.spec.mjs:25:1 › OGG解码失败自动使用MP3，音乐失败可重试且不影响玩法 ──────────────────────────────
+    tests\browser\polish.spec.mjs:34:1 › 商店图标统一、购买提示不遮挡，下一关不残留购买文案，六关主题均可用 ─────────────────────────
+  2 passed (7.1m)
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

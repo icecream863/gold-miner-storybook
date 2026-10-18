@@ -1,0 +1,12 @@
+{
+  "candidate": "first-level-sample+b5ac5d51ebf7",
+  "unitTests": 51,
+  "browserCases": 9,
+  "errors": [],
+  "videoSeconds": 27.08,
+  "videoSha256": "cba505c0341a1c1ee278905ba0c219fcc14684d295a4cc635795fbfb6129b50b",
+  "unchangedLegacyModules": true,
+  "referenceTimings": "估计值；空钩/轻物未独立精测",
+  "subjectiveAcceptance": "待提交者确认",
+  "published": false
+}

@@ -1,0 +1,24 @@
+Input #0, ogg, from 'public/assets/sample/audio/winch.ogg':
+  Duration: 00:00:01.13, start: 0.000000, bitrate: 110 kb/s
+  Stream #0:0: Audio: vorbis, 44100 Hz, mono, fltp, 86 kb/s
+      Metadata:
+        encoder         : Lavc61.19.100 libvorbis
+[Parsed_volumedetect_0 @ 00000207bfd5df00] n_samples: 0
+Stream mapping:
+  Stream #0:0 -> #0:0 (vorbis (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0: Audio: pcm_s16le, 44100 Hz, mono, s16, 705 kb/s
+      Metadata:
+        encoder         : Lavc61.19.100 pcm_s16le
+[Parsed_volumedetect_0 @ 00000207bfcfa040] n_samples: 50053
+[Parsed_volumedetect_0 @ 00000207bfcfa040] mean_volume: -22.0 dB
+[Parsed_volumedetect_0 @ 00000207bfcfa040] max_volume: -5.9 dB
+[Parsed_volumedetect_0 @ 00000207bfcfa040] histogram_5db: 1
+[Parsed_volumedetect_0 @ 00000207bfcfa040] histogram_6db: 6
+[Parsed_volumedetect_0 @ 00000207bfcfa040] histogram_7db: 13
+[Parsed_volumedetect_0 @ 00000207bfcfa040] histogram_8db: 43
+[out#0/null @ 00000207bfcc6a00] video:0KiB audio:98KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:01.13 bitrate=N/A speed= 105x    

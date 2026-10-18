@@ -1,0 +1,12 @@
+{
+  "mode": "正常时钟、CUA界面操作、无QA参数",
+  "money": 250,
+  "musicEnabled": false,
+  "effectsEnabled": true,
+  "volume": {
+    "music": 0.2,
+    "effects": 0.7
+  },
+  "consoleErrorsAndWarnings": [],
+  "humanPlaytest": false
+}

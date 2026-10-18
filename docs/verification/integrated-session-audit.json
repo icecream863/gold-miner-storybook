@@ -1,0 +1,36 @@
+{
+  "records": 2497,
+  "automaticUserMessages": 13,
+  "sourceOrderAndContentMatch": true,
+  "changedRecords": 849,
+  "redactions": {
+    "userDirectory": 415,
+    "email": 62,
+    "projectDirectory": 1358,
+    "phone": 12,
+    "accountIdentifier": 2
+  },
+  "sourceImages": 200,
+  "sourceImagesUnchanged": true,
+  "attachments": 299,
+  "attachmentBytes": 64074186,
+  "attachmentHashesMatch": true,
+  "jsonlSha256": "138c42d44f707c3cb06342bf5c59a40e978dac1b3891bbf223ef83e341e2aa5f",
+  "sourceSha256": "7c21e5653cfae7d3afb9c4256e30bb1f097b7646a050c011f547315cd9518593",
+  "through": "2026-10-17T17:20:19.699Z",
+  "pendingToolCallsAtCutoff": [
+    {
+      "callId": "call_c9efecfdc8604a6abe99fd0b0d93e4a8",
+      "name": "exec",
+      "record": 2497
+    }
+  ],
+  "remainingTextPatternHits": {
+    "credential": 0,
+    "userDirectory": 0,
+    "email": 0,
+    "phone": 0,
+    "accountIdentifier": 0
+  },
+  "limitation": "只验证已知文本格式，不能证明不存在所有敏感内容；图片保持原样，须人工检查。原始快照不属于公开材料。"
+}

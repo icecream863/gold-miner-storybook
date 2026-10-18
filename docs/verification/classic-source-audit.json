@@ -1,0 +1,41 @@
+{
+  "assetsChecked": 10,
+  "knownPatternChecks": {
+    "src/main.ts": {
+      "userDirectory": false,
+      "credential": false,
+      "oldMechanism": false
+    },
+    "src/core/model.ts": {
+      "userDirectory": false,
+      "credential": false,
+      "oldMechanism": false
+    },
+    "src/core/shop.ts": {
+      "userDirectory": false,
+      "credential": false,
+      "oldMechanism": false
+    },
+    "src/presentation.ts": {
+      "userDirectory": false,
+      "credential": false,
+      "oldMechanism": false
+    },
+    "src/audio.ts": {
+      "userDirectory": false,
+      "credential": false,
+      "oldMechanism": false
+    },
+    "README.md": {
+      "userDirectory": false,
+      "credential": false,
+      "oldMechanism": false
+    },
+    "scripts/export-session.mjs": {
+      "userDirectory": false,
+      "credential": false,
+      "oldMechanism": false
+    }
+  },
+  "limitation": "只扫描列出的当前文件和已知格式，图片与完整隐私仍需本人审阅；旧历史不重写"
+}

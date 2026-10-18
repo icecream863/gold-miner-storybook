@@ -1,0 +1,13 @@
+
+Running 1 test using 1 worker
+
+(node:31972) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\classic.spec.mjs:54:1 › 桌面与手机尺寸：HUD 不遮矿物，按钮与六关菜单可访问 (3.6s)
+
+  1 passed (14.8s)
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

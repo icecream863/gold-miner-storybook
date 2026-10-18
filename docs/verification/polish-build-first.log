@@ -1,0 +1,114 @@
+
+> gold-miner-storybook@1.3.0 build
+> npm run typecheck && npm run test && vite build && node scripts/write-build-info.mjs
+
+
+> gold-miner-storybook@1.3.0 typecheck
+> tsc --noEmit
+
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice
+
+> gold-miner-storybook@1.3.0 test
+> node --experimental-strip-types --test tests/*.test.ts
+
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+file:///F:/AgentWorkPlace/%E9%9D%A2%E8%AF%95/gold-miner/src/audio.ts:29
+
+  constructor(private base = "assets/audio/") {
+                      ^^^^^^^^^^^^^^^^^^^^^^
+    try {
+
+SyntaxError [ERR_UNSUPPORTED_TYPESCRIPT_SYNTAX]: TypeScript parameter property is not supported in strip-only mode
+    at parseTypeScript (node:internal/modules/typescript:68:40)
+    at processTypeScriptCode (node:internal/modules/typescript:146:42)
+    at stripTypeScriptModuleTypes (node:internal/modules/typescript:215:22)
+    at ModuleLoader.<anonymous> (node:internal/modules/esm/translators:680:29)
+    at #translate (node:internal/modules/esm/loader:434:20)
+    at afterLoad (node:internal/modules/esm/loader:502:29)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:507:12)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:560:36)
+    at afterResolve (node:internal/modules/esm/loader:607:52)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:613:12) {
+  code: 'ERR_UNSUPPORTED_TYPESCRIPT_SYNTAX'
+}
+
+Node.js v24.19.0
+✖ tests\audio.test.ts (308.9687ms)
+CLASSIC_MINIMUM_ROUTES [{"level":1,"policy":0,"success":true,"money":750,"earned":750,"remaining":47.25021148803873,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"0-1","value":250},{"id":"0-2","value":500}]},{"level":1,"policy":1,"success":true,"money":750,"earned":750,"remaining":47.000211488038744,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"0-1","value":250},{"id":"0-3","value":500}]},{"level":2,"policy":0,"success":true,"money":1950,"earned":1300,"remaining":46.59791666666743,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"1-1","value":650},{"id":"1-0","value":650}]},{"level":2,"policy":1,"success":true,"money":1800,"earned":1150,"remaining":39.92716097458235,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"1-0","value":650},{"id":"1-2","value":500}]},{"level":3,"policy":0,"success":true,"money":3600,"earned":1800,"remaining":40.6619159565503,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"2-1","value":650},{"id":"2-0","value":650},{"id":"2-3","value":500}]},{"level":3,"policy":1,"success":true,"money":3450,"earned":1650,"remaining":34.716666666668104,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"2-0","value":650},{"id":"2-3","value":500},{"id":"2-5","value":500}]},{"level":4,"policy":0,"success":true,"money":5860,"earned":2460,"remaining":31.529417809858025,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"3-2","value":650},{"id":"3-1","value":650},{"id":"3-17","value":10},{"id":"3-0","value":650},{"id":"3-6","value":500}]},{"level":4,"policy":1,"success":true,"money":5860,"earned":2460,"remaining":30.381478418653863,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"3-2","value":650},{"id":"3-17","value":10},{"id":"3-0","value":650},{"id":"3-1","value":650},{"id":"3-6","value":500}]},{"level":5,"policy":0,"success":true,"money":8050,"earned":2550,"remaining":24.850000000001977,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"4-3","value":650},{"id":"4-4","value":650},{"id":"4-5","value":500},{"id":"4-8","value":500},{"id":"4-9","value":250}]},{"level":5,"policy":1,"success":true,"money":8100,"earned":2600,"remaining":40.746520418987586,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"4-0","value":650},{"id":"4-2","value":650},{"id":"4-4","value":650},{"id":"4-3","value":650}]},{"level":6,"policy":0,"success":true,"money":11100,"earned":3100,"remaining":30.85526315789638,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"5-2","value":650},{"id":"5-0","value":650},{"id":"5-1","value":650},{"id":"5-3","value":650},{"id":"5-8","value":500}]},{"level":6,"policy":1,"success":true,"money":11350,"earned":3350,"remaining":9.275499060975257,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"5-0","value":650},{"id":"5-2","value":650},{"id":"5-8","value":500},{"id":"5-3","value":650},{"id":"5-10","value":250},{"id":"5-6","value":650}]}]
+CLASSIC_SIX_ROUNDS {"seed":1,"strategy":"none","rounds":[{"level":1,"money":750,"remaining":47.25021148803873},{"level":2,"money":2050,"remaining":46.59791666666743},{"level":3,"money":3850,"remaining":40.6619159565503},{"level":4,"money":5810,"remaining":42.837751143190715},{"level":5,"money":8110,"remaining":32.32821614950481},{"level":6,"money":11210,"remaining":30.85526315789638}]}
+CLASSIC_SIX_ROUNDS {"seed":1,"strategy":"strength","rounds":[{"level":1,"money":750,"remaining":47.25021148803873},{"level":2,"money":1855,"remaining":47.28958333333406},{"level":3,"money":3640,"remaining":42.67914129902034},{"level":4,"money":5875,"remaining":38.92628394453073},{"level":5,"money":8015,"remaining":37.48654948283785},{"level":6,"money":11015,"remaining":23.24692982456348}]}
+CLASSIC_SIX_ROUNDS {"seed":1,"strategy":"diamondPolish","rounds":[{"level":1,"money":750,"remaining":47.25021148803873},{"level":2,"money":2515,"remaining":46.59791666666743},{"level":3,"money":4245,"remaining":45.879141299020155},{"level":4,"money":6030,"remaining":49.14331140350939},{"level":5,"money":8260,"remaining":41.4948542858694},{"level":6,"money":11035,"remaining":44.98859649122891}]}
+CLASSIC_SIX_ROUNDS {"seed":42,"strategy":"none","rounds":[{"level":1,"money":750,"remaining":47.25021148803873},{"level":2,"money":2050,"remaining":46.59791666666743},{"level":3,"money":3850,"remaining":40.6619159565503},{"level":4,"money":5810,"remaining":42.837751143190715},{"level":5,"money":8110,"remaining":32.32821614950481},{"level":6,"money":11210,"remaining":30.85526315789638}]}
+CLASSIC_SIX_ROUNDS {"seed":42,"strategy":"strength","rounds":[{"level":1,"money":750,"remaining":47.25021148803873},{"level":2,"money":1920,"remaining":47.28958333333406},{"level":3,"money":3670,"remaining":42.67914129902034},{"level":4,"money":5970,"remaining":38.92628394453073},{"level":5,"money":8085,"remaining":37.48654948283785},{"level":6,"money":11135,"remaining":23.24692982456348}]}
+CLASSIC_SIX_ROUNDS {"seed":42,"strategy":"diamondPolish","rounds":[{"level":1,"money":750,"remaining":47.25021148803873},{"level":2,"money":2485,"remaining":46.59791666666743},{"level":3,"money":4125,"remaining":45.879141299020155},{"level":4,"money":5760,"remaining":49.14331140350939},{"level":5,"money":8045,"remaining":41.4948542858694},{"level":6,"money":11610,"remaining":40.480263157895834}]}
+CLASSIC_SIX_ROUNDS {"seed":2026,"strategy":"none","rounds":[{"level":1,"money":750,"remaining":47.25021148803873},{"level":2,"money":2050,"remaining":46.59791666666743},{"level":3,"money":3850,"remaining":40.6619159565503},{"level":4,"money":5810,"remaining":42.837751143190715},{"level":5,"money":8110,"remaining":32.32821614950481},{"level":6,"money":11210,"remaining":30.85526315789638}]}
+CLASSIC_SIX_ROUNDS {"seed":2026,"strategy":"strength","rounds":[{"level":1,"money":750,"remaining":47.25021148803873},{"level":2,"money":1880,"remaining":47.28958333333406},{"level":3,"money":3720,"remaining":42.67914129902034},{"level":4,"money":5970,"remaining":38.92628394453073},{"level":5,"money":8065,"remaining":37.48654948283785},{"level":6,"money":11095,"remaining":23.24692982456348}]}
+CLASSIC_SIX_ROUNDS {"seed":2026,"strategy":"diamondPolish","rounds":[{"level":1,"money":750,"remaining":47.25021148803873},{"level":2,"money":2485,"remaining":46.59791666666743},{"level":3,"money":4125,"remaining":45.879141299020155},{"level":4,"money":5740,"remaining":49.14331140350939},{"level":5,"money":8415,"remaining":32.32821614950481},{"level":6,"money":11145,"remaining":44.98859649122891}]}
+✔ 六关最低入口余额，各有两条无需问号袋好运且预留两次空钩的路线 (187.4249ms)
+✔ 不同种子下正常六关流程、五次购物、最终胜利及重开 (307.6957ms)
+✔ 乱买消耗钱包且可能失败，不会回退已过关或降低下一关目标 (0.372ms)
+✔ 活动时钟保留长帧，排除暂停与倒退 (2.8628ms)
+✔ 扫掠处理穿越、切线、零位移与初始重叠 (1.0094ms)
+✔ 三态输入、初始零炸药、普通抓取只抓一个，接触偏移连续 (4.4313ms)
+✔ 碰撞顺序不依赖数组，回收中不捕获第二件 (1.1895ms)
+✔ 重量和力量只影响载物回收，接触快照不受物品后续改动影响 (2.9072ms)
+✔ 暂停冻结位置、动物、计时与货物；超时不补发，重复结束不领奖 (1.0488ms)
+✔ 截止前到达入账，恰逢截止优先结束 (1.005ms)
+✔ 累计金额单目标允许零采集过关，手动不足即失败，失败只能整局重开 (3.1918ms)
+✔ 炸药仅载物时消耗，销毁不入账，不能重复炸 (1.2365ms)
+✔ 移动动物按规则步长反射，抓住后停止移动 (1.7737ms)
+✔ 相对运动扫掠捕捉单步穿过钩尖的高速动物 (0.5924ms)
+✔ TNT 按中心半径连爆且去重，金币和袋子销毁不入账，圈外物品保留 (3.1326ms)
+✔ 30/60/144Hz 与一次长帧，移动位置和实际抓取结算一致 (6.4397ms)
+✔ 无效时间不会污染状态，回首页与重开清理旧事件和货物 (1.4256ms)
+✔ 袋子五档权重边界与幸运分布正确，随机内容不逐帧重抽 (14.2356ms)
+✔ 一枚炸药：报价冻结、余额不足、刚好足够、重复扣费拦截 (0.7357ms)
+✔ 力量药水：报价冻结、余额不足、刚好足够、重复扣费拦截 (0.1683ms)
+✔ 石头收藏书：报价冻结、余额不足、刚好足够、重复扣费拦截 (0.2446ms)
+✔ 幸运草：报价冻结、余额不足、刚好足够、重复扣费拦截 (0.222ms)
+✔ 钻石抛光剂：报价冻结、余额不足、刚好足够、重复扣费拦截 (0.1417ms)
+✔ 未知商品和原型名不能扣款，非商店不能买 (0.2414ms)
+✔ 强化真实应用、关末清理，炸药跨关保留且每店重新限购 (0.6277ms)
+✔ 抛光和收藏书在普通回收时真实入账，炸毁仍无收入 (4.9259ms)
+✔ 第六关最终结算没有无效商店，重开清空全部六关状态 (0.4858ms)
+✔ 六关 60 秒与目标递增，初始碰撞体不重叠、静态及巡逻边界在场内 (1.9922ms)
+✔ 完整手柄圆周及轻重负载：肩肘腕长度成立，握柄误差小于2像素 (27.4488ms)
+✔ 两段手臂对不可达或重合目标返回有限坐标 (0.5036ms)
+✔ 120ms握柄与放手平滑过渡，暂停按相同活动时间取样不会漂移 (3.1979ms)
+✔ 手柄角度只按收放绳距离，30/60/144Hz最终姿态一致，重置回原点 (2.5205ms)
+✔ 低动态取消身体倾斜与镜头晃动，未来时间戳不会造成后坐力 (0.7959ms)
+✔ Session保留公开消息和工具顺序，区分自动续作，排除平台推理与内部摘要 (2.9461ms)
+✔ Session脱敏不破坏JSON、图片编码和可验证附件 (5.5424ms)
+✔ Session CLI完整导出到本地审阅目录，保留调用结果且不覆盖原始记录 (796.0292ms)
+✔ Session导出拒绝覆盖工程入口 (86.5083ms)
+ℹ tests 38
+ℹ suites 0
+ℹ pass 37
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1188.8228
+
+✖ failing tests:
+
+test at tests\audio.test.ts:1:1
+✖ tests\audio.test.ts (308.9687ms)
+  'test failed'
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

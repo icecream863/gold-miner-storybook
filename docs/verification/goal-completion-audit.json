@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-17T04:59:09.697Z",
+  "previousGoalTurn": "progress: 独立构建、浏览器验收、私有记录包与交付材料已完成",
+  "evidence": {
+    "currentSourceMatchesVerifiedBuild": true,
+    "sourceFiles": 25,
+    "sourceSha256": "e2b5857a49544737332459355cdb23ef44860121ac565676eec025a87a6f6bc1",
+    "originalAssetHashes": 9,
+    "unit65Pass": true,
+    "browser20Pass": true,
+    "localDelivery": true,
+    "sessionAudit": true,
+    "sessionOffline": true,
+    "reviewZipHash": true,
+    "publicReleaseAuthorized": false,
+    "finalCommit": null,
+    "publicCandidateVerified": false
+  },
+  "remaining": [
+    "用户明确授权源码推送、Pages 更新及脱敏 Session 公开",
+    "授权后生成最终提交并等待远端 CI/Pages",
+    "全新浏览器核对最终公网游戏、源码与 Session",
+    "提交者本人试玩与图片隐私审阅；不可由 Agent 代填"
+  ],
+  "complete": false
+}

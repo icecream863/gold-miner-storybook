@@ -1,0 +1,92 @@
+
+> gold-miner-storybook@1.2.0 demo:record
+> node scripts/record-demo.mjs
+
+{
+  "file": "public/demo.webm",
+  "bytes": 6489014,
+  "log": [
+    {
+      "stage": "round1",
+      "money": 1600,
+      "remaining": 25.629900000003435
+    },
+    {
+      "stage": "shop",
+      "before": 1600,
+      "after": 995,
+      "offers": {
+        "bomb": {
+          "id": "bomb",
+          "price": 135
+        },
+        "strength": {
+          "id": "strength",
+          "price": 135
+        },
+        "rockBook": {
+          "id": "rockBook",
+          "price": 20
+        },
+        "lucky": {
+          "id": "lucky",
+          "price": 100
+        },
+        "diamondPolish": {
+          "id": "diamondPolish",
+          "price": 215
+        }
+      }
+    },
+    {
+      "stage": "grip",
+      "item": {
+        "itemId": "1-8",
+        "kind": "rock",
+        "value": 45,
+        "weight": 7.5,
+        "offset": {
+          "x": -10.004939905984259,
+          "y": 33.53954647095935
+        }
+      },
+      "rig": {
+        "root": {
+          "x": 620,
+          "y": 145
+        },
+        "rotation": -0.021875000000000002,
+        "shoulder": {
+          "x": 594.6058536095009,
+          "y": 81.54027002028845
+        },
+        "knob": {
+          "x": 549.7144034947515,
+          "y": 88.00339903821963
+        },
+        "elbow": {
+          "x": 576.5052950628093,
+          "y": 114.95239028072379
+        },
+        "hand": {
+          "x": 549.7144034947515,
+          "y": 88.00339903821963
+        },
+        "grip": 1,
+        "effort": 0.625,
+        "reachable": true,
+        "gripError": 0
+      }
+    },
+    {
+      "stage": "round2",
+      "money": 2015,
+      "earned": 1020
+    }
+  ]
+}
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

@@ -1,0 +1,28 @@
+{
+  "candidate": "vector-correction+b4a6b500d5b9",
+  "unitTests": 54,
+  "browserChecks": 11,
+  "preservedModulesMatch": true,
+  "normalRecordingSeconds": 26.76,
+  "recordingMode": "减少动态开启、正常时钟、只读状态辅助瞄准、真实按键；未剪辑加速，非人类试玩",
+  "finalMoney": 765,
+  "nativeUI": {
+    "reducedMotion": true,
+    "money": 250,
+    "input": "界面开始按钮+下方向键，无QA页面",
+    "pausedAtRemaining": 38,
+    "screenshot": "correction-native.jpg"
+  },
+  "artifacts": {
+    "sample-demo.webm": {
+      "bytes": 3349661,
+      "sha256": "3875203e6ed7a0338530bcad2a7309ec656a66239a8f839ec49378db863dfba7"
+    },
+    "sample-motion-loop.webm": {
+      "bytes": 184432,
+      "sha256": "ddaf5053eab2717b77e80b0b6a7b955fbe47dcda8f44c42872a5d111167f30cf"
+    }
+  },
+  "published": false,
+  "subjectiveAcceptance": "等待用户观看试听；不以测试代替自然度和听感判断"
+}

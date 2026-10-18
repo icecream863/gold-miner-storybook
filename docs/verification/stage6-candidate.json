@@ -1,0 +1,114 @@
+{
+  "node": "v24.19.0",
+  "levels": [
+    {
+      "level": 1,
+      "name": "晨光矿谷",
+      "target": 650,
+      "minEarned": 650,
+      "seconds": 60,
+      "items": 12,
+      "value": 2700,
+      "rocks": 2,
+      "diamonds": 1,
+      "crystals": [
+        {
+          "id": "0-11",
+          "baseValue": 470,
+          "baseWeight": 4.6,
+          "baseSpeed": 94.38202247191013,
+          "amplifiedValue": 470,
+          "amplifiedWeight": 4.6,
+          "amplifiedSpeed": 94.38202247191013
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "琥珀回廊",
+      "target": 2600,
+      "minEarned": 1400,
+      "seconds": 60,
+      "items": 13,
+      "value": 3285,
+      "rocks": 3,
+      "diamonds": 2,
+      "crystals": [
+        {
+          "id": "1-11",
+          "baseValue": 470,
+          "baseWeight": 4.6,
+          "baseSpeed": 94.38202247191013,
+          "amplifiedValue": 570,
+          "amplifiedWeight": 5.6,
+          "amplifiedSpeed": 80.76923076923077
+        },
+        {
+          "id": "1-12",
+          "baseValue": 635,
+          "baseWeight": 14.100000000000001,
+          "baseSpeed": 36.28509719222462,
+          "amplifiedValue": 635,
+          "amplifiedWeight": 14.100000000000001,
+          "amplifiedSpeed": 36.28509719222462
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "星辉深井",
+      "target": 4800,
+      "minEarned": 2200,
+      "seconds": 60,
+      "items": 13,
+      "value": 3835,
+      "rocks": 3,
+      "diamonds": 3,
+      "crystals": [
+        {
+          "id": "2-11",
+          "baseValue": 770,
+          "baseWeight": 1.35,
+          "baseSpeed": 208.69565217391303,
+          "amplifiedValue": 770,
+          "amplifiedWeight": 1.35,
+          "amplifiedSpeed": 208.69565217391303
+        },
+        {
+          "id": "2-12",
+          "baseValue": 635,
+          "baseWeight": 14.100000000000001,
+          "baseSpeed": 36.28509719222462,
+          "amplifiedValue": 1285,
+          "amplifiedWeight": 14.650000000000002,
+          "amplifiedSpeed": 35.03649635036496
+        }
+      ]
+    }
+  ],
+  "prices": {
+    "bomb": 100,
+    "strength": 150,
+    "hourglass": 200,
+    "polish": 20,
+    "amplifier": 80
+  },
+  "ordinaryRock": {
+    "radius": 29,
+    "value": 15,
+    "weight": 7.5
+  },
+  "sources": {
+    "src/core/model.ts": "f88a7457fdd5891c02698e43f689042922ac3ad3aba7e0935a05b59dfc50bd36",
+    "src/core/shop.ts": "2f27b308f2e331fb7d2d4618f3d09940161386a14a968f50ec611e9f9eaf456d",
+    "src/main.ts": "4513ecf73e9053bdd4cd2c666a13e17cca29e3056bac802c8ecddccf45fb9d3c",
+    "src/presentation.ts": "d2895d53c6ac93b2014c5c6da36cb5a207a002050404b9404b0971beff94bd2b",
+    "src/audio.ts": "8b663d8cee45f060c5e44f45d3751a48708f1220c01790509980706289c8c965"
+  },
+  "distAssets": [
+    "art",
+    "favicon.svg",
+    "index-B38ILhac.js",
+    "index-DTNgQfu9.css"
+  ]
+}

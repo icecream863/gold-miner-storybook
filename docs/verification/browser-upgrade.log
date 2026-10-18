@@ -1,0 +1,14 @@
+
+Running 7 tests using 1 worker
+
+(node:33688) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\game.spec.mjs:39:1 › smoke: 基础流程与桌面手机布局 (1.2m)
+  ok 2 tests\browser\game.spec.mjs:48:1 › 三关、滤网与力量互斥、炸药、通关重开 (1.6m)
+  ok 3 tests\browser\game.spec.mjs:59:1 › smoke: 工具栏焦点后空格仍出钩，真实长帧不丢时间 (4.0s)
+  ok 4 tests\browser\game.spec.mjs:94:1 › smoke: 关键图片加载失败保留重试，恢复网络后可重新进入 (2.3s)
+  ok 5 tests\browser\game.spec.mjs:115:1 › 共振预览与抓取一致、视觉暂停、单次入账、重试恢复 (36.9s)
+  ok 6 tests\browser\game.spec.mjs:151:1 › 共振整包炸毁，低动态效果不影响规则 (6.4s)
+  ok 7 tests\browser\game.spec.mjs:170:3 › 模拟触屏布局 › smoke: 320/390竖屏与844横屏的HUD、触控可用 (11.2s)
+
+  7 passed (4.0m)

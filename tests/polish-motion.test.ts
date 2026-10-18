@@ -1,0 +1,2 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {cargoMotion,walkCycle} from '../src/presentation.ts';
+test('载物晃动随重量减少，抓取缩放收敛，低动态与停止步行不漂移',()=>{const light=cargoMotion(1,.98,.55),heavy=cargoMotion(1,.98,7.5);assert.ok(Math.abs(light.rotation)>Math.abs(heavy.rotation));assert.ok(light.scale>1);assert.equal(cargoMotion(2,0,1).scale,1);assert.deepEqual(cargoMotion(1,0,1,true),{rotation:0,scale:1});assert.equal(walkCycle(22,true),0);assert.equal(walkCycle(22,false,true),0);assert.notEqual(walkCycle(22,false),walkCycle(24,false));});

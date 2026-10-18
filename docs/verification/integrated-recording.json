@@ -1,0 +1,163 @@
+{
+  "mode": "normal-clock-readonly-QA-assisted-full-six-rounds",
+  "audio": true,
+  "coverage": "六关、五次商店、重石实际回收、TNT连爆、暂停与最终结算；非人类试玩",
+  "videoDuration": 94.64,
+  "audioDuration": 91.01,
+  "audioOffsetSeconds": 3.4949999999999957,
+  "bytes": 18266778,
+  "log": [
+    {
+      "stage": "round",
+      "level": 1,
+      "money": 750,
+      "earned": 750,
+      "remaining": 51.69400000000028,
+      "shots": 2
+    },
+    {
+      "stage": "shop",
+      "level": 1,
+      "before": 750,
+      "after": 195
+    },
+    {
+      "stage": "heavy-rock",
+      "carried": {
+        "itemId": "1-8",
+        "kind": "rock",
+        "value": 45,
+        "weight": 7.5,
+        "offset": {
+          "x": -29.18863807786272,
+          "y": 19.31381389471119
+        }
+      },
+      "rig": {
+        "action": "heavy",
+        "frame": 1,
+        "phase": 1.1343628400747914,
+        "angle": 0.8909264912210545,
+        "drum": -16.688295157536363,
+        "grip": 1,
+        "lean": -0.08054781720250057,
+        "shoulder": {
+          "x": 626.5818280524734,
+          "y": 88.06601714754626
+        },
+        "elbow": {
+          "x": 628.0866245076825,
+          "y": 119.71025813431018
+        },
+        "hand": {
+          "x": 589.2111363137401,
+          "y": 119.11795949118968
+        },
+        "knob": {
+          "x": 589.2111363137401,
+          "y": 119.11795949118968
+        },
+        "support": {
+          "x": 698.2454798732489,
+          "y": 143.45887171868125
+        },
+        "backShoulder": {
+          "x": 640.9930717948442,
+          "y": 87.6250479899232
+        },
+        "backElbow": {
+          "x": 657.7875901019978,
+          "y": 83.55779402309423
+        },
+        "blink": false,
+        "lift": 0,
+        "reduced": false,
+        "root": {
+          "x": 643.6,
+          "y": 119.92
+        },
+        "rotation": -0.08054781720250057,
+        "backHand": {
+          "x": 656.7367455087392,
+          "y": 103.6903876374505
+        },
+        "head": {
+          "x": 617.3775612240017,
+          "y": 63.52703851863224
+        },
+        "spoolAngle": -16.688295157536363,
+        "gripError": 0
+      }
+    },
+    {
+      "stage": "round",
+      "level": 2,
+      "money": 2190,
+      "earned": 1995,
+      "remaining": 47.66160000000102,
+      "shots": 2
+    },
+    {
+      "stage": "shop",
+      "level": 2,
+      "before": 2190,
+      "after": 1625
+    },
+    {
+      "stage": "round",
+      "level": 3,
+      "money": 3575,
+      "earned": 1950,
+      "remaining": 54.1758000000001,
+      "shots": 2
+    },
+    {
+      "stage": "shop",
+      "level": 3,
+      "before": 3575,
+      "after": 3180
+    },
+    {
+      "stage": "TNT",
+      "moneyBefore": 3180,
+      "moneyAfter": 3180
+    },
+    {
+      "stage": "round",
+      "level": 4,
+      "money": 5630,
+      "earned": 2450,
+      "remaining": 41.703900000001966,
+      "shots": 4
+    },
+    {
+      "stage": "shop",
+      "level": 4,
+      "before": 5630,
+      "after": 5185
+    },
+    {
+      "stage": "round",
+      "level": 5,
+      "money": 8610,
+      "earned": 3425,
+      "remaining": 44.81000000000054,
+      "shots": 5
+    },
+    {
+      "stage": "shop",
+      "level": 5,
+      "before": 8610,
+      "after": 8065
+    },
+    {
+      "stage": "round",
+      "level": 6,
+      "money": 11965,
+      "earned": 3900,
+      "remaining": 49.52110000000088,
+      "shots": 4
+    }
+  ],
+  "errors": []
+}

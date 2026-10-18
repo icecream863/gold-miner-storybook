@@ -1,0 +1,32 @@
+Input #0, matroska,webm, from 'F:\AgentWorkPlace\面试\gold-miner\output\playwright\sample-recording\page@3f4e8ac89ca34b542efc15b6d7977e4f.webm':
+  Metadata:
+    creation_time   : 2026-10-17T13:22:49.512000Z
+    ENCODER         : Lavf61.1.100
+  Duration: 00:00:26.60, start: 0.000000, bitrate: 921 kb/s
+  Stream #0:0(eng): Video: vp9 (Profile 0), yuv420p(tv, progressive), 1280x900, SAR 1:1 DAR 64:45, 25 fps, 25 tbr, 1k tbn (default)
+      Metadata:
+        ENCODER         : Lavc61.3.100 libvpx-vp9
+        DURATION        : 00:00:26.600000000
+Input #1, matroska,webm, from 'output/playwright/sample-recording/audio.webm':
+  Metadata:
+    encoder         : Chrome
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #1:0(eng): Audio: opus, 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #1:0 (opus) -> adelay:default
+  Stream #0:0 -> #0:0 (copy)
+  adelay:default -> Stream #0:1 (libopus)
+Press [q] to stop, [?] for help
+Output #0, webm, to 'public/sample-demo.webm':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0(eng): Video: vp9 (Profile 0), yuv420p(tv, progressive), 1280x900 [SAR 1:1 DAR 64:45], q=2-31, 25 fps, 25 tbr, 1k tbn (default)
+      Metadata:
+        ENCODER         : Lavc61.3.100 libvpx-vp9
+        DURATION        : 00:00:26.600000000
+  Stream #0:1: Audio: opus, 48000 Hz, stereo, flt, 96 kb/s
+      Metadata:
+        encoder         : Lavc61.19.100 libopus
+[libopus @ 0000028b9106b780] Queue input is backward in time
+[out#0/webm @ 0000028b90a5fe40] video:2988KiB audio:284KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.407977%
+frame=  664 fps=0.0 q=-1.0 Lsize=    3285KiB time=00:00:26.56 bitrate=1013.2kbits/s speed=90.7x    

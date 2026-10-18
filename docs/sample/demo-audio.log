@@ -1,0 +1,39 @@
+Input #0, matroska,webm, from 'public/sample-demo.webm':
+  Metadata:
+    ENCODER         : Lavf61.7.100
+  Duration: 00:00:27.04, start: -0.007000, bitrate: 1073 kb/s
+  Stream #0:0(eng): Video: vp9 (Profile 0), yuv420p(tv, progressive), 1280x900, SAR 1:1 DAR 64:45, 25 fps, 25 tbr, 1k tbn (default)
+      Metadata:
+        ENCODER         : Lavc61.3.100 libvpx-vp9
+        DURATION        : 00:00:27.000000000
+  Stream #0:1: Audio: opus, 48000 Hz, stereo, fltp
+      Metadata:
+        ENCODER         : Lavc61.19.100 libopus
+        DURATION        : 00:00:27.038000000
+[Parsed_volumedetect_0 @ 0000017e924acf00] n_samples: 0
+Stream mapping:
+  Stream #0:0 -> #0:0 (vp9 (native) -> wrapped_avframe (native))
+  Stream #0:1 -> #0:1 (opus (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0(eng): Video: wrapped_avframe, yuv420p(tv, progressive), 1280x900 [SAR 1:1 DAR 64:45], q=2-31, 200 kb/s, 25 fps, 25 tbn (default)
+      Metadata:
+        DURATION        : 00:00:27.000000000
+        encoder         : Lavc61.19.100 wrapped_avframe
+  Stream #0:1: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s
+      Metadata:
+        DURATION        : 00:00:27.038000000
+        encoder         : Lavc61.19.100 pcm_s16le
+frame=  516 fps=0.0 q=-0.0 size=N/A time=00:00:20.48 bitrate=N/A speed=40.2x    [Parsed_volumedetect_0 @ 0000017e924a5ec0] n_samples: 2347200
+[Parsed_volumedetect_0 @ 0000017e924a5ec0] mean_volume: -34.1 dB
+[Parsed_volumedetect_0 @ 0000017e924a5ec0] max_volume: -10.1 dB
+[Parsed_volumedetect_0 @ 0000017e924a5ec0] histogram_10db: 30
+[Parsed_volumedetect_0 @ 0000017e924a5ec0] histogram_11db: 182
+[Parsed_volumedetect_0 @ 0000017e924a5ec0] histogram_12db: 286
+[Parsed_volumedetect_0 @ 0000017e924a5ec0] histogram_13db: 524
+[Parsed_volumedetect_0 @ 0000017e924a5ec0] histogram_14db: 764
+[Parsed_volumedetect_0 @ 0000017e924a5ec0] histogram_15db: 836
+[out#0/null @ 0000017e923f0e00] video:290KiB audio:4584KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  675 fps=0.0 q=-0.0 Lsize=N/A time=00:00:27.00 bitrate=N/A speed=38.4x    

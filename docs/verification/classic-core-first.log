@@ -1,0 +1,83 @@
+CLASSIC_SIX_ROUNDS {"seed":1,"strategy":"none","rounds":[{"level":1,"money":750,"remaining":47.25021148803873},{"level":2,"money":2050,"remaining":46.59791666666743},{"level":3,"money":4000,"remaining":43.32080796568697},{"level":4,"money":5960,"remaining":43.10351230698741},{"level":5,"money":8160,"remaining":40.585526315790574},{"level":6,"money":11410,"remaining":44.49692982456227}]}
+✖ 六关最低入口余额，各有两条无需问号袋好运且预留两次空钩的路线 (67.8543ms)
+✖ 不同种子下正常六关流程、五次购物、最终胜利及重开 (69.904ms)
+✔ 乱买消耗钱包且可能失败，不会回退已过关或降低下一关目标 (0.4959ms)
+✔ 活动时钟保留长帧，排除暂停与倒退 (1.6383ms)
+✔ 扫掠处理穿越、切线、零位移与初始重叠 (0.2644ms)
+✔ 三态输入、初始零炸药、普通抓取只抓一个，接触偏移连续 (2.2459ms)
+✔ 碰撞顺序不依赖数组，回收中不捕获第二件 (0.8461ms)
+✔ 重量和力量只影响载物回收，接触快照不受物品后续改动影响 (1.2321ms)
+✔ 暂停冻结位置、动物、计时与货物；超时不补发，重复结束不领奖 (0.5038ms)
+✔ 截止前到达入账，恰逢截止优先结束 (0.4022ms)
+✔ 累计金额单目标允许零采集过关，手动不足即失败，失败只能整局重开 (1.5496ms)
+✔ 炸药仅载物时消耗，销毁不入账，不能重复炸 (0.4594ms)
+✔ 移动动物按规则步长反射，抓住后停止移动 (0.932ms)
+✔ 相对运动扫掠捕捉单步穿过钩尖的高速动物 (0.2829ms)
+✔ TNT 按中心半径连爆且去重，金币和袋子销毁不入账，圈外物品保留 (2.118ms)
+✔ 30/60/144Hz 与一次长帧，移动位置和实际抓取结算一致 (3.6738ms)
+✔ 无效时间不会污染状态，回首页与重开清理旧事件和货物 (0.6412ms)
+✔ 袋子五档权重边界与幸运分布正确，随机内容不逐帧重抽 (7.3314ms)
+✔ 一枚炸药：报价冻结、余额不足、刚好足够、重复扣费拦截 (0.3527ms)
+✔ 力量药水：报价冻结、余额不足、刚好足够、重复扣费拦截 (0.1298ms)
+✔ 石头收藏书：报价冻结、余额不足、刚好足够、重复扣费拦截 (0.1668ms)
+✔ 幸运草：报价冻结、余额不足、刚好足够、重复扣费拦截 (0.2104ms)
+✔ 钻石抛光剂：报价冻结、余额不足、刚好足够、重复扣费拦截 (0.206ms)
+✔ 未知商品和原型名不能扣款，非商店不能买 (0.3047ms)
+✔ 强化真实应用、关末清理，炸药跨关保留且每店重新限购 (0.8271ms)
+✔ 抛光和收藏书在普通回收时真实入账，炸毁仍无收入 (3.6351ms)
+✔ 第六关最终结算没有无效商店，重开清空全部六关状态 (0.2456ms)
+✔ 六关 60 秒与目标递增，初始碰撞体不重叠、静态及巡逻边界在场内 (0.9851ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 26
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 327.8781
+
+✖ failing tests:
+
+test at tests\classic-balance.test.ts:5:1
+✖ 六关最低入口余额，各有两条无需问号袋好运且预留两次空钩的路线 (67.8543ms)
+  AssertionError [ERR_ASSERTION]: 第4关路线应不同
+      at TestContext.<anonymous> (file:///F:/AgentWorkPlace/%E9%9D%A2%E8%AF%95/gold-miner/tests/classic-balance.test.ts:14:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [
+      null,   null,
+      '3-2',  '3-1',
+      '3-17', '3-0',
+      '3-6'
+    ],
+    expected: [
+      null,   null,
+      '3-2',  '3-1',
+      '3-17', '3-0',
+      '3-6'
+    ],
+    operator: 'notDeepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\classic-balance.test.ts:18:1
+✖ 不同种子下正常六关流程、五次购物、最终胜利及重开 (69.904ms)
+  AssertionError [ERR_ASSERTION]: {"seed":1,"strategy":"strength","rounds":[{"level":1,"money":750,"remaining":47.25021148803873},{"level":2,"money":1855,"remaining":47.28958333333406},{"level":3,"money":3640,"remaining":42.237474632353695},{"level":4,"money":5225,"remaining":43.067004734442634}],"route":{"success":false,"money":5225,"earned":1800,"remaining":43.067004734442634,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"3-2","value":650},{"id":"3-1","value":650},{"id":"3-6","value":500}]}}
+      at TestContext.<anonymous> (file:///F:/AgentWorkPlace/%E9%9D%A2%E8%AF%95/gold-miner/tests/classic-balance.test.ts:22:110)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

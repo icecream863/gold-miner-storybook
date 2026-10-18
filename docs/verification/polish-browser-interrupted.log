@@ -1,0 +1,9 @@
+
+Running 12 tests using 1 worker
+
+(node:26136) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 tests\browser\classic.spec.mjs:4:1 › smoke 经典六关、五次商店、真实采集结算和整局重开 (1.8m)
+  x   2 tests\browser\classic.spec.mjs:8:1 › 问号袋揭晓、经典五商品实际效果、手掌握柄、移动动物和TNT (4.3m)
+(node:30472) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

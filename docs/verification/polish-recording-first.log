@@ -1,0 +1,18 @@
+
+> gold-miner-storybook@1.3.0 demo:record
+> node scripts/record-demo.mjs
+
+file:///F:/AgentWorkPlace/%E9%9D%A2%E8%AF%95/gold-miner/scripts/classic-automation.mjs:50
+  const s=await state(page);if(s.money>=target)return shots;if(s.phase!=="playing")throw new Error(`第${s.level+1}关收入不足：${s.money}/${target}`);
+                                                                                         ^
+
+Error: 第1关收入不足：0/650
+    at earn (file:///F:/AgentWorkPlace/%E9%9D%A2%E8%AF%95/gold-miner/scripts/classic-automation.mjs:50:90)
+    at async file:///F:/AgentWorkPlace/%E9%9D%A2%E8%AF%95/gold-miner/scripts/record-demo.mjs:25:15
+
+Node.js v24.19.0
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

@@ -1,0 +1,125 @@
+
+> gold-miner-storybook@1.1.0 demo:record
+> node scripts/record-demo.mjs
+
+{
+  "file": "public/demo.webm",
+  "mode": "realtime-agent-input",
+  "log": [
+    {
+      "level": 1,
+      "aimedAt": "0-11",
+      "caught": "crystal",
+      "bundle": {
+        "anchorId": "0-11",
+        "itemIds": [
+          "0-11",
+          "0-0",
+          "0-2"
+        ],
+        "totalValue": 470,
+        "totalWeight": 4.6,
+        "resonant": true
+      }
+    },
+    {
+      "level": 1,
+      "aimedAt": "0-3",
+      "caught": "large",
+      "bundle": {
+        "anchorId": "0-3",
+        "itemIds": [
+          "0-3"
+        ],
+        "totalValue": 500,
+        "totalWeight": 5.8,
+        "resonant": false
+      }
+    },
+    {
+      "level": 1,
+      "aimedAt": "0-6",
+      "caught": "small",
+      "bundle": {
+        "anchorId": "0-1",
+        "itemIds": [
+          "0-1"
+        ],
+        "totalValue": 100,
+        "totalWeight": 1,
+        "resonant": false
+      }
+    },
+    {
+      "level": 1,
+      "aimedAt": "0-6",
+      "caught": "rock",
+      "bundle": {
+        "anchorId": "0-4",
+        "itemIds": [
+          "0-4"
+        ],
+        "totalValue": 15,
+        "totalWeight": 7.5,
+        "resonant": false
+      }
+    },
+    {
+      "level": 1,
+      "aimedAt": "0-6",
+      "caught": "diamond",
+      "bundle": {
+        "anchorId": "0-6",
+        "itemIds": [
+          "0-6"
+        ],
+        "totalValue": 650,
+        "totalWeight": 0.55,
+        "resonant": false
+      }
+    },
+    {
+      "level": 1,
+      "aimedAt": "0-7",
+      "caught": "small",
+      "bundle": {
+        "anchorId": "0-7",
+        "itemIds": [
+          "0-7"
+        ],
+        "totalValue": 100,
+        "totalWeight": 1,
+        "resonant": false
+      }
+    },
+    {
+      "level": 1,
+      "aimedAt": "0-8",
+      "caught": "medium",
+      "bundle": {
+        "anchorId": "0-8",
+        "itemIds": [
+          "0-8"
+        ],
+        "totalValue": 250,
+        "totalWeight": 2.8,
+        "resonant": false
+      }
+    },
+    {
+      "level": 2,
+      "aimedAt": "1-12",
+      "caught": "crystal",
+      "bundle": {
+        "anchorId": "1-12",
+        "itemIds": [
+          "1-12",
+          "1-3"
+        ],
+        "totalValue": 620,
+        "totalWeight": 6.6,
+        "resonant": true
+      }
+    }
+  ]
+}

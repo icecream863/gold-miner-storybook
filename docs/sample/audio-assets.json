@@ -1,0 +1,42 @@
+[
+  {
+    "name": "launch",
+    "file": "assets/sample/audio/launch.ogg",
+    "sourceFile": "impactWood_light_001.ogg",
+    "sourceSha256": "4b76bf3ccc8e60d19188f3165b778a7817786faa6887c55d9049bcbeef3b425f",
+    "seconds": 0.14,
+    "bytes": 4663,
+    "sha256": "211e1b2e1396b4a85ce2ae07d3e903fc5053a66190860f14f6d31f010da2b0cd",
+    "processing": "mono, high/low pass, normalized; winch65ms equal-power tail/head overlap, one-shots5ms attack/10ms release"
+  },
+  {
+    "name": "grab",
+    "file": "assets/sample/audio/grab.ogg",
+    "sourceFile": "impactMetal_light_003.ogg",
+    "sourceSha256": "92d5db6bfc672d9dc1b4f390b2900504f013187fa36335472554fafefa9050b1",
+    "seconds": 0.19,
+    "bytes": 4785,
+    "sha256": "b233bf5ad4dfd0478628f98bea5f821bc7a7533caf11a0e809317fc67718828a",
+    "processing": "mono, high/low pass, normalized; winch65ms equal-power tail/head overlap, one-shots5ms attack/10ms release"
+  },
+  {
+    "name": "bank",
+    "file": "assets/sample/audio/bank.ogg",
+    "sourceFile": "coin-source.ogg",
+    "sourceSha256": "1918a8e2eb94697f4710d1d47568e5194f4587f26ff0305c73cf8f8e28e15cc7",
+    "seconds": 0.3307936507936508,
+    "bytes": 7321,
+    "sha256": "7d58b6cff90f664c38efbf1f155c8d267bcdfc799548aa974fb121e926bbaa3a",
+    "processing": "mono, high/low pass, normalized; winch65ms equal-power tail/head overlap, one-shots5ms attack/10ms release"
+  },
+  {
+    "name": "winch",
+    "file": "assets/sample/audio/winch.ogg",
+    "sourceFile": "winch - Marker #9.wav",
+    "sourceSha256": "85277a66cf95ba97a13c289226dcac14e5c7c824e7a5b1108fae86818dde6bb6",
+    "seconds": 1.1349886621315193,
+    "bytes": 15662,
+    "sha256": "d75fda09adb5898a49764771ab3b4438f7d39eb9dc768ace22fedf832a0bf4a4",
+    "processing": "mono, high/low pass, normalized; winch selected continuous segment/compression/65ms equal-power tail-head overlap, one-shots5ms attack/10ms release"
+  }
+]

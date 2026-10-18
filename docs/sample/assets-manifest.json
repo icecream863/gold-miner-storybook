@@ -1,0 +1,37 @@
+[
+  {
+    "file": "public/assets/sample/miner-light.png",
+    "bytes": 1929089,
+    "sha256": "0dc902c6d9331dc07a138309de91fe56022838efa7cff6ca747bb88542489b0d"
+  },
+  {
+    "file": "public/assets/sample/miner-heavy.png",
+    "bytes": 1913870,
+    "sha256": "b742801a8ade3ed37d360b69a295ed6a03de2134273e624cb622c43d52e37514"
+  },
+  {
+    "file": "public/assets/sample/miner-poses.png",
+    "bytes": 1940838,
+    "sha256": "057b96c1d3f6dbaae4a5cce8bba9f1d1b3b82186438fbb029f8eaa3e594dcfff"
+  },
+  {
+    "file": "public/assets/sample/audio/launch.ogg",
+    "bytes": 4663,
+    "sha256": "211e1b2e1396b4a85ce2ae07d3e903fc5053a66190860f14f6d31f010da2b0cd"
+  },
+  {
+    "file": "public/assets/sample/audio/grab.ogg",
+    "bytes": 4785,
+    "sha256": "b233bf5ad4dfd0478628f98bea5f821bc7a7533caf11a0e809317fc67718828a"
+  },
+  {
+    "file": "public/assets/sample/audio/bank.ogg",
+    "bytes": 7321,
+    "sha256": "7d58b6cff90f664c38efbf1f155c8d267bcdfc799548aa974fb121e926bbaa3a"
+  },
+  {
+    "file": "public/assets/sample/audio/winch.ogg",
+    "bytes": 15662,
+    "sha256": "d75fda09adb5898a49764771ab3b4438f7d39eb9dc768ace22fedf832a0bf4a4"
+  }
+]

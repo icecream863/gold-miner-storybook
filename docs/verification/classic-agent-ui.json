@@ -1,0 +1,25 @@
+{
+  "mode": "normal-clock-UI-Agent-no-QA-no-virtual-clock",
+  "level1": {
+    "shots": 3,
+    "misses": 1,
+    "earned": 750,
+    "remainingSecondsDisplayed": 41,
+    "success": true
+  },
+  "shop": {
+    "strength": 175,
+    "diamondPolish": 240,
+    "walletBefore": 750,
+    "walletAfter": 335
+  },
+  "level2": {
+    "diamondReward": 975,
+    "walletAfter": 1310,
+    "additionalMisses": 1,
+    "fullRoundCompleted": false
+  },
+  "scriptErrors": [],
+  "humanPlaytest": false,
+  "screenshot": "docs/screenshots/classic-agent-ui.jpg"
+}

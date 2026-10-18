@@ -1,0 +1,8 @@
+
+Running 1 test using 1 worker
+
+(node:320) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\game.spec.mjs:170:3 › 模拟触屏布局 › 竖屏商店可原生滑动，购买后可到达下一关按钮 (39.0s)
+
+  1 passed (40.9s)

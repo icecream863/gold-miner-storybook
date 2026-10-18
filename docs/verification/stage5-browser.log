@@ -1,0 +1,141 @@
+
+> gold-miner-storybook@1.1.0 test:browser
+> npm run build && playwright test --reporter=list
+
+
+> gold-miner-storybook@1.1.0 build
+> npm run typecheck && npm run test && vite build
+
+
+> gold-miner-storybook@1.1.0 typecheck
+> tsc --noEmit
+
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice
+
+> gold-miner-storybook@1.1.0 test
+> node --experimental-strip-types --test tests/*.test.ts
+
+✔ 黄金调色保留透明轮廓和明暗，避免高光变成纯白 (2.712ms)
+✔ 音频需先解锁；所有关键提示可播放，静音、结束与暂停清理声部 (7.2982ms)
+✔ 音频构造被禁用或恢复被拒绝时，游戏调用不抛异常 (0.7818ms)
+PLAYABLE_ROUTE 力量药水，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":5835,"earned":3285,"misses":2},{"level":3,"money":9520,"earned":3835,"misses":2}]
+PLAYABLE_ROUTE 不购买商品，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":5985,"earned":3285,"misses":2},{"level":3,"money":9320,"earned":3335,"misses":2}]
+PLAYABLE_ROUTE 共振增幅器，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":5905,"earned":3285,"misses":2},{"level":3,"money":9160,"earned":3335,"misses":2}]
+PLAYABLE_ROUTE 普通采集，不抓水晶 [{"level":1,"money":2230,"earned":2230,"misses":0},{"level":2,"money":4660,"earned":2430,"misses":0},{"level":3,"money":7105,"earned":2445,"misses":0}]
+PLAYABLE_ROUTE 时间沙漏，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":5785,"earned":3285,"misses":2},{"level":3,"money":9420,"earned":3835,"misses":2}]
+PLAYABLE_ROUTE 抛光剂，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":6010,"earned":3330,"misses":2},{"level":3,"money":9370,"earned":3380,"misses":2}]
+PLAYABLE_ROUTE 购买全部五种商品，每关预留两次空钩 [{"level":1,"money":2700,"earned":2700,"misses":2},{"level":2,"money":5480,"earned":3330,"misses":2},{"level":3,"money":8810,"earned":3880,"misses":2}]
+✔ 活动时钟保留长帧，排除暂停和商店停留，不受倒退采样污染 (2.1753ms)
+✔ 共振边界包含110，排除圈外、已取矿物和水晶，同距按ID选择最近两件 (2.2645ms)
+✔ 共振四项配置独立生效，零连带合法，非法配置拒绝创建 (1.3925ms)
+✔ 重复ID先去重再限额，整包只占用和结算一次 (1.7743ms)
+✔ 同深度连带石头收益略增但真实回收更慢，截止前可能整包损失 (1.1035ms)
+✔ 抓取快照不受后续矿物数据变化影响，重叠水晶不能重复带走已占用矿物 (0.926ms)
+✔ 截止时到达不结算，截止前到达整包结算一次 (0.9224ms)
+✔ 普通矿物邻近水晶仍只抓一件，回收中重置清空旧采集与事件 (2.1789ms)
+✔ 整包原子抓取、求和值和重量、只在回收时发钱，不继续触发附近水晶 (0.9754ms)
+✔ 炸药销毁整包、暂停不改变包、到期不补发，重试恢复水晶 (1.0075ms)
+✔ 富裕入口也必须完成每关采集额，金额或采集任一不足都失败 (2.3461ms)
+✔ 30/60/144Hz 和一次长帧下，扫掠抓取与整包回收结果一致 (1.1658ms)
+✔ 所有水晶入口允许正负0.02弧度瞄准偏差，不会先碰到前景矿石 (0.7589ms)
+✔ 连续发射只接受一次；菜单和暂停不接受玩法输入 (0.1463ms)
+✔ 扫掠能抓住两端都在圆外的高速穿越，并处理切线、零位移与初始重叠 (0.1711ms)
+✔ 最近碰撞不依赖物品数组顺序，也不会抓到绳索两旁的物品 (0.2339ms)
+✔ 只有回到绞盘才入账，继续更新不会重复计分 (0.265ms)
+✔ 空钩碰到边界后回收，不会越界或卡住 (0.3366ms)
+✔ 重量决定回收速度；力量只提升载物回收，空钩速度不变 (0.2293ms)
+✔ 炸药只在载物时消耗；销毁物品且不计钱；无法重复炸同一物品 (0.6509ms)
+✔ 暂停同时冻结金钱、位置与时间；恢复后接着运动 (0.2975ms)
+✔ 到期只结算一次，挂在绳上的矿物不补发金钱 (0.2037ms)
+✔ 只有达到门槛才能进入商店，余额不足不会扣款 (0.2876ms)
+✔ 购买每件限一次、跨关扣款；力量药水到下个商店失效 (0.2037ms)
+✔ 失败重试恢复本关入口快照，包括花过的道具和力量 (0.3207ms)
+✔ 30/60/144Hz 下摆动与倒计时一致，无效时间输入不污染状态 (0.7727ms)
+✔ 重新开始整局清空升级、购买和上局金钱 (0.3009ms)
+✔ 固定三关路线可通关（力量药水，每关预留两次空钩） (19.7072ms)
+✔ 固定三关路线可通关（不购买商品，每关预留两次空钩） (12.583ms)
+✔ 固定三关路线可通关（共振增幅器，每关预留两次空钩） (13.3397ms)
+✔ 固定三关路线可通关（普通采集，不抓水晶） (65.0869ms)
+✔ 固定三关路线可通关（时间沙漏，每关预留两次空钩） (12.1665ms)
+✔ 固定三关路线可通关（抛光剂，每关预留两次空钩） (10.2342ms)
+✔ 固定三关路线可通关（购买全部五种商品，每关预留两次空钩） (11.1992ms)
+✔ 视觉后坐力不会因旧时间戳或未来起点超过范围，重置后不偏移 (1.7047ms)
+✔ 吸附、货物摆动和震动按活动时间取样，不随更新次数改变 (1.9619ms)
+✔ 连锁逐件吸附有短暂先后，低动态立即定位且不震动 (0.2981ms)
+✔ 一枚炸药：余额不足、刚好足够、重复购买与非商店输入 (4.4959ms)
+✔ 力量药水：余额不足、刚好足够、重复购买与非商店输入 (0.3599ms)
+✔ 时间沙漏：余额不足、刚好足够、重复购买与非商店输入 (0.2241ms)
+✔ 矿石抛光剂：余额不足、刚好足够、重复购买与非商店输入 (0.2186ms)
+✔ 共振增幅器：余额不足、刚好足够、重复购买与非商店输入 (0.2863ms)
+✔ 五商品配置具有独立图标和正价格，未知商品及原型名不能扣费 (0.3739ms)
+✔ 组合购买只扣各自价格，不改已通过的结果与采集额；每店每种限一次 (1.2344ms)
+✔ 沙漏失败重试恢复70秒且不重复加时，暂停不消耗；成功后清理强化 (2.8953ms)
+✔ 全部强化与炸药随失败入口恢复，关末清理强化，跨关保留剩余炸药 (0.6399ms)
+✔ 抛光只改变石头价值，重量与其他矿物不变；普通抓取实际只结算两倍 (1.2559ms)
+✔ 抛光和增幅联动整包快照：四件、真实总重量、单次结算、炸毁无收入 (1.7777ms)
+✔ 两次购物后的实际地图都有第三个候选，增幅不扩范围、不忽略重量 (0.7386ms)
+✔ 消费增加下一关所需收益，不回退已过关结果，也不绕过最低采集额 (0.2174ms)
+✔ 第三关通关不再开商店，不会出售无法生效的第四关强化 (0.2022ms)
+✔ 第二次商店重新开放五商品限购，上一关强化不会自动续期 (0.3895ms)
+✔ 带全部道具通关后重新开始，钱包、库存、强化、限购及入口快照全部重置 (0.3463ms)
+ℹ tests 56
+ℹ suites 0
+ℹ pass 56
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 430.7706
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 12 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.76 kB │ gzip:   0.52 kB
+dist/assets/index-DTNgQfu9.css     15.22 kB │ gzip:   4.56 kB
+dist/assets/index-2zrXfzwa.js   1,239.89 kB │ gzip: 336.30 kB
+
+✓ built in 750ms
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice
+
+Running 19 tests using 1 worker
+
+(node:27208) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 tests\browser\feel.spec.mjs:33:1 › 重开清理上局发射姿态，矿工保持在绞盘旁 (8.7s)
+  ok  2 tests\browser\feel.spec.mjs:50:1 › 共振吸附、重载姿态、飘字和声音冻结后恢复，长帧清理表现而不重复入账 (6.4s)
+  ok  3 tests\browser\feel.spec.mjs:98:1 › 炸药轻震使用活动时钟，暂停不漂移，恢复与重开都能清理 (5.1s)
+  ok  4 tests\browser\feel.spec.mjs:124:1 › 低动态和音频被禁用时仍能用鼠标正常采集 (5.0s)
+  ok  5 tests\browser\feel.spec.mjs:146:1 › 真实AudioContext需用户操作解锁，静音和暂停不遗留声部 (2.6s)
+  ok  6 tests\browser\feel.spec.mjs:165:1 › 空钩完成回收有明确就绪文字和声音，不产生抓取或奖励 (4.3s)
+STAGE4_FRAME_SAMPLE {"frames":179,"averageMs":5.12122905027933,"p95Ms":8.400000000000091,"maxMs":16.5,"peakEffects":7,"peakVoices":3,"sceneUpdates":180,"sceneAverageMs":5.14277777777364,"sceneP95Ms":6.900000000372529}
+  ok  7 tests\browser\feel.spec.mjs:191:1 › 桌面真实时钟帧间隔短样本与表现预算 (2.6s)
+  ok  8 tests\browser\game.spec.mjs:50:1 › smoke: 基础流程与桌面手机布局 (35.3s)
+  ok  9 tests\browser\game.spec.mjs:59:1 › 三关、增幅与力量、炸药、通关重开 (1.4m)
+  ok 10 tests\browser\game.spec.mjs:70:1 › smoke: 工具栏焦点后空格仍出钩，真实长帧不丢时间 (4.0s)
+  ok 11 tests\browser\game.spec.mjs:105:1 › smoke: 关键图片加载失败保留重试，恢复网络后可重新进入 (2.1s)
+  ok 12 tests\browser\game.spec.mjs:126:1 › 共振预览与抓取一致、视觉暂停、单次入账、重试恢复 (35.4s)
+  ok 13 tests\browser\game.spec.mjs:162:1 › 共振整包炸毁，低动态效果不影响规则 (5.8s)
+  ok 14 tests\browser\game.spec.mjs:179:1 › 共振途中返回首页清除旧包，重新开始普通矿物仍单独抓取 (9.3s)
+  ok 15 tests\browser\game.spec.mjs:210:1 › 五种道具购买、组合执行、真实回收、失败重试与清理 (1.3m)
+  ok 16 tests\browser\game.spec.mjs:290:3 › 模拟触屏布局 › 竖屏商店可原生滑动，购买后可到达下一关按钮 (37.4s)
+  ok 17 tests\browser\game.spec.mjs:343:3 › 模拟触屏布局 › smoke: 320/390竖屏与844横屏的HUD、触控可用 (11.4s)
+  ok 18 tests\browser\visual.spec.mjs:3:1 › 美术布局：桌面与手机操作条、HUD不遮矿物，弹窗可访问 (4.7s)
+  ok 19 tests\browser\visual.spec.mjs:55:1 › 美术布局：失败结算、低动态转场和重试 (1.5s)
+
+  Slow test file: tests\browser\game.spec.mjs (5.0m)
+  Consider running tests from slow files in parallel. See: https://playwright.dev/docs/test-parallel
+  19 passed (5.8m)
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice
