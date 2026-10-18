@@ -1,5 +1,8 @@
 // 只读取 QA 快照，再发出真实按键；不注入钱包、关卡、矿物或模型方法。
 import { sweepCircle } from "../src/core/model.ts";
+// 固定的测试起点与暂停点相隔两小时，超过用例总超时；不依赖一次协议往返小于100ms。
+// 在菜单加载后暂停，开始游戏仍清零活动时钟，不能给关卡额外时间或改写模型。
+export const CLOCK_START=Date.UTC(2026,0,1,0),CLOCK_PAUSE=Date.UTC(2026,0,1,2);
 export const state=page=>page.evaluate(()=>window.__goldMiner);
 export const advance=(page,ms,virtual=true)=>virtual?page.clock.runFor(ms):page.waitForTimeout(ms);
 export function aimWait(s,a){return s.direction>0?(a>=s.angle?a-s.angle:2.36-s.angle-a)/.76:(a<=s.angle?s.angle-a:2.36+s.angle+a)/.76;}
@@ -16,9 +19,9 @@ export function choose(s){
  }).filter(c=>firstAt(s,c.angle)?.id===c.id).sort((a,b)=>b.score-a.score)[0];
 }
 export async function boot(page,{baseURL="http://127.0.0.1:4173/",virtual=true}={}){
- if(virtual)await page.clock.install();const url=new URL(baseURL);url.searchParams.set("qa","1");await page.goto(url.href);
+ if(virtual)await page.clock.install({time:CLOCK_START});const url=new URL(baseURL);url.searchParams.set("qa","1");await page.goto(url.href);
  await page.waitForFunction(()=>!!window.__goldMiner);
- if(virtual){await page.clock.pauseAt(new Date(await page.evaluate(()=>Date.now()+100)));await page.clock.runFor(100);}
+ if(virtual){await page.clock.pauseAt(CLOCK_PAUSE);await page.clock.runFor(100);}
  await page.getByRole("button",{name:"开始挖矿 →",exact:true}).click();await advance(page,180,virtual);
 }
 export async function fireAt(page,id,{virtual=true}={}){

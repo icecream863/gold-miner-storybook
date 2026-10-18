@@ -1,5 +1,5 @@
 import {chromium} from '@playwright/test';import assert from 'node:assert/strict';import fs from 'node:fs/promises';
-import {state,fireAt,returned} from './classic-automation.mjs';
+import {state,fireAt,returned,CLOCK_START,CLOCK_PAUSE} from './classic-automation.mjs';
 const browser=await chromium.launch({channel:process.platform==='win32'?'msedge':undefined});
 const base=process.env.SAMPLE_URL||'http://127.0.0.1:4176/sample.html',checks=[],errors=[];let current;
 await fs.mkdir('output/playwright/sample',{recursive:true});
@@ -8,8 +8,8 @@ async function boot({virtual=true,init,route,viewport={width:1280,height:900},to
  const context=await browser.newContext({viewport,hasTouch:touch,isMobile:touch,reducedMotion});current=await context.newPage();const page=current;
  page.on('pageerror',e=>errors.push(e.message));if(init)await context.addInitScript(init);if(route)await route(page);
  const url=new URL(base);url.searchParams.set('qa','1');if(pace)url.searchParams.set('pace',pace);
- if(virtual)await page.clock.install();await page.goto(url.href);await page.getByRole('button',{name:'开始样片',exact:true}).waitFor();
- if(virtual){await page.clock.pauseAt(new Date(await page.evaluate(()=>Date.now()+50)));await page.clock.runFor(50);}
+ if(virtual)await page.clock.install({time:CLOCK_START});await page.goto(url.href);await page.getByRole('button',{name:'开始样片',exact:true}).waitFor();
+ if(virtual){await page.clock.pauseAt(CLOCK_PAUSE);await page.clock.runFor(50);}
  await page.getByRole('button',{name:'开始样片',exact:true}).click();if(virtual)await page.clock.runFor(16);
  return {context,page};
 }

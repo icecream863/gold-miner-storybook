@@ -1,0 +1,105 @@
+
+> gold-miner-storybook@1.3.0 build
+> npm run typecheck && npm run test && vite build && node scripts/write-build-info.mjs
+
+
+> gold-miner-storybook@1.3.0 typecheck
+> tsc --noEmit
+
+
+> gold-miner-storybook@1.3.0 test
+> node --experimental-strip-types --test tests/*.test.ts
+
+✔ 动画接入六关：可见导轮严格对齐模型支点，靴底在原木台上 (3.8381ms)
+✔ 动画世界映射保留握柄精度和暂停姿态，不把样片坐标当成六关坐标 (5.3502ms)
+✔ 音频需先解锁；所有关键提示可播放，静音、结束与暂停清理声部 (82.3474ms)
+✔ 音频构造被禁用或恢复被拒绝时，游戏调用不抛异常 (4.3765ms)
+✔ 音乐默认20%、音效70%，暂停/帮助/切页保存位置，重复环境同步不重复开播 (21.2476ms)
+✔ 音乐音效独立关闭、总静音与音量边界、保存偏好后重开生效 (6.4968ms)
+✔ 音乐慢加载后若已暂停不能偷播，恢复只创建一个循环音源 (3.9576ms)
+✔ 音乐两种编码加载失败可重试，关闭音乐及连续暂停重开均释放音源 (4.3833ms)
+CLASSIC_MINIMUM_ROUTES [{"level":1,"policy":0,"success":true,"money":750,"earned":750,"remaining":47.25021148803873,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"0-1","value":250},{"id":"0-2","value":500}]},{"level":1,"policy":1,"success":true,"money":750,"earned":750,"remaining":47.000211488038744,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"0-1","value":250},{"id":"0-3","value":500}]},{"level":2,"policy":0,"success":true,"money":1950,"earned":1300,"remaining":46.59791666666743,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"1-1","value":650},{"id":"1-0","value":650}]},{"level":2,"policy":1,"success":true,"money":1800,"earned":1150,"remaining":39.92716097458235,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"1-0","value":650},{"id":"1-2","value":500}]},{"level":3,"policy":0,"success":true,"money":3600,"earned":1800,"remaining":40.6619159565503,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"2-1","value":650},{"id":"2-0","value":650},{"id":"2-3","value":500}]},{"level":3,"policy":1,"success":true,"money":3450,"earned":1650,"remaining":34.716666666668104,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"2-0","value":650},{"id":"2-3","value":500},{"id":"2-5","value":500}]},{"level":4,"policy":0,"success":true,"money":5860,"earned":2460,"remaining":31.529417809858025,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"3-2","value":650},{"id":"3-1","value":650},{"id":"3-17","value":10},{"id":"3-0","value":650},{"id":"3-6","value":500}]},{"level":4,"policy":1,"success":true,"money":5860,"earned":2460,"remaining":30.381478418653863,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"3-2","value":650},{"id":"3-17","value":10},{"id":"3-0","value":650},{"id":"3-1","value":650},{"id":"3-6","value":500}]},{"level":5,"policy":0,"success":true,"money":8050,"earned":2550,"remaining":24.850000000001977,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"4-3","value":650},{"id":"4-4","value":650},{"id":"4-5","value":500},{"id":"4-8","value":500},{"id":"4-9","value":250}]},{"level":5,"policy":1,"success":true,"money":8100,"earned":2600,"remaining":40.746520418987586,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"4-0","value":650},{"id":"4-2","value":650},{"id":"4-4","value":650},{"id":"4-3","value":650}]},{"level":6,"policy":0,"success":true,"money":11100,"earned":3100,"remaining":30.85526315789638,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"5-2","value":650},{"id":"5-0","value":650},{"id":"5-1","value":650},{"id":"5-3","value":650},{"id":"5-8","value":500}]},{"level":6,"policy":1,"success":true,"money":11350,"earned":3350,"remaining":9.275499060975257,"shots":[{"id":null,"value":0},{"id":null,"value":0},{"id":"5-0","value":650},{"id":"5-2","value":650},{"id":"5-8","value":500},{"id":"5-3","value":650},{"id":"5-10","value":250},{"id":"5-6","value":650}]}]
+CLASSIC_SIX_ROUNDS {"seed":1,"strategy":"none","rounds":[{"level":1,"money":750,"remaining":47.25021148803873},{"level":2,"money":2050,"remaining":46.59791666666743},{"level":3,"money":3850,"remaining":40.6619159565503},{"level":4,"money":5810,"remaining":42.837751143190715},{"level":5,"money":8110,"remaining":32.32821614950481},{"level":6,"money":11210,"remaining":30.85526315789638}]}
+CLASSIC_SIX_ROUNDS {"seed":1,"strategy":"strength","rounds":[{"level":1,"money":750,"remaining":47.25021148803873},{"level":2,"money":1855,"remaining":47.28958333333406},{"level":3,"money":3640,"remaining":42.67914129902034},{"level":4,"money":5875,"remaining":38.92628394453073},{"level":5,"money":8015,"remaining":37.48654948283785},{"level":6,"money":11015,"remaining":23.24692982456348}]}
+CLASSIC_SIX_ROUNDS {"seed":1,"strategy":"diamondPolish","rounds":[{"level":1,"money":750,"remaining":47.25021148803873},{"level":2,"money":2515,"remaining":46.59791666666743},{"level":3,"money":4245,"remaining":45.879141299020155},{"level":4,"money":6030,"remaining":49.14331140350939},{"level":5,"money":8260,"remaining":41.4948542858694},{"level":6,"money":11035,"remaining":44.98859649122891}]}
+CLASSIC_SIX_ROUNDS {"seed":42,"strategy":"none","rounds":[{"level":1,"money":750,"remaining":47.25021148803873},{"level":2,"money":2050,"remaining":46.59791666666743},{"level":3,"money":3850,"remaining":40.6619159565503},{"level":4,"money":5810,"remaining":42.837751143190715},{"level":5,"money":8110,"remaining":32.32821614950481},{"level":6,"money":11210,"remaining":30.85526315789638}]}
+CLASSIC_SIX_ROUNDS {"seed":42,"strategy":"strength","rounds":[{"level":1,"money":750,"remaining":47.25021148803873},{"level":2,"money":1920,"remaining":47.28958333333406},{"level":3,"money":3670,"remaining":42.67914129902034},{"level":4,"money":5970,"remaining":38.92628394453073},{"level":5,"money":8085,"remaining":37.48654948283785},{"level":6,"money":11135,"remaining":23.24692982456348}]}
+CLASSIC_SIX_ROUNDS {"seed":42,"strategy":"diamondPolish","rounds":[{"level":1,"money":750,"remaining":47.25021148803873},{"level":2,"money":2485,"remaining":46.59791666666743},{"level":3,"money":4125,"remaining":45.879141299020155},{"level":4,"money":5760,"remaining":49.14331140350939},{"level":5,"money":8045,"remaining":41.4948542858694},{"level":6,"money":11610,"remaining":40.480263157895834}]}
+CLASSIC_SIX_ROUNDS {"seed":2026,"strategy":"none","rounds":[{"level":1,"money":750,"remaining":47.25021148803873},{"level":2,"money":2050,"remaining":46.59791666666743},{"level":3,"money":3850,"remaining":40.6619159565503},{"level":4,"money":5810,"remaining":42.837751143190715},{"level":5,"money":8110,"remaining":32.32821614950481},{"level":6,"money":11210,"remaining":30.85526315789638}]}
+CLASSIC_SIX_ROUNDS {"seed":2026,"strategy":"strength","rounds":[{"level":1,"money":750,"remaining":47.25021148803873},{"level":2,"money":1880,"remaining":47.28958333333406},{"level":3,"money":3720,"remaining":42.67914129902034},{"level":4,"money":5970,"remaining":38.92628394453073},{"level":5,"money":8065,"remaining":37.48654948283785},{"level":6,"money":11095,"remaining":23.24692982456348}]}
+CLASSIC_SIX_ROUNDS {"seed":2026,"strategy":"diamondPolish","rounds":[{"level":1,"money":750,"remaining":47.25021148803873},{"level":2,"money":2485,"remaining":46.59791666666743},{"level":3,"money":4125,"remaining":45.879141299020155},{"level":4,"money":5740,"remaining":49.14331140350939},{"level":5,"money":8415,"remaining":32.32821614950481},{"level":6,"money":11145,"remaining":44.98859649122891}]}
+✔ 六关最低入口余额，各有两条无需问号袋好运且预留两次空钩的路线 (192.0272ms)
+✔ 不同种子下正常六关流程、五次购物、最终胜利及重开 (274.8082ms)
+✔ 乱买消耗钱包且可能失败，不会回退已过关或降低下一关目标 (0.9213ms)
+✔ 活动时钟保留长帧，排除暂停与倒退 (3.4494ms)
+✔ 扫掠处理穿越、切线、零位移与初始重叠 (0.6143ms)
+✔ 三态输入、初始零炸药、普通抓取只抓一个，接触偏移连续 (7.4538ms)
+✔ 碰撞顺序不依赖数组，回收中不捕获第二件 (1.7229ms)
+✔ 重量和力量只影响载物回收，接触快照不受物品后续改动影响 (2.6425ms)
+✔ 暂停冻结位置、动物、计时与货物；超时不补发，重复结束不领奖 (1.6908ms)
+✔ 截止前到达入账，恰逢截止优先结束 (0.9043ms)
+✔ 累计金额单目标允许零采集过关，手动不足即失败，失败只能整局重开 (2.89ms)
+✔ 炸药仅载物时消耗，销毁不入账，不能重复炸 (1.0735ms)
+✔ 移动动物按规则步长反射，抓住后停止移动 (1.9646ms)
+✔ 相对运动扫掠捕捉单步穿过钩尖的高速动物 (0.6245ms)
+✔ TNT 按中心半径连爆且去重，金币和袋子销毁不入账，圈外物品保留 (4.5088ms)
+✔ 30/60/144Hz 与一次长帧，移动位置和实际抓取结算一致 (6.2476ms)
+✔ 无效时间不会污染状态，回首页与重开清理旧事件和货物 (0.7978ms)
+✔ 袋子五档权重边界与幸运分布正确，随机内容不逐帧重抽 (16.8344ms)
+✔ 一枚炸药：报价冻结、余额不足、刚好足够、重复扣费拦截 (0.6439ms)
+✔ 力量药水：报价冻结、余额不足、刚好足够、重复扣费拦截 (0.2445ms)
+✔ 石头收藏书：报价冻结、余额不足、刚好足够、重复扣费拦截 (0.2786ms)
+✔ 幸运草：报价冻结、余额不足、刚好足够、重复扣费拦截 (0.2554ms)
+✔ 钻石抛光剂：报价冻结、余额不足、刚好足够、重复扣费拦截 (0.235ms)
+✔ 未知商品和原型名不能扣款，非商店不能买 (0.3144ms)
+✔ 强化真实应用、关末清理，炸药跨关保留且每店重新限购 (0.8071ms)
+✔ 抛光和收藏书在普通回收时真实入账，炸毁仍无收入 (7.5047ms)
+✔ 第六关最终结算没有无效商店，重开清空全部六关状态 (0.4998ms)
+✔ 六关 60 秒与目标递增，初始碰撞体不重叠、静态及巡逻边界在场内 (2.134ms)
+✔ 完整手柄圆周及轻重负载：肩肘腕长度成立，握柄误差小于2像素 (27.1822ms)
+✔ 两段手臂对不可达或重合目标返回有限坐标 (0.4986ms)
+✔ 120ms握柄与放手平滑过渡，暂停按相同活动时间取样不会漂移 (4.6454ms)
+✔ 手柄角度只按收放绳距离，30/60/144Hz最终姿态一致，重置回原点 (2.774ms)
+✔ 低动态取消身体倾斜与镜头晃动，未来时间戳不会造成后坐力 (1.4415ms)
+✔ 前后手臂连续、头部与身体分层，动作打断和重置不保留旧姿态 (1.03ms)
+✔ 支撑手全负载骨长正确，肘部轨迹和绞盘没有逐帧跳变 (19.1229ms)
+✔ 载物晃动随重量减少，抓取缩放收敛，低动态与停止步行不漂移 (3.9886ms)
+✔ 样片音乐默认关闭，已有明确偏好不覆盖，损坏/越界偏好可恢复 (5.4046ms)
+✔ 回收动作在普通及减少动态设置下均完整转动，握柄和手掌共用坐标 (5.6667ms)
+✔ 没有活动时间及收绳变化时，完整姿态保持；重置无残留 (1.0476ms)
+✔ 经典姿态：待机握柄、出绳只落柄一次，卷筒继续放绳而手柄不空转 (0.6752ms)
+✔ 经典放钩轨迹单向下落后稳定，不抬手挥臂；减少动态保留同一功能动作 (1.821ms)
+✔ 落柄转回收从最后柄位开始转动，不瞬移回待机手位 (0.4792ms)
+✔ 完整圆周的衣袖和前臂保持比例，关键姿势交界连续 (14.2654ms)
+✔ 入账动作可立即被下一次出钩打断，重置清理动作，抓取收紧无周期漂移 (0.74ms)
+✔ 同样的收绳轨迹在30/60/144Hz得到一致的动作相位 (3.5921ms)
+✔ 大金块慢速对照仅作用于指定物品，保留其他速度、价值、结算与默认规则 (4.9011ms)
+✔ Session保留公开消息和工具顺序，区分自动续作，排除平台推理与内部摘要 (2.6044ms)
+✔ Session脱敏不破坏JSON、图片编码和可验证附件 (4.2131ms)
+✔ Session CLI完整导出到本地审阅目录，保留调用结果且不覆盖原始记录 (1725.3285ms)
+✔ Session导出拒绝覆盖工程入口 (91.6166ms)
+ℹ tests 58
+ℹ suites 0
+ℹ pass 58
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2204.953
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 14 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                     0.73 kB │ gzip:   0.49 kB
+dist/assets/panel_brown_corners_a-CLmDOQMU.svg      4.21 kB │ gzip:   1.43 kB
+dist/assets/index-C7FbW9Ga.css                     13.72 kB │ gzip:   4.29 kB
+dist/assets/index-BZMtPIeg.js                   1,246.03 kB │ gzip: 338.44 kB
+
+✓ built in 1.89s
+Build identity: 1.3.0+603be84b9669; commit e9fa169f7cab01440afd1e3477a47dcfe96840cc; dirty true
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice
